@@ -14,4 +14,4 @@
 - Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением. URL: [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com).
 - The .NET Programmer's Playground. URL: [https://www.linqpad.net](https://www.linqpad.net).
 - Git. URL: [https://git-scm.com](https://git-scm.com).
-- SmartGit – Git Client for Windows, macOS, Linux. URL: [https://www.syntevo.com/smartgit/](https://www.syntevo.com/smartgit/).
+- SmartGit – Git Client for Windows, macOS, Linux. URL: [https://www.syntevo.com/smartgit](https://www.syntevo.com/smartgit).
