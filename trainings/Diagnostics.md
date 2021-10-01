@@ -73,7 +73,7 @@ LogStatus(() => "Message Headers: " + GetComplexMessageHeaders());
 
 <a name="2"/>
 
-## 2. Классы Debug и Trace | [Оглавление](#title)<a name="1"/>
+## 2. Классы Debug и Trace | [Оглавление](#title)<a name="title"/>
 
 - все методы класса Debug определены с атрибутом [Conditional ("DEBUG") ];
 - все методы класса Trace определены с атрибутом [Conditional ("TRACE") ].
