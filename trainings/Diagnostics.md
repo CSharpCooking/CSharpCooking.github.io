@@ -64,7 +64,7 @@ class Program
   {
     string logFilePath = ...
     if (EnableLogging)
-      System.IO.File.AppendAllText(logFilePath, 	 	message() + "\r\n");
+      System.IO.File.AppendAllText(logFilePath, message() + "\r\n");
   }
 }
 ---
