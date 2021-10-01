@@ -24,10 +24,10 @@ plainwhite:
   navigation:
     - title: Главная
       url: "/"
-    - title: О проекте
-      url: "/about-project"
-    - title: Рекомендуемые источники
-      url: "/literature"
+    - title: Проект
+      url: "/project"
+    - title: Источники
+      url: "/sources"
   # generate social links in footer
   social_links:
     #twitter: samarsault
