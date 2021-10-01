@@ -1,4 +1,4 @@
-# Диагностика <a name="title"/>
+# Диагностика <a name="0"/>
 1. [Условная компиляция](#1)  
 2. [Классы Debug и Trace](#2)
 
@@ -71,7 +71,7 @@ class Program
 LogStatus(() => "Message Headers: " + GetComplexMessageHeaders());
 ```
 
-## 2. Классы Debug и Trace | [Оглавление](#title) <a name="2"/>
+## 2. Классы Debug и Trace | [Оглавление](#0) <a name="2"/>
 
 - все методы класса Debug определены с атрибутом [Conditional ("DEBUG") ];
 - все методы класса Trace определены с атрибутом [Conditional ("TRACE") ].
