@@ -1,11 +1,8 @@
-# Диагностика
-
+# Диагностика <a name="1"/>
 1. [Условная компиляция](#1)  
 2. [Классы Debug и Trace](#2)
 
-<a name="1"/>
-
-## 1. Условная компиляция
+## 1. Условная компиляция | [Оглавление](#title)<a name="1"/>
 
 ```csharp
 #define TESTMODE
@@ -76,7 +73,7 @@ LogStatus(() => "Message Headers: " + GetComplexMessageHeaders());
 
 <a name="2"/>
 
-## 2. Классы Debug и Trace
+## 2. Классы Debug и Trace | [Оглавление](#title)<a name="1"/>
 
 - все методы класса Debug определены с атрибутом [Conditional ("DEBUG") ];
 - все методы класса Trace определены с атрибутом [Conditional ("TRACE") ].
