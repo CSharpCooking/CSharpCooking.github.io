@@ -1,8 +1,9 @@
 # Диагностика
 
 1. [Условная компиляция](#1)
-2. [Классы Debug и Trace](#2-debug-trace)
+2. [Классы Debug и Trace](#2)
 
+<a name="1"/>
 
 ## 1. Условная компиляция
 
@@ -72,6 +73,8 @@ class Program
 ---
 LogStatus(() => "Message Headers: " + GetComplexMessageHeaders());
 ```
+
+<a name="2"/>
 
 ## 2. Классы Debug и Trace
 
