@@ -8,6 +8,7 @@
 2. [Классы Debug и Trace](#2)
 3. [Интеграция с отладчиком](#3)
 4. [Процессы и потоки процессов](#4)
+5. [StackTrace и StackFrame](#5)
 
 ---
 
@@ -190,3 +191,101 @@ foreach (Process р in Process.GetProcesses())
   }
 ```
 
+### 4.2. Исследование потоков в процессе
+
+С помощью свойства `Process.Threads` можно также реализовать перечисление потоков других процессов.
+
+```csharp
+public void EnumerateThreads(Process p)
+{
+  foreach (ProcessThread pt in p.Threads)
+  {
+    Console.WriteLine(pt.Id);
+    Console.WriteLine(" State: " + pt.ThreadState); // Состояние
+    Console.WriteLine(" Priority: " + pt.PriorityLevel); // Приоритет
+    Console.WriteLine(" Started: " + pt.StartTime); // Запущен
+    Console.WriteLine(" CPU time: " + pt.TotalProcessorTime); // Время ЦП
+  }
+}
+```
+
+Объект `ProcessThread` предоставляет диагностическую информацию о лежащем в основе потоке.
+
+## <a name="5"/>5. StackTrace и StackFrame[↩︎](#0)
+
+Классы `StackTrace` и `StackFrame` предлагают допускающее только чтение представление стека вызовов и являются частью стандартной инфраструктуры .NET Framework для настольных приложений. Трассировки стека можно получать для текущего потока, другого потока в том же самом процессе или объекта `Exception`. Экземпляр `StackTrace` представляет полный стек вызовов, a `StackFrame` – одиночный вызов метода внутри стека.
+
+После получения экземпляра `StackTrace` можно исследовать любой отдельный фрейм с помощью вызова метода `GetFrame` или же все фреймы посредством вызова `GetFrames`:
+
+```csharp
+static void Main() { A(); }
+static void A() { В(); }
+static void В() { C(); }
+static void C()
+{
+  StackTrace s = new StackTrace(true);
+  Console.WriteLine("Total frames: " + s.FrameCount); // Всего фреймов
+  Console.WriteLine("Current method: " + s.GetFrame(0).GetMethod().Name);
+					// Текущий метод
+  Console.WriteLine("Calling method: " + s.GetFrame(1).GetMethod().Name);
+					// Вызывающий метод
+  Console.WriteLine("Entry method: " + s.GetFrame
+					// Входной метод
+  (s.FrameCount - 1).GetMethod().Name);
+  Console.WriteLine("Call Stack:");
+					// Стек вызовов
+  foreach (StackFrame f in s.GetFrames())
+    Console.WriteLine(
+    " File: " + f.GetFileName() + /* Файл */
+    " Line: " + f.GetFileLineNumber() + /* Строка */
+    " Col: " + f.GetFileColumnNumber() + /* Колонка */
+    " Offset: " + f.GetILOffset() + /* Смещение */
+    " Method: " + f.GetMethod().Name); /* Метод */
+}
+```
+
+Ниже показан вывод:
+
+```
+Total frames: 4
+Current method: C
+Calling method: В
+Entry method: Main
+Call stack:
+  File: C:\Test\Program.cs
+  File: C:\Test\Program.cs
+  File: C:\Test\Program.cs
+  File: C:\Test\Program.cs
+  Line: 15 Col: 4 Offset: 7 Method: C
+  Line: 12 Col: 22 Offset: 6 Method: В
+  Line: 11 Col: 22 Offset: 6 Method: A
+  Line: 10 Col: 25 Offset: 6 Method: Main
+```
+
+Пример с применением объекта `Exception`:
+
+```csharp
+static Exception threadEx;
+static void Main()
+{
+  Thread worker = new Thread(DoWork);
+  worker.Start();
+  worker.Join();
+  if (threadEx != null) 
+  {
+    StackTrace trace = new StackTrace(threadEx);
+    Console.WriteLine(trace);
+  }
+}
+static void DoWork()
+{
+  try
+  {
+    throw new Exception("Boom!");
+  }
+  catch (Exception ex) 
+  {
+    threadEx = ex;
+  }
+}
+```
