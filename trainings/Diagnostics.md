@@ -24,7 +24,6 @@ static void Main()
 	Console.WriteLine("NOT TESTMODE!");
 #endif
 }
-
 ```
 
 ### 1.1. Почему выбирают условную компиляцию?
