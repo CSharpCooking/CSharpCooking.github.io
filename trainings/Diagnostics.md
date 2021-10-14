@@ -430,29 +430,29 @@ foreach (PerformanceCounterCategory cat in cats)
 ```csharp
 var x =
   new XElement("counters",
-    from PerformanceCounterCategory cat in
-      PerformanceCounterCategory.GetCategories()
-    where cat.CategoryName.StartsWith(".NET")
-    let instances = cat.GetInstanceNames()
-    select new XElement("category",
-      new XAttribute("name", cat.CategoryName),
-      instances.Length == 0
-    ?
-      from c in cat.GetCounters()
-      select new XElement("counter",
-        new XAttribute("name", c.CounterName))
-    :
-      from i in instances
-      select new XElement("instance", new XAttribute("name", i),
-        !cat.InstanceExists(i)
-        ?
-          null
-        :
-          from c in cat.GetCounters(i)
-          select new XElement("counter",
-            new XAttribute("name", c.CounterName))
-      )
-    )
+	from PerformanceCounterCategory cat in
+	  PerformanceCounterCategory.GetCategories()
+	where cat.CategoryName.StartsWith(".NET")
+	let instances = cat.GetInstanceNames()
+	select new XElement("category",
+	  new XAttribute("name", cat.CategoryName),
+	  instances.Length == 0
+	  ?
+	    from c in cat.GetCounters()
+	    select new XElement("counter",
+		  new XAttribute("name", c.CounterName))
+	  :
+	    from i in instances
+	    select new XElement("instance", new XAttribute("name", i),
+		  !cat.InstanceExists(i)
+		  ?
+		    null
+		  :
+		    from c in cat.GetCounters(i)
+		    select new XElement("counter",
+			  new XAttribute("name", c.CounterName))
+	    )
+	)
   );
 x.Save("counters.xml");
 ```
