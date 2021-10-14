@@ -9,6 +9,8 @@
 3. [Интеграция с отладчиком](#3)
 4. [Процессы и потоки процессов](#4)
 5. [StackTrace и StackFrame](#5)
+6. [Журналы событий Window](#6)
+7. [Счетчики производительности](#7)
 
 ---
 
@@ -298,3 +300,176 @@ static void DoWork()
   }
 }
 ```
+
+## <a name="6"/>6. Журналы событий Windows [↩︎](#0)
+
+Платформа Win32 предоставляет централизованный механизм регистрации в форме журналов событий Windows.
+
+Применяемые ранее классы `Debug` и `Trace` осуществляли запись в журнал событий Windows, если был зарегистрирован прослушиватель `EventLogTraceListener`. Тем не менее, посредством класса `EventLog` можно записывать напрямую в журнал событий Windows, не используя классы `Trace` или `Debug`. Класс `EventLog` можно также применять для чтения и мониторинга данных, связанных с событиями.
+
+Существуют три стандартных журнала событий Windows со следующими именами:
+- Application (приложение)
+- System (система)
+- Security (безопасность)
+
+Большинство приложений обычно производят запись в журнал Application.
+
+### 6.1. Запись в журнал событий
+
+Ниже перечислены шаги, которые понадобится выполнить для записи в журнал событий Windows.
+
+1. Выберите один из трех журналов событий (обычно `Application`).
+2. Примите решение относительно имени источника и при необходимости создайте его.
+3. Вызовите метод `EventLog.WriteEntry` с именем журнала, именем источника и данными сообщения.
+
+Имя источника – это просто идентифицируемое имя вашего приложения. Перед использованием имя источника должно быть зарегистрировано; такую функцию выполняет метод `CreateEventSource`. Затем можно вызывать метод `WriteEntry`:
+
+```csharp
+const string SourceName = "MyCompany.WidgetServer";
+
+// Метод CreateEventSource требует наличия административных полномочий,
+// поэтому данный код обычно выполняется при установке приложения.
+if (!EventLog.SourceExists(SourceName))
+  EventLog.CreateEventSource(SourceName, "Application");
+
+EventLog.WriteEntry(SourceName,
+  "Service started; using configuration file=...",
+  EventLogEntryType.Information);
+```
+
+Перечисление `EventLogEntryType` содержит следующие значения: `Information`, `Warning`, `Error`, `SuccessAudit` и `FailureAudit`. Каждое значение обеспечивает отображение разного значка в программе просмотра событий Windows. Метод `CreateEventSource` также позволяет задавать имя машины, что приведет к записи в журнал событий на другом компьютере при наличии достаточных полномочий.
+
+### 6.2. Чтение журнала событий
+
+Для чтения журнала событий необходимо создать экземпляр класса `EventLog` с именем нужного журнала и дополнительно именем компьютера, если журнал находится на другом компьютере. Впоследствии любая запись журнала может быть прочитана с помощью свойства `Entries` типа коллекции:
+
+```csharp
+EventLog log = new EventLog ("Application");
+Console.WriteLine ("Total entries: " + log.Entries.Count); // Всего записей
+EventLogEntry last = log.Entries [log.Entries.Count - 1];
+Console.WriteLine ("Index: " + last.Index); // Индекс
+Console.WriteLine ("Source: " + last.Source); // Источник
+Console.WriteLine ("Type: " + last.EntryType); // Тип
+Console.WriteLine ("Time: " + last.TimeWritten); // Время
+Console.WriteLine ("Message: " + last.Message); // Сообщение
+```
+
+С помощью статического метода `EventLog.GetEventLogs` можно перечислить все журналы на текущем (или другом) компьютере (действие требует наличия административных привилегий):
+
+```csharp
+foreach (EventLog log in EventLog.GetEventLogs())
+  Console.WriteLine(log.LogDisplayName);
+```
+
+Обычно данный код выводит минимум `Application`, `Security` и `System`.
+
+### 6.3. Мониторинг журнала событий
+
+Организовать оповещение о появлении любой записи в журнале событий Windows можно посредством события `EntryWritten`. Прием работает для журналов событий на локальном компьютере независимо от того, какое приложение записало событие.
+
+Чтобы включить мониторинг журнала событий, необходимо выполнить следующие действия.
+1. Создайте экземпляр `EventLog` и установите его свойство `EnableRaisingEvents` в true.
+2. Обработайте событие `EntryWritten`.
+
+Вот пример:
+
+```csharp
+static void Main()
+{
+  using (var log = new EventLog("Application"))
+  {
+    log.EnableRaisingEvents = true;
+    log.EntryWritten += DisplayEntry;
+    Console.ReadLine();
+  }
+}
+static void DisplayEntry(object sender, EntryWrittenEventArgs e)
+{
+  EventLogEntry entry = e.Entry;
+  Console.WriteLine(entry.Message);
+}
+```
+
+## <a name="7"/>7. Счетчики производительности [↩︎](#0)
+
+Счетчики производительности сгруппированы в категории, такие как «Система», «Процессор», «Память .NET CLR» и т.д. Примерами счетчиков производительности в категории «Память .NET CLR» могут быть «% времени сборки мусора», «# байтов во всех кучах» и «Выделено байтов/с».
+
+Каждая категория может дополнительно иметь один или более экземпляров, допускающих независимый мониторинг. Это полезно, например, для счетчика производительности «% процессорного времени» из категории «Процессор», который позволяет отслеживать утилизацию центрального процессора. На многопроцессорной машине данный счетчик поддерживает экземпляры для всех процессоров, позволяя независимо проводить мониторинг использования каждого процессора.
+
+### 7.1. Перечисление доступных счетчиков производительности
+
+```csharp
+PerformanceCounterCategory[] cats =
+  PerformanceCounterCategory.GetCategories();
+foreach (PerformanceCounterCategory cat in cats)
+{
+  Console.WriteLine("Category: " + cat.CategoryName); // Категория
+  string[] instances = cat.GetInstanceNames();
+  if (instances.Length == 0)
+  {
+    foreach (PerformanceCounter ctr in cat.GetCounters())
+      Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
+  }
+  else // Вывести счетчики, имеющие экземпляры
+  {
+    foreach (string instance in instances)
+    {
+      Console.WriteLine(" Instance: " + instance); // Экземпляр
+      if (cat.InstanceExists(instance))
+        foreach (PerformanceCounter ctr in cat.GetCounters(instance))
+          Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
+    }
+  }
+}
+```
+
+> Результат содержит свыше 10 000 строк! Его получение также занимает некоторое время, поскольку реализация метода `PerformanceCounterCategory.InstanceExists` неэффективна. В реальной системе настолько детальная информация извлекается только по требованию.
+
+В приведенном далее примере с помощью запроса LINQ извлекаются лишь счетчики производительности, связанные с .NET, а результат помещается в XML-файл:
+
+```csharp
+var x =
+  new XElement("counters",
+    from PerformanceCounterCategory cat in
+      PerformanceCounterCategory.GetCategories()
+    where cat.CategoryName.StartsWith(".NET")
+    let instances = cat.GetInstanceNames()
+    select new XElement("category",
+      new XAttribute("name", cat.CategoryName),
+      instances.Length == 0
+    ?
+      from c in cat.GetCounters()
+      select new XElement("counter",
+        new XAttribute("name", c.CounterName))
+    :
+      from i in instances
+      select new XElement("instance", new XAttribute("name", i),
+        !cat.InstanceExists(i)
+        ?
+          null
+        :
+          from c in cat.GetCounters(i)
+          select new XElement("counter",
+            new XAttribute("name", c.CounterName))
+      )
+    )
+  );
+x.Save("counters.xml");
+```
+
+### 7.2. Чтение данных счетчика производительности
+
+Чтобы извлечь значение счетчика производительности, необходимо создать объект `PerformanceCounter` и затем вызвать его метод `NextValue` или `NextSample`. Метод `NextValue` возвращает простое значение типа `float`, а метод `NextSample` – объект `CounterSample`, который открывает доступ к более широкому набору свойств наподобие `CounterFrequency`, `TimeStamp`, `BaseValue` и `RawValue`.
+
+Конструктор `PerformanceCounter` принимает имя категории, имя счетчика и необязательный экземпляр. Таким образом, чтобы отобразить сведения о текущей утилизации всех процессоров, потребуется написать следующий код:
+
+```csharp
+using (PerformanceCounter pc =
+  new PerformanceCounter("Processor","% Processor Time","_Total"))
+{
+  Console.WriteLine(pc.NextValue());
+  Thread.Sleep(1000);
+  Console.WriteLine(pc.NextValue());
+}
+```
+> Первый вызов `NextValue` всегда будет возвращать 0.0, так как вычисляемое значение счетчика зависит от двух состояний. Рекомендуемое время задержки между вызовами метода `NextValue` составляет одну секунду, чтобы позволить счетчику выполнить следующее добавочное чтение.
