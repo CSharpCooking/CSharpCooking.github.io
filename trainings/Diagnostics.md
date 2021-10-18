@@ -468,8 +468,52 @@ using (PerformanceCounter pc =
   new PerformanceCounter("Processor","% Processor Time","_Total"))
 {
   Console.WriteLine(pc.NextValue());
-  Thread.Sleep(1000);
+  Thread.Sleep(500);
   Console.WriteLine(pc.NextValue());
 }
 ```
-> Первый вызов `NextValue` всегда будет возвращать 0.0, так как вычисляемое значение счетчика зависит от двух состояний. Рекомендуемое время задержки между вызовами метода `NextValue` составляет одну секунду, чтобы позволить счетчику выполнить следующее добавочное чтение.
+> Первый вызов `NextValue` всегда будет возвращать 0.0, так как вычисляемое значение счетчика зависит от двух состояний. Поэтому необходимо задать задержку между вызовами метода `NextValue`, чтобы позволить счетчику выполнить следующее добавочное чтение.
+
+Класс `PerformanceCounter` не открывает доступ к событию `ValueChanged`, поэтому для отслеживания изменений потребуется реализовать опрос. В следующем примере опрос производится каждые 200 миллисекунд – пока не поступит сигнал завершения от `EventWaitHandle`:
+
+```csharp
+// Необходимо импортировать пространства имен 
+// System.Threading и System.Diagnostics
+static void Monitor(string category, string counter, 
+                    string instance, EventWaitHandle stopper)
+{
+  if (!PerformanceCounterCategory.Exists(category))
+    throw new InvalidOperationException("Category does not exist");
+  if (!PerformanceCounterCategory.CounterExists(counter, category))
+    throw new InvalidOperationException("Counter does not exist");
+  if (instance == null) instance = ""; //"" == экземпляры отсутствуют (не null!)
+  if (instance != "" &&
+  !PerformanceCounterCategory.InstanceExists(instance, category))
+    throw new InvalidOperationException("Instance does not exist");
+  float lastValue = 0f;
+  using (PerformanceCounter pc = 
+         new PerformanceCounter(category, counter, instance))
+  {
+    while (!stopper.WaitOne(200))
+    {
+      float value = pc.NextValue();
+      if (value != lastValue) // Записывать значение, только
+      {                       // если оно изменилось.
+        Console.WriteLine(value);
+        lastValue = value;
+      }
+    }
+  }
+}
+void Main()
+{
+  EventWaitHandle stopper = new ManualResetEvent(false);
+  new Thread(() => Monitor("Processor", "% Processor Time", 
+                           "_Total", stopper)).Start();
+  new Thread(() => Monitor("LogicalDisk", "% Idle Time", 
+                           "C:", stopper)).Start();
+  Console.WriteLine("Monitoring - press any key to quit");
+  Console.ReadKey();
+  stopper.Set();
+}
+```
