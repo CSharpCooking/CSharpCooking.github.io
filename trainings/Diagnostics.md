@@ -11,6 +11,7 @@
 5. [StackTrace и StackFrame](#5)
 6. [Журналы событий Window](#6)
 7. [Счетчики производительности](#7)
+8. [Класс Stopwatch](#8)
 
 ---
 
@@ -109,6 +110,7 @@ Debug.Assert (File.Exists ("data.txt"), "File data.txt does not exist!");
 ```
 
 ![2021-10-01-18-03-58](pastes/2021-10-01-18-03-58.png)
+Рис. 1. Сообщение об ошибке 
 
 Утверждение представляет собой то, что в случае нарушения говорит об ошибке в коде текущего метода. Генерация исключения на основе проверки достоверности аргумента указывает на ошибку в коде вызывающего компонента.
 
@@ -153,12 +155,7 @@ Trace.Listeners.Add(new EventLogTraceListener("DemoApp"));
 
 ## <a name="3"/>3. Интеграция с отладчиком [↩︎](#0)
 
-Иногда для приложения удобно взаимодействовать с каким-нибудь отладчиком, если он доступен. На этапе разработки отладчик обычно предоставляется IDE-средой (например, Visual Studio), а после развертывания отладчиком, скорее всего, будет:
-
-- DbgCLR;
-- один из низкоуровневых инструментов отладки, такой как WinDbg, Cordbg или Mdbg.
-
-Инструмент DbgCLR является усеченной версией Visual Studio, в которой оставлен только отладчик, и он свободно загружается в составе .NET Framework SDK. Это простейший вариант отладки при отсутствии доступа к IDE-среде, хотя он требует загрузки полного SDK.
+Иногда для приложения удобно взаимодействовать с каким-нибудь отладчиком, если он доступен. На этапе разработки отладчик обычно предоставляется IDE-средой (например, Visual Studio), а после развертывания можно воспользоваться [WinDbg](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools).
 
 ### 3.1. Присоединение и останов
 
@@ -517,3 +514,89 @@ void Main()
   stopper.Set();
 }
 ```
+
+### 7.3. Создание счетчиков и запись данных о производительности
+
+Перед записью данных счетчика производительности понадобится создать категорию производительности и счетчик. После того, как счетчик создан, его значение можно обновить, создав экземпляр `PerformanceCounter`, установив его свойство `Readonly` в `false` и затем установив его свойство `RawValue`. Для обновления существующего значения можно также применять методы `Increment` и `IncrementBy`.
+
+```csharp
+using System;
+using System.Threading;
+using System.Diagnostics;
+
+namespace CSharpCooking
+{
+  class S
+  {
+    static void CreateCookedProgramsCounter(string category, string counter)
+    {
+      if (!PerformanceCounterCategory.Exists(category))
+      {
+        CounterCreationDataCollection cd = new CounterCreationDataCollection();
+        cd.Add(new CounterCreationData(counter, "Number of cooked programs",
+          PerformanceCounterType.NumberOfItems32));
+        PerformanceCounterCategory.Create(category, "CSharpCooking Category",
+          PerformanceCounterCategoryType.SingleInstance, cd);
+      }
+    }
+    static void WriteCookedProgramsCounter(string category, string counter, 
+	                                       EventWaitHandle stopper)
+    {
+      using (PerformanceCounter pc = new PerformanceCounter(category, counter, ""))
+      {
+        pc.ReadOnly = false;
+        pc.RawValue = 10;
+        pc.Increment();
+        while (!stopper.WaitOne(500))
+        {
+          pc.IncrementBy(10);
+          Console.WriteLine(pc.NextValue());
+        }
+      }
+    }
+    static void DeleteCookedProgramsCounter(string category)
+    {
+      if (PerformanceCounterCategory.Exists(category))
+        PerformanceCounterCategory.Delete(category);
+    }
+    static void Main()
+    {
+      CreateCookedProgramsCounter("CSharpCooking Monitoring", "Cooked programs");
+      EventWaitHandle stopper = new ManualResetEvent(false);
+      new Thread(() => WriteCookedProgramsCounter("CSharpCooking Monitoring", 
+	             "Cooked programs", stopper)).Start();
+      Console.ReadKey();
+      stopper.Set();
+      // DeleteCookedProgramsCounter("CSharpCooking Monitoring");
+    }
+  }
+}
+```
+
+Новые счетчики появятся в инструменте мониторинга производительности Windows при выборе опции Add Counters (Добавить счетчики), как показано на рис. 2.
+
+![](pastes\2021-10-22-18-11-49.png)
+Рис. 2. Специальный счетчик производительности
+
+Через системный монитор визуально можно проследить динамику изменения счетчика производительности во времени.
+
+![](pastes\2021-10-22-18-37-49.png)
+Рис. 3. Динамика изменения счетчика производительности
+
+Если позже понадобится определить дополнительные счетчики в той же самой категории, то старая категория должна быть сначала удалена вызовом метода `PerformanceCounterCategory.Delete`.
+
+> Создание и удаление счетчиков производительности требует наличия административных полномочий.
+
+## <a name="8"/>8. Класс Stopwatch [↩︎](#0)
+
+Класс `Stopwatch` предлагает удобный механизм для измерения времени выполнения. Класс `Stopwatch` использует механизм с самым высоким разрешением, какое только обеспечивается операционной системой и оборудованием; обычно разрешение составляет меньше одной микросекунды. (По контрасту с ним свойства `DateTime.Now` и `Environment.TickCount` поддерживают разрешение около 15 миллисекунд.) Для работы с классом `Stopwatch` необходимо вызвать метод `StartNew` – в результате создается новый экземпляр `Stopwatch` и запускается измерение времени. (В качестве альтернативы экземпляр `Stopwatch` можно создать вручную и затем вызвать метод `Start`.) Свойство Elapsed возвращает интервал пройденного времени в виде структуры `TimeSpan`:
+
+```csharp
+Stopwatch s = Stopwatch.StartNew();
+System.IO.File.WriteAllText("test.txt", new string('*', 30000000));
+Console.WriteLine(s.Elapsed);
+```
+
+Класс `Stopwatch` также открывает доступ к свойству `ElapsedTicks`, которое возвращает количество пройденных тиков как значение `long` (64-разрядное целое число). Чтобы преобразовать тики в секунды, разделите полученное значение на `Stopwatch.Frequency`. Есть также свойство `ElapsedMilliseconds`, которое часто оказывается наиболее удобным.
+
+Вызов метода `Stop` фиксирует значения свойств `Elapsed` и `ElapsedTicks`. Никакого фонового действия, связанного с выполнением `Stopwatch`, не предусмотрено, а потому вызов метода `Stop` является необязательным.
