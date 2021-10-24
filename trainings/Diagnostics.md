@@ -111,6 +111,18 @@ LogStatus(() => "Message Headers: " + GetComplexMessageHeaders());
 
 По умолчанию в Visual Studio определены оба символа, `DEBUG` и `TRACE`, в конфигурации отладки и один лишь символ `TRACE` в конфигурации выпуска.
 
+Классы `Debug` и `Trace` предоставляют методы `Write`, `WriteLine` и `WriteIf` . По умолчанию они отправляют сообщения в окно вывода отладчика:
+
+```csharp
+Debug.Write("Data");
+Debug.WriteLine(23 * 34);
+int x = 5, y = 3;
+Debug.WriteIf(x > y, "x is greater than y");
+```
+
+Класс `Trace` также предлагает методы `TraceInformation`, `TraceWarning` и `TraceError`. Отличия в поведении между ними и методами `Write` зависят от активных прослушивателей `TraceListener` (см. далее).
+
+
 ### 2.1. Методы Fail и Assert
 
 ```csharp
