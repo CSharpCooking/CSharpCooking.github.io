@@ -13,6 +13,7 @@
 
 ### Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com)
-- [The .NET Programmer's Playground](https://www.linqpad.net)
+- [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net)
 - [Git](https://git-scm.com)
 - [SmartGit – Git Client for Windows, macOS, Linux](https://www.syntevo.com/smartgit)
+- [The Windows Debugger (WinDbg)](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools)
