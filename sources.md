@@ -9,7 +9,6 @@
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
-- [Тренинги по языку программирования C#](https://csharpcooking.github.io/trainings)
 
 ### Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com)
