@@ -32,7 +32,7 @@ foreach (PerformanceCounterCategory cat in cats)
 }
 ```
 
-> Результат содержит свыше 10 000 строк! Его получение также занимает некоторое время, поскольку реализация метода `PerformanceCounterCategory.InstanceExists` неэффективна. В реальной системе настолько детальная информация извлекается только по требованию.
+> Результат содержит свыше 10 000 строк! В реальной системе настолько детальная информация извлекается только по требованию.
 
 В приведенном далее примере с помощью запроса LINQ извлекаются лишь счетчики производительности, связанные с .NET, а результат помещается в XML-файл:
 
@@ -66,9 +66,9 @@ var x =
 x.Save("counters.xml");
 ```
 
-## Чтение данных счетчика производительности
+## Чтение данных счетчиков производительности
 
-Чтобы извлечь значение счетчика производительности, необходимо создать объект `PerformanceCounter` и затем вызвать его метод `NextValue` или `NextSample`. Метод `NextValue` возвращает простое значение типа `float`, а метод `NextSample` – объект `CounterSample`, который открывает доступ к более широкому набору свойств наподобие `CounterFrequency`, `TimeStamp`, `BaseValue` и `RawValue`.
+Чтобы извлечь значение счетчика производительности, необходимо создать объект `PerformanceCounter` и затем вызвать его метод `NextValue` или `NextSample`. Метод `NextValue` возвращает простое значение типа `float`, а метод `NextSample` – объект `CounterSample`, который открывает доступ к более широкому набору свойств наподобие `CounterFrequency` (частота счетчика), `RawValue` (начальное значение счетчика) и др.
 
 Конструктор `PerformanceCounter` принимает имя категории, имя счетчика и необязательный экземпляр. Таким образом, чтобы отобразить сведения о текущей утилизации всех процессоров, потребуется написать следующий код:
 
@@ -140,46 +140,57 @@ namespace CSharpCooking
 {
   class S
   {
-    static void CreateCookedProgramsCounter(string category, string counter)
+    static void CreateCookedProgramsCounter()
     {
+      string category = "CSharpCooking";
+      string categoryDescription = "CSharpCooking Monitoring";
+      string counter1 = "Delicious programs";
+      string counterDescription1 = "Number of delicious programs";
+      string counter2 = "Bad programs";
+      string counterDescription2 = "Number of bad programs";
+
       if (!PerformanceCounterCategory.Exists(category))
       {
         CounterCreationDataCollection cd = new CounterCreationDataCollection();
-        cd.Add(new CounterCreationData(counter, "Number of cooked programs",
+        cd.Add(new CounterCreationData(counter1, counterDescription1,
           PerformanceCounterType.NumberOfItems32));
-        PerformanceCounterCategory.Create(category, "CSharpCooking Category",
+        cd.Add(new CounterCreationData(counter2, counterDescription2,
+          PerformanceCounterType.NumberOfItems32));
+        PerformanceCounterCategory.Create(category, categoryDescription,
           PerformanceCounterCategoryType.SingleInstance, cd);
       }
     }
-    static void WriteCookedProgramsCounter(string category, string counter, 
-	                                       EventWaitHandle stopper)
+    static void WriteCookedProgramsCounter(string category, string counter, int frequency,
+                         EventWaitHandle stopper)
     {
       using (PerformanceCounter pc = new PerformanceCounter(category, counter, ""))
       {
         pc.ReadOnly = false;
-        pc.RawValue = 10;
+        pc.RawValue = 0;
         pc.Increment();
-        while (!stopper.WaitOne(500))
+        while (!stopper.WaitOne(1000 / frequency))
         {
-          pc.IncrementBy(10);
-          Console.WriteLine(pc.NextValue());
+          pc.Increment(); // or pc.IncrementBy(1);
         }
       }
     }
-    static void DeleteCookedProgramsCounter(string category)
+    static void DeleteCookedProgramsCounter()
     {
+      string category = "CSharpCooking";
       if (PerformanceCounterCategory.Exists(category))
         PerformanceCounterCategory.Delete(category);
     }
     static void Main()
     {
-      CreateCookedProgramsCounter("CSharpCooking Monitoring", "Cooked programs");
+      CreateCookedProgramsCounter();
       EventWaitHandle stopper = new ManualResetEvent(false);
-      new Thread(() => WriteCookedProgramsCounter("CSharpCooking Monitoring", 
-	             "Cooked programs", stopper)).Start();
+      new Thread(() => WriteCookedProgramsCounter("CSharpCooking",
+        "Delicious programs", 10, stopper)).Start();
+      new Thread(() => WriteCookedProgramsCounter("CSharpCooking",
+        "Bad programs", 2, stopper)).Start();
       Console.ReadKey();
       stopper.Set();
-      // DeleteCookedProgramsCounter("CSharpCooking Monitoring");
+      // DeleteCookedProgramsCounter();
     }
   }
 }
