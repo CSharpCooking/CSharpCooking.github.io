@@ -138,7 +138,7 @@ using System.Diagnostics;
 
 namespace CSharpCooking
 {
-  class S
+  class Program
   {
     static void CreateCookedProgramsCounter()
     {
@@ -160,8 +160,8 @@ namespace CSharpCooking
           PerformanceCounterCategoryType.SingleInstance, cd);
       }
     }
-    static void WriteCookedProgramsCounter(string category, string counter, int frequency,
-                         EventWaitHandle stopper)
+    static void WriteCookedProgramsCounter(string category, string counter, 
+                                           int frequency, EventWaitHandle stopper)
     {
       using (PerformanceCounter pc = new PerformanceCounter(category, counter, ""))
       {
