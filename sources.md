@@ -7,8 +7,8 @@
 
 ## Практика
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
-- [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming/)
-- [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ/)
+- [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
+- [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
 
 ## Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
@@ -16,4 +16,4 @@
 - [Git](https://git-scm.com/)
 - [SmartGit – Git Client for Windows, macOS, Linux](https://www.syntevo.com/smartgit/)
 - [Windows Debugger (WinDbg)](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/)
-- [Parallel Checker)](https://parallel-checker.com/)
+- [Parallel Checker](https://parallel-checker.com/)
