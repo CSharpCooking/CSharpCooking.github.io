@@ -180,7 +180,6 @@ namespace CSharpCooking
       string counterDescription1 = "Number of delicious programs";
       string counter2 = "Bad programs";
       string counterDescription2 = "Number of bad programs";
-
       if (!PerformanceCounterCategory.Exists(category))
       {
         CounterCreationDataCollection cd = new CounterCreationDataCollection();
