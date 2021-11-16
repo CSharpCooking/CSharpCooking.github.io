@@ -8,25 +8,37 @@ date: 2021-11-01
 ## Перечисление доступных счетчиков производительности
 
 ```csharp
-PerformanceCounterCategory[] cats =
-  PerformanceCounterCategory.GetCategories();
-foreach (PerformanceCounterCategory cat in cats)
+using System;
+using System.Diagnostics;
+
+namespace CSharpCooking
 {
-  Console.WriteLine("Category: " + cat.CategoryName); // Категория
-  string[] instances = cat.GetInstanceNames();
-  if (instances.Length == 0)
+  class Program
   {
-    foreach (PerformanceCounter ctr in cat.GetCounters())
-      Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
-  }
-  else // Вывести счетчики, имеющие экземпляры
-  {
-    foreach (string instance in instances)
+    static void Main()
     {
-      Console.WriteLine(" Instance: " + instance); // Экземпляр
-      if (cat.InstanceExists(instance))
-        foreach (PerformanceCounter ctr in cat.GetCounters(instance))
-          Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
+      PerformanceCounterCategory[] cats =
+        PerformanceCounterCategory.GetCategories();
+      foreach (PerformanceCounterCategory cat in cats)
+      {
+        Console.WriteLine("Category: " + cat.CategoryName); // Категория
+        string[] instances = cat.GetInstanceNames();
+        if (instances.Length == 0)
+        {
+          foreach (PerformanceCounter ctr in cat.GetCounters())
+            Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
+        }
+        else // Вывести счетчики, имеющие экземпляры
+        {
+          foreach (string instance in instances)
+          {
+            Console.WriteLine(" Instance: " + instance); // Экземпляр
+            if (cat.InstanceExists(instance))
+              foreach (PerformanceCounter ctr in cat.GetCounters(instance))
+                Console.WriteLine(" Counter: " + ctr.CounterName); // Счетчик
+          }
+        }
+      }
     }
   }
 }
@@ -37,33 +49,47 @@ foreach (PerformanceCounterCategory cat in cats)
 В приведенном далее примере с помощью запроса LINQ извлекаются лишь счетчики производительности, связанные с .NET, а результат помещается в XML-файл:
 
 ```csharp
-var x =
-  new XElement("counters",
-	from PerformanceCounterCategory cat in
-	  PerformanceCounterCategory.GetCategories()
-	where cat.CategoryName.StartsWith(".NET")
-	let instances = cat.GetInstanceNames()
-	select new XElement("category",
-	  new XAttribute("name", cat.CategoryName),
-	  instances.Length == 0
-	  ?
-	    from c in cat.GetCounters()
-	    select new XElement("counter",
-		  new XAttribute("name", c.CounterName))
-	  :
-	    from i in instances
-	    select new XElement("instance", new XAttribute("name", i),
-		  !cat.InstanceExists(i)
-		  ?
-		    null
-		  :
-		    from c in cat.GetCounters(i)
-		    select new XElement("counter",
-			  new XAttribute("name", c.CounterName))
-	    )
-	)
-  );
-x.Save("counters.xml");
+using System;
+using System.Diagnostics;
+using System.Linq;
+using System.Xml.Linq;
+
+namespace CSharpCooking
+{
+  class Program
+  {
+    static void Main()
+    {
+      var x =
+        new XElement("counters",
+        from PerformanceCounterCategory cat in
+          PerformanceCounterCategory.GetCategories()
+        where cat.CategoryName.StartsWith(".NET")
+        let instances = cat.GetInstanceNames()
+        select new XElement("category",
+          new XAttribute("name", cat.CategoryName),
+          instances.Length == 0
+          ?
+          from c in cat.GetCounters()
+          select new XElement("counter",
+            new XAttribute("name", c.CounterName))
+          :
+          from i in instances
+          select new XElement("instance", new XAttribute("name", i),
+            !cat.InstanceExists(i)
+            ?
+            null
+            :
+            from c in cat.GetCounters(i)
+            select new XElement("counter",
+              new XAttribute("name", c.CounterName))
+          )
+        )
+        );
+      x.Save(@"c:\Users\landw\Downloads\counters.xml");
+    }
+  }
+}
 ```
 
 ## Чтение данных счетчиков производительности
@@ -86,44 +112,52 @@ using (PerformanceCounter pc =
 Класс `PerformanceCounter` не открывает доступ к событию `ValueChanged`, поэтому для отслеживания изменений потребуется реализовать опрос. В следующем примере опрос производится каждые 200 миллисекунд – пока не поступит сигнал завершения от `EventWaitHandle`:
 
 ```csharp
-// Необходимо импортировать пространства имен 
-// System.Threading и System.Diagnostics
-static void Monitor(string category, string counter, 
-                    string instance, EventWaitHandle stopper)
+using System;
+using System.Diagnostics;
+using System.Threading;
+
+namespace CSharpCooking
 {
-  if (!PerformanceCounterCategory.Exists(category))
-    throw new InvalidOperationException("Category does not exist");
-  if (!PerformanceCounterCategory.CounterExists(counter, category))
-    throw new InvalidOperationException("Counter does not exist");
-  if (instance == null) instance = ""; //"" == экземпляры отсутствуют (не null!)
-  if (instance != "" &&
-  !PerformanceCounterCategory.InstanceExists(instance, category))
-    throw new InvalidOperationException("Instance does not exist");
-  float lastValue = 0f;
-  using (PerformanceCounter pc = 
-         new PerformanceCounter(category, counter, instance))
+  class Program
   {
-    while (!stopper.WaitOne(200))
+    static void Monitor(string category, string counter,
+              string instance, EventWaitHandle stopper)
     {
-      float value = pc.NextValue();
-      if (value != lastValue) // Записывать значение, только
-      {                       // если оно изменилось.
-        Console.WriteLine(value);
-        lastValue = value;
+      if (!PerformanceCounterCategory.Exists(category))
+        throw new InvalidOperationException("Category does not exist");
+      if (!PerformanceCounterCategory.CounterExists(counter, category))
+        throw new InvalidOperationException("Counter does not exist");
+      if (instance == null) instance = ""; //"" == экземпляры отсутствуют (не null!)
+      if (instance != "" &&
+      !PerformanceCounterCategory.InstanceExists(instance, category))
+        throw new InvalidOperationException("Instance does not exist");
+      float lastValue = 0f;
+      using (PerformanceCounter pc =
+           new PerformanceCounter(category, counter, instance))
+      {
+        while (!stopper.WaitOne(200))
+        {
+          float value = pc.NextValue();
+          if (value != lastValue) // Записывать значение, только
+          {             // если оно изменилось.
+            Console.WriteLine($"{category}|{counter}|{instance} = {value}");
+            lastValue = value;
+          }
+        }
       }
     }
+    static void Main()
+    {
+      EventWaitHandle stopper = new ManualResetEvent(false);
+      new Thread(() => Monitor("Processor", "% Processor Time",
+                   "_Total", stopper)).Start();
+      new Thread(() => Monitor("LogicalDisk", "% Idle Time",
+                   "C:", stopper)).Start();
+      Console.WriteLine("Monitoring - press any key to quit");
+      Console.ReadKey();
+      stopper.Set();
+    }
   }
-}
-void Main()
-{
-  EventWaitHandle stopper = new ManualResetEvent(false);
-  new Thread(() => Monitor("Processor", "% Processor Time", 
-                           "_Total", stopper)).Start();
-  new Thread(() => Monitor("LogicalDisk", "% Idle Time", 
-                           "C:", stopper)).Start();
-  Console.WriteLine("Monitoring - press any key to quit");
-  Console.ReadKey();
-  stopper.Set();
 }
 ```
 
