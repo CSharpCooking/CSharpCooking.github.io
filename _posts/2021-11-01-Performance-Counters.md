@@ -83,8 +83,7 @@ namespace CSharpCooking
             select new XElement("counter",
               new XAttribute("name", c.CounterName))
           )
-        )
-        );
+        ));
       x.Save(@"c:\Users\landw\Downloads\counters.xml");
     }
   }
