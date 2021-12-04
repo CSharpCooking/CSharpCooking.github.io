@@ -95,5 +95,6 @@ var ResultGroupBy = from lj in LeftJoin
 
 ## Рекомендуемые источники для выполнения практикума
 
-- Албахари Д. C# 7.0. Справочник. Полное описание языка / Албахари Д., Албахари Б. // Пер. с англ. – Москва: Альфа-Книга. – 2018. (См. главы 8 и 9 "Запросы LINQ" и "Операции LINQ" соответственно.)
-- Интерактивное инструментальное приложение LINQPad [Электронный ресурс] // © LINQPad Pty Ltd 2021. URL: [https://www.linqpad.net](https://www.linqpad.net).
+- [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://t.me/CSharpCooking/8). (См. главы 8 и 9 "Запросы LINQ" и "Операции LINQ" соответственно.)
+- [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/).
+- [Пример требований к оформлению отчета по выполненному практикуму (курсовой работы)]((https://csharpcooking.github.io/practice/LINQCourseWorkRequirements.zip). 
