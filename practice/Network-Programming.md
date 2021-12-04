@@ -81,7 +81,7 @@
     { { "form_sent", "1" },
     { "redirect_url", "" },
     { "req_username", "user" },
-    { "req_password", "user" },
+    { "req_password", "xxxx" },
     { "login", "%C2%EE%E9%F2%E8" } });
     var client = new HttpClient(handler);
     var response = await client.SendAsync(request);
