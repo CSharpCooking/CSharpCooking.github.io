@@ -75,7 +75,7 @@ var ResultGroupBy = from lj in LeftJoin
 1) Сгенерировать базу данных, воспользовавшись скриптом из [сайта](https://www.sql-ex.ru/db_script_download.php) (cм. рис. 2-4).
 
 ![](\pastes\2021-12-04-21-10-25.png)  
-Рис. 2. Chose Data Context
+Рис. 2. Choose Data Context
 
 ![](\pastes\2021-12-04-21-10-52.png)  
 Рис. 3. LINQ to SQL Connection
