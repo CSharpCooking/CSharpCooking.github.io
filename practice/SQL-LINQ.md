@@ -80,7 +80,7 @@ var ResultGroupBy = from lj in LeftJoin
 1) Сгенерировать базу данных, воспользовавшись скриптом из [сайта](https://www.sql-ex.ru/db_script_download.php) (cм. рис. 4-6).
 > Для выполнения данного шага требуется предварительно установить СУБД Microsoft SQL Server. Так как установка полноценного сервера является затратной процедурой, поэтому можно ограничиться компонентом [SQL Server Express LocalDB](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/sql-server-express-localdb/), инсталляцию которого несложно провести из Visual Studio (см. рис. 3).
 
-![](\pastes\2021-12-05-17-52-21.png)
+![](\pastes\2021-12-05-17-52-21.png)  
 Рис. 3. SQL Server Express LocalDB
 
 ![](\pastes\2021-12-04-21-10-25.png)  
