@@ -77,21 +77,25 @@ var ResultGroupBy = from lj in LeftJoin
 
 Чтобы убедиться, что код на LINQ составлен правильно, можно воспользоваться приложением [LINQPad](https://www.linqpad.net) и проделать следующие шаги: 
 
-1) Сгенерировать базу данных, воспользовавшись скриптом из [сайта](https://www.sql-ex.ru/db_script_download.php) (cм. рис. 3-5).
+1) Сгенерировать базу данных, воспользовавшись скриптом из [сайта](https://www.sql-ex.ru/db_script_download.php) (cм. рис. 4-6).
+> Для выполнения данного шага требуется предварительно установить СУБД Microsoft SQL Server. Так как установка полноценного сервера является затратной процедурой, поэтому можно ограничиться компонентом [SQL Server Express LocalDB](https://docs.microsoft.com/ru-ru/sql/database-engine/configure-windows/sql-server-express-localdb/), инсталляцию которого несложно провести из Visual Studio (см. рис. 3).
+
+![](\pastes\2021-12-05-17-52-21.png)
+Рис. 3. SQL Server Express LocalDB
 
 ![](\pastes\2021-12-04-21-10-25.png)  
-Рис. 3. Choose Data Context
+Рис. 4. Choose Data Context
 
 ![](\pastes\2021-12-04-21-10-52.png)  
-Рис. 4. LINQPad Connection
+Рис. 5. LINQPad Connection
 
 ![](\pastes\2021-12-04-21-11-23.png)  
-Рис. 5. Запуск скрипта
+Рис. 6. Запуск скрипта
 
 2) Вставить код на LINQ, добавив в него метод `Dump` для вывода результата.
 
 ![](\pastes\2021-12-04-21-11-51.png)  
-Рис. 6. Получение результата
+Рис. 7. Получение результата
 
 ## Рекомендуемые источники для выполнения практикума
 
