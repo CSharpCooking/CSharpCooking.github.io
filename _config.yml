@@ -26,7 +26,7 @@ plainwhite:
       url: "/"
     - title: Проект
       url: "/project"
-	- title: Тренинги
+    - title: Тенинги
       url: "/trainings"
     - title: Источники
       url: "/sources"
