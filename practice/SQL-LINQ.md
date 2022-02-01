@@ -56,7 +56,7 @@ HAVING COUNT(ship) > 0 AND COUNT(*) > 2
 ```csharp
 var Union = Ships.Select(_ => new { Ship = _.Name, Class = _.Class }).
 Union(Outcomes.Select(_ => new { Ship = _.Ship, Class = _.Ship.ToString() }));
- 
+
 var LeftJoin = from u in Union
    join o in Outcomes.Where(_ => _.Result == "sunk") on u.Ship equals o.Ship into gj
    from subpet in gj.DefaultIfEmpty()
@@ -72,6 +72,7 @@ var ResultGroupBy = from lj in LeftJoin
      CountSunked,
   };
  ```
+> LINQ можно использовать для левого внешнего соединения, вызвав метод `DefaultIfEmpty` на основании результатов группового соединения (см.[ https://docs.microsoft.com/ru-ru/dotnet/csharp/linq/perform-left-outer-joins](https://docs.microsoft.com/ru-ru/dotnet/csharp/linq/perform-left-outer-joins)).
 
 ## Проверка результатов
 
