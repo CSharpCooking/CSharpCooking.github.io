@@ -31,9 +31,9 @@ namespace CSharpCooking
       {
         Console.WriteLine(Thread.CurrentThread.IsThreadPoolThread);
       };
-      Console.WriteLine("Paralle.Invoke");
+      Console.WriteLine("Parallel.Invoke");
       Parallel.Invoke(IsPool, IsPool, IsPool, IsPool, IsPool);
-      Console.WriteLine("Paralle.For");
+      Console.WriteLine("Parallel.For");
       Parallel.For(0, 5, i => IsPool());
       Console.WriteLine("Task");
       Task.Factory.StartNew(IsPool).Wait();
