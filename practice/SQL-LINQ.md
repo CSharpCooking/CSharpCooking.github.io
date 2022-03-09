@@ -102,4 +102,4 @@ var ResultGroupBy = from lj in LeftJoin
 
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://t.me/CSharpCooking/8). (См. главы 8 и 9 "Запросы LINQ" и "Операции LINQ" соответственно.)
 - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/).
-- [Пример требований к оформлению отчета по выполненной работе](https://csharpcooking.github.io/data/LINQCourseWorkRequirements.zip). 
+- [Пример требований к оформлению отчета по выполненной работе](https://csharpcooking.github.io/data/LINQReportRequirements.zip). 
