@@ -32,7 +32,7 @@ Console.WriteLine(Regex.IsMatch("8 123 456-78-90", phone));  // True
 Console.WriteLine(Regex.IsMatch("8 123 456 78 90", phone));  // True
 ```
 
-::Продолжение следует.::
+**_Продолжение следует._**
 
 ---
 
