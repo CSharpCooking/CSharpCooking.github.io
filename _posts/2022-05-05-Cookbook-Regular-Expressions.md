@@ -10,16 +10,16 @@ date: 2022-05-05
 ### Соответствие номеру карточки или телефонному номеру
 
 ```csharp
-string ssNum = @"^\d{3}-\d{2}-\d{4}$";
+string ssNum = @"\b\d{3}-\d{2}-\d{4}\b";
 
 Console.WriteLine (Regex.IsMatch ("123-45-6789", ssNum));  // True
 
 string phone = @"(?x)
-    ^\d\s?
+    \b\d\s?
   ( \d{3}\s? | \(\d{3}\)\s? )
     \d{3}[-\s]?
 	\d{2}[-\s]?
-    \d{2}$";
+    \d{2}\b";
 
 Console.WriteLine (Regex.IsMatch ("8(123)456-78-90", phone));  // True
 Console.WriteLine(Regex.IsMatch("81234567890", phone));  // True
