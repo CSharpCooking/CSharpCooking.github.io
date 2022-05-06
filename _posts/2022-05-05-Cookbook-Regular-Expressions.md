@@ -43,6 +43,7 @@ string text =
 foreach (Match m in Regex.Matches (text, r))
   Console.WriteLine (m.Groups["name"] + " is " + m.Groups["value"]);
 ```
+
 Вывод:  
 `id is 3`   
 `secure is true`   
