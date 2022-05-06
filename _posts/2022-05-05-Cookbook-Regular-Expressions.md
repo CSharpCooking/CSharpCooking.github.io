@@ -28,6 +28,26 @@ Console.WriteLine(Regex.IsMatch("8 123 456-78-90", phone));  // True
 Console.WriteLine(Regex.IsMatch("8 123 456 78 90", phone));  // True
 ```
 
+### Извлечение пар "имя = значение"
+
+Обратите внимание на использование в начале директивы (?m):
+
+```csharp
+string r = @"(?m)^\s*(?'name'\w+)\s*=\s*(?'value'.*)\s*(?=\r?$)";
+
+string text =
+  @"id = 3
+    secure = true
+    timeout = 30";
+
+foreach (Match m in Regex.Matches (text, r))
+  Console.WriteLine (m.Groups["name"] + " is " + m.Groups["value"]);
+```
+Вывод:  
+`id is 3`   
+`secure is true`   
+`timeout is 30`
+
 **_Продолжение следует._**
 
 ---
