@@ -48,6 +48,23 @@ foreach (Match m in Regex.Matches (text, r))
 `secure is true`   
 `timeout is 30`
 
+### Проверка сильных паролей
+
+Следующий код проверяет, что пароль состоит минимум из шести символов и включает цифру, символ или знак пунктуации:
+
+```csharp
+string r =
+	@"(?x)" +                           // Ignore spaces within regex expression, for readability
+	@"^"    +                           // Anchor at start of string
+	@"(?=.* ( \d | \p{P} | \p{S} ))" +  // String must contain a digit or punctuation char or symbol
+	@".{6,}";                           // String must be at least 6 characters in length
+
+Console.WriteLine (Regex.IsMatch ("abc12", r));  //False
+Console.WriteLine (Regex.IsMatch ("abcdef", r));  //False
+Console.WriteLine (Regex.IsMatch ("ab88yz", r));  //True
+```
+
+
 **_Продолжение следует._**
 
 ---
