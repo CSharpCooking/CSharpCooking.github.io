@@ -66,9 +66,9 @@ string r =
 	@"(?=.* ( \d | \p{P} | \p{S} ))" +  // String must contain a digit or punctuation char or symbol
 	@".{6,}";                           // String must be at least 6 characters in length
 
-Console.WriteLine (Regex.IsMatch ("abc12", r));  //False
-Console.WriteLine (Regex.IsMatch ("abcdef", r));  //False
-Console.WriteLine (Regex.IsMatch ("ab88yz", r));  //True
+Console.WriteLine (Regex.IsMatch ("abc12", r));  // False
+Console.WriteLine (Regex.IsMatch ("abcdef", r));  // False
+Console.WriteLine (Regex.IsMatch ("ab88yz", r));  // True
 ```
 
 ### Строки текста, содержащие, по крайней мере, 80 символов
@@ -81,7 +81,7 @@ string eighty = new string ('x', 80);
 
 string text = eighty + "\r\n" + fifty + "\r\n" + eighty;
 
-Console.WriteLine (Regex.Matches (text, r).Count);
+Console.WriteLine (Regex.Matches (text, r).Count); // 2
 ```
 
 ### Разбор даты/времени
