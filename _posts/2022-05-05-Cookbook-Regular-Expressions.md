@@ -71,6 +71,18 @@ Console.WriteLine (Regex.IsMatch ("abcdef", r));  //False
 Console.WriteLine (Regex.IsMatch ("ab88yz", r));  //True
 ```
 
+### Строки текста, содержащие, по крайней мере, 80 символов
+
+```csharp
+string r = @"(?m)^.{80,}(?=\r?$)";
+
+string fifty = new string ('x', 50);
+string eighty = new string ('x', 80);
+
+string text = eighty + "\r\n" + fifty + "\r\n" + eighty;
+
+Console.WriteLine (Regex.Matches (text, r).Count);
+```
 
 **_Продолжение следует._**
 
