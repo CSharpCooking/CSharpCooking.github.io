@@ -119,6 +119,21 @@ string r =
 Console.WriteLine (Regex.IsMatch ("MCMLXXXIV", r)); // True
 ```
 
+### Удаление повторяющихся слов
+
+Здесь мы захватываем именованную группу dupe:
+
+```csharp
+string r = @"(?'dupe'\w+)\W\k'dupe'";
+
+string text = "In the the beginning...";
+Console.WriteLine (Regex.Replace (text, r, "${dupe}"));
+```
+
+Вывод:  
+`In the beginning...`
+
+
 
 **_Продолжение следует._**
 
