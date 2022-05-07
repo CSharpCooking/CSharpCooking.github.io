@@ -142,6 +142,26 @@ string text = "It's all mumbo-jumbo to me";
 Console.WriteLine (Regex.Matches (text, r).Count); // 5
 ```
 
+### Соответствие GUID
+
+```csharp
+string r =
+  @"(?i)\b"           +
+  @"[0-9a-fA-F]{8}\-" +
+  @"[0-9a-fA-F]{4}\-" +
+  @"[0-9a-fA-F]{4}\-" +
+  @"[0-9a-fA-F]{4}\-" +
+  @"[0-9a-fA-F]{12}"  +
+  @"\b";
+
+string text = "Its key is {3F2504E0-4F89-11D3-9A0C-0305E82C3301}.";
+Console.WriteLine (Regex.Match (text, r).Index); // 12
+```
+
+GUID (Globally Unique Identifier) – статистически уникальный 128-битный идентификатор. Его главная особенность – уникальность, которая позволяет создавать расширяемые сервисы и приложения без опасения конфликтов, вызванных совпадением идентификаторов.
+
+
+
 
 
 **_Продолжение следует._**
