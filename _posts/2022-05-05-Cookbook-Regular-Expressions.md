@@ -133,6 +133,15 @@ Console.WriteLine (Regex.Replace (text, r, "${dupe}"));
 Вывод:  
 `In the beginning...`
 
+### Подсчет слов
+
+```csharp
+string r = @"\b(\w|[-'])+\b";
+
+string text = "It's all mumbo-jumbo to me";
+Console.WriteLine (Regex.Matches (text, r).Count); // 5
+```
+
 
 
 **_Продолжение следует._**
