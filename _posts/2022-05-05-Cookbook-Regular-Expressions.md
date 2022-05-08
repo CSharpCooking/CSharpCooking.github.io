@@ -239,28 +239,7 @@ Console.WriteLine (valid); // My good recipes.txt
 
 Чтобы применить метасимвол литерально, его требуется предварить обратной косой чертой. Метод `Escape` класса `Regex` преобразуют строку, содержащую метасимволы регулярных выражений, путем замены их отмененными эквивалентами. В данном рецепте метод `Escape` представлен из академических соображений, на самом деле он избыточен, так как метасимволы, находящиеся внутри набора (в квадратных скобках), интерпретируются литеральным образом.
 
-<img src="https://render.githubusercontent.com/render/math?math=\begin{table}[!htb]
-\setcaptionmargin{0mm}
-\onelinecaptionstrue
-\captionstyle{flushleft}
-\caption{$Q = 7$, distortion of 16 bytes of each of $10^3$ containers in \%}
-\bigskip
-\begin{tabular}{|p{60pt}|c|c|c|c|c|c|c|c|c|}
-\hline
-\multirow{2}{60pt}{Number of incorrect bits in 1 byte} 
-    & \multicolumn{3}{c|}{$n=60$} & \multicolumn{3}{c|}{$n=40$} & \multicolumn{3}{c|}{$n=30$}\\ \cline{2-10}
-    & right & incorrectly & rejection & right & incorrectly & rejection & right & incorrectly & rejection\\ \hline
-\multicolumn{1}{|c|}{1} & 100 & 0 & 0 & 99,6 & 0 & 0,4 & 100 & 0 & 0\\
-\multicolumn{1}{|c|}{2} & 100 & 0 & 0 & 99,6 & 0 & 0,4 & 99,2 & 0 & 0,8\\
-\multicolumn{1}{|c|}{3} & 98,4 & 0 & 1,6 & 96 & 0 & 4 & 91,2 & 0 & 8,8\\
-\multicolumn{1}{|c|}{4} & 97,2 & 0 & 2,8 & 84,8 & 0 & 15,2 & 72,8 & 0 & 27,2\\
-\multicolumn{1}{|c|}{5} & 92,8 & 0 & 7,2 & 73,6 & 0,8 & 25,6 & 54,8 & 0 & 45,2\\
-\multicolumn{1}{|c|}{6} & 88,8 & 0 & 11,2 & 62,4 & 0,8 & 36,8 & 38,8 & 0,4 & 60,8\\
-\multicolumn{1}{|c|}{7} & 81,2 & 0 & 18,8 & 48 & 1,2 & 50,8 & 25,2 & 0,4 & 74,4\\
-\multicolumn{1}{|c|}{8} & 74,4 & 0 & 25,6 & 36,4 & 2,4 & 61,2 & 15,2 & 0,4 & 84,4\\
-  \hline
-\end{tabular}
-\end{table}">
+
 
 **_Продолжение следует._**
 
