@@ -225,7 +225,19 @@ foreach (string s in Regex.Split ("oneTwoThree", @"(?=[A-Z])"))
 	Console.Write (s + " "); // one Two Three
 ```
 
-$e^{i \pi} = -1$
+### Получение допустимого имени файла
+
+```csharp
+string input = "My \"good\" <recipes>.txt";
+
+char[] invalidChars = System.IO.Path.GetInvalidPathChars();
+string invalidString = Regex.Escape (new string (invalidChars));
+
+string valid = Regex.Replace (input, "[" + invalidString + "]", "");
+Console.WriteLine (valid); // My good recipes.txt
+```
+
+Чтобы применить метасимвол литерально, его требуется предварить обратной косой чертой. Метод `Escape` класса `Regex` преобразуют строку, содержащую метасимволы регулярных выражений, путем замены их отмененными эквивалентами. В данном рецепте метод `Escape` представлен из академических соображений, на самом деле он избыточен, так как метасимволы, находящиеся внутри набора (в квадратных скобках), интерпретируются литеральным образом.
 
 **_Продолжение следует._**
 
