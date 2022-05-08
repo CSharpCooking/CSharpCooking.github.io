@@ -254,6 +254,25 @@ string result = Regex.Replace (
 Console.WriteLine (result); // &#169; 2007
 ```
 
+### Преобразование символов в строке запроса HTTP
+
+Символ `#` в строке запроса имеет альтернативное представление `%23`, такая замена требуется, чтобы данный символ в адресной строке не рассматривался как служебный. Также пробел представляется в виде `%20`.
+
+```csharp
+string sample = "C%23%20programming%20language";
+
+string result = Regex.Replace (
+	sample,
+	@"%[0-9a-f][0-9a-f]", 
+	m => ((char) Convert.ToByte (m.Value.Substring (1), 16)).ToString(),
+	RegexOptions.IgnoreCase
+);
+
+Console.WriteLine (result); // C# programming language
+```
+
+
+
 **_Продолжение следует._**
 
 ---
