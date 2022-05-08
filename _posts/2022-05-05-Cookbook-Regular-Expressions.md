@@ -225,7 +225,7 @@ foreach (string s in Regex.Split ("oneTwoThree", @"(?=[A-Z])"))
 	Console.Write (s + " "); // one Two Three
 ```
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
+$e^{i \pi} = -1$
 
 **_Продолжение следует._**
 
