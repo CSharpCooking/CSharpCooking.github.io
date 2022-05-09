@@ -193,7 +193,7 @@ string html = "<i>By default</i> quantifiers are <i>greedy</i> creatures";
 
 ```csharp
 foreach (Match m in Regex.Matches (html, @"<i>.*</i>"))
-	Console.WriteLine (m);
+	Console.WriteLine (m.Value);
 ```
 
 то результатом будет не два, а одно совпадение:  
@@ -205,7 +205,7 @@ foreach (Match m in Regex.Matches (html, @"<i>.*</i>"))
 
 ```csharp
 foreach (Match m in Regex.Matches (html, @"<i>.*?</i>"))
-	Console.WriteLine (m);
+	Console.WriteLine (m.Value);
 ```
 
 тогда он остановится в первой точке, после которой остаток выражения может дать совпадение. Вот результат:  
