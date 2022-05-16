@@ -33,7 +33,7 @@ Console.WriteLine(Regex.IsMatch("8 123 456 78 90", phone));  // True
 Обратите внимание на использование в начале директивы `(?m)`:
 
 ```csharp
-string r = @"(?m)^\s*(?'name'\w+)\s*=\s*(?'value'.*)\s*(?=\r?$)";
+string r = @"(?m)^\s*(?'name'\w+)\s*=\s*(?'value'.+)\s*(?=\r?$)";
 
 string text =
   @"id = 3
