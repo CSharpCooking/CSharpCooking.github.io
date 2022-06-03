@@ -252,7 +252,7 @@ string htmlFragment = "© 2007";
 string result = Regex.Replace (
 	htmlFragment,
 	@"[\u0080-\uFFFF]", // для © — \u00A9
-	m => @"&#" + ((int)m.Value[0]).ToString() + ";");
+	m => @"&#" + (int)m.Value[0] + ";");
 
 Console.WriteLine (result); // &#169; 2007
 ```
