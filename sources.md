@@ -4,7 +4,7 @@
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
-- [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.pdf)
+- [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
 - [Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд.](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
 - [Дэвид М. Харрис и Сара Л. Харрис Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/Digital-Design-and-Computer-Architecture.pdf)
 
