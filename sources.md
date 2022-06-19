@@ -20,3 +20,5 @@
 - [SmartGit – Git Client for Windows, macOS, Linux](https://www.syntevo.com/smartgit/)
 - [Windows Debugger (WinDbg)](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/)
 - [Parallel Checker](https://parallel-checker.com/)
+- [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)
+- [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
