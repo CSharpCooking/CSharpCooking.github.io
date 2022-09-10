@@ -12,7 +12,7 @@
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
-- [Практикум по параллельным вычислениям](https://csharpcooking.github.io/practice/ParallelComputing.zip)
+- [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 
 ## Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
