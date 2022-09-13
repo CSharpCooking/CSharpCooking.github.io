@@ -6,7 +6,9 @@
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
 - [Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд.](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
-- [Дэвид М. Харрис и Сара Л. Харрис Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/Digital-Design-and-Computer-Architecture.pdf)
+- [Дэвид М. Харрис и Сара Л. Харрис Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/DigitalDesignAndComputerArchitecture.pdf)
+- [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
+- [Кринкин К. В. Архитектура ЭВМ и основы ОС](https://www.youtube.com/playlist?list=PLhlTilzRdxyl456zNf9lOkDMNWIznSCxM)
 
 ## Практика
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
