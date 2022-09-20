@@ -2,6 +2,7 @@
 
 ## Теория
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
+- [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
