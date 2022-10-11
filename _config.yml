@@ -24,7 +24,7 @@ plainwhite:
   navigation:
     - title: Главная
       url: "/"
-	- title: Тренинги
+    - title: Тренинги
       url: "/trainings"
     - title: Проект
       url: "/project"
