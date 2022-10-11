@@ -30,13 +30,13 @@ plainwhite:
       url: "/sources"
   # generate social links in footer
   social_links:
+    youtube: CSharpCooking
     #twitter: samarsault
     #github:  samarsault
     #linkedIn: in/samarsault
     #rss: rss
     #dribbble: jekyll
-    #flickr:   jekyll
-    youtube: CSharpCooking
+    #flickr:   jekyll    
     instagram: CSharpCooking
     #pinterest: jekyll
     #facebook: jekyll
