@@ -26,8 +26,6 @@ plainwhite:
       url: "/"
     - title: Тренинги
       url: "/trainings"
-    - title: Проект
-      url: "/project"
     - title: Источники
       url: "/sources"
   # generate social links in footer
