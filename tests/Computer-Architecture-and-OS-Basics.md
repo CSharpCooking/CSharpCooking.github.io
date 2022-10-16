@@ -14,4 +14,4 @@
 8. [Тестовые задания к лекции 8](https://www.classmarker.com/online-test/start/?quiz=fpm6333164c8e138)
 
 ##  Замечание
-Работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать [Windscribe](https://rus.windscribe.com/).
+Работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [SetupVPN](https://setupvpn.com/).
