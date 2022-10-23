@@ -178,6 +178,7 @@ partial class MyWindow : Window
 </tbody>
 </table>  
   
+  
 _SynchronizationContext_ по умолчанию не гарантирует ни порядка выполнения, ни синхронизации, где базовая реализация методов _Send_ и _Post_ выглядит следующим образом:
 
 ```csharp
