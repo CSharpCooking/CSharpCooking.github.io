@@ -56,7 +56,7 @@ partial class MyWindow : Window
   void UpdateMessage (string message)
   {
     Action action = () => txtMessage.Text = message;
-    Dispatcher.BeginInvoke(action);
+    Dispatcher.BeginInvoke (action);
   }  
   void InitializeComponent()
   {
@@ -122,14 +122,62 @@ partial class MyWindow : Window
 
 Удобство в том, что один и тот же подход работает со всеми обогащенными API-интерфейсами. Правда не все реализации _SynchronizationContext_ гарантируют порядок выполнения делегатов или их синхронизацию (см. таблицу). Реализации _SynchronizationContext_ на основе UI этим условиям удовлетворяют, тогда как _ASP.NET SynchronizationContext_ обеспечивает только синхронизацию.
 
-**Таблица. Сводное описание реализаций _SynchronizationContext_**
-|                     | **Выполнение делегатов в определенном потоке** | **Делегаты выполняются по одному за раз** | **Делегаты выполняются в порядке очереди** | **Send может напрямую вызывать делегат** | **Post может напрямую вызывать делегат** |
-|---------------------|------------------------------------------------|-------------------------------------------|--------------------------------------------|------------------------------------------|------------------------------------------|
-| **Windows Forms**   | Да                                             | Да                                        | Да                                         | Если вызывается из UI-потока             | Никогда                                  |
-| **WPF/Silverlight** | Да                                             | Да                                        | Да                                         | Если вызывается из UI-потока             | Никогда                                  |
-| **По умолчанию**    | Нет                                            | Нет                                       | Нет                                        | Всегда                                   | Никогда                                  |
-| **ASP.NET**         | Нет                                            | Да                                        | Нет                                        | Всегда                                   | Всегда                                   |
-
+**Таблица. Сводное описание реализаций _SynchronizationContext_**  
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Выполнение делегатов в определенном потоке</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Делегаты выполняются по одному за раз</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Делегаты выполняются в порядке очереди</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Send может напрямую вызывать делегат</span></th>
+    <th class="tg-0pky"><span style="font-weight:bold">Post может напрямую вызывать делегат</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">Windows Forms</span></td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Если вызывается из UI-потока</td>
+    <td class="tg-0pky">Никогда</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">WPF/Silverlight</span></td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Если вызывается из UI-потока</td>
+    <td class="tg-0pky">Никогда</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">По умолчанию</span></td>
+    <td class="tg-0pky">Нет</td>
+    <td class="tg-0pky">Нет</td>
+    <td class="tg-0pky">Нет</td>
+    <td class="tg-0pky">Всегда</td>
+    <td class="tg-0pky">Никогда</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky"><span style="font-weight:bold">ASP.NET</span></td>
+    <td class="tg-0pky">Нет</td>
+    <td class="tg-0pky">Да</td>
+    <td class="tg-0pky">Нет</td>
+    <td class="tg-0pky">Всегда</td>
+    <td class="tg-0pky">Всегда</td>
+  </tr>
+</tbody>
+</table>  
+  
 _SynchronizationContext_ по умолчанию не гарантирует ни порядка выполнения, ни синхронизации, где базовая реализация методов _Send_ и _Post_ выглядит следующим образом:
 
 ```csharp
