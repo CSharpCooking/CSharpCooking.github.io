@@ -10,6 +10,7 @@
 - [Дэвид М. Харрис и Сара Л. Харрис Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/DigitalDesignAndComputerArchitecture.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
 - [Кринкин К. В. Архитектура ЭВМ и основы ОС](https://www.youtube.com/playlist?list=PLhlTilzRdxyl456zNf9lOkDMNWIznSCxM) + [Тесты](https://csharpcooking.github.io/tests/Computer-Architecture-and-OS-Basics)
+- [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 
 ## Практика
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
