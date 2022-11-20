@@ -14,7 +14,7 @@
 ## Материалы
 - [Презентация](https://docs.google.com/presentation/d/1prfRD92LRiJ1V0UpgMk25Ej1M-YaWeVJz-gotUn7JW4/)
 - Видеолекции
-- Тесты:
+- Тесты для самоконтроля:
   - Parallel LINQ
   - Класс Parallel
   - Конструкции параллелизма задач
