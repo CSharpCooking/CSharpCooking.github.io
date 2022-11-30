@@ -16,7 +16,7 @@
 - Видеолекции
 - Тесты для самоконтроля:
   - [Parallel LINQ](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
-  - Класс Parallel
+  - [Класс Parallel](https://www.classmarker.com/online-test/start/?quiz=k67638746d849e77)
   - Параллелизм задач
   - Параллельные коллекции
 
