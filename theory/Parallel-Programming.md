@@ -17,7 +17,7 @@
 - Тесты для самоконтроля:
   - [Parallel LINQ](https://www.classmarker.com/online-test/start/?quiz=kg66384e87528fc7)
   - [Класс Parallel](https://www.classmarker.com/online-test/start/?quiz=k67638746d849e77)
-  - Параллелизм задач
+  - [Параллелизм задач](https://www.classmarker.com/online-test/start/?quiz=eny6388f0205dd09)
   - Параллельные коллекции
 
 > **Замечание по прохождению тестов**
