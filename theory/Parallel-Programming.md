@@ -18,7 +18,7 @@
   - [Parallel LINQ](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - [Класс Parallel](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Параллелизм задач](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
-  - Параллельные коллекции
+  - [Параллельные коллекции](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
 
 > **Замечание по прохождению тестов**
 >
