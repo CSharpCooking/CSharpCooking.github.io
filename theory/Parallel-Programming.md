@@ -13,15 +13,17 @@
 
 ## Материалы
 - [Презентация](https://docs.google.com/presentation/d/1prfRD92LRiJ1V0UpgMk25Ej1M-YaWeVJz-gotUn7JW4/)
+
 - Видеолекции
+
 - Тесты для самоконтроля:
   - [Parallel LINQ](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - [Класс Parallel](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Параллелизм задач](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
   - [Параллельные коллекции](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)  
-
+  
   *Замечание по прохождению тестов*: работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
-
+  
 - Задания для самоконтроля:
   - [Класс Parallel](https://csharpcooking.github.io/theory/Parallel-Programming-Class-Parallel)
   - Параллелизм задач
