@@ -27,4 +27,4 @@
 - Задания для самоконтроля:
   - [Класс Parallel](https://csharpcooking.github.io/theory/Parallel-Programming-Class-Parallel)
   - [Параллелизм задач](https://csharpcooking.github.io/theory/Parallel-Programming-Task-Parallelism)
-  - Параллельные коллекции
+  - [Параллельные коллекции](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)
