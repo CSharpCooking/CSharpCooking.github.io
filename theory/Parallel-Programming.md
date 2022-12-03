@@ -25,6 +25,6 @@
   *Замечание по прохождению тестов*: работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
   
 - Задания для самоконтроля:
-  - [Класс Parallel](https://csharpcooking.github.io/practice/Parallel-Programming-Class-Parallel)
+  - [Класс Parallel](https://csharpcooking.github.io/theory/Parallel-Programming-Class-Parallel)
   - Параллелизм задач
   - Параллельные коллекции
