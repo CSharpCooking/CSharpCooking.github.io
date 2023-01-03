@@ -24,8 +24,6 @@ plainwhite:
   navigation:
     - title: Главная
       url: "/"
-    - title: Тренинги
-      url: "/trainings"
     - title: Источники
       url: "/sources"
   # generate social links in footer
