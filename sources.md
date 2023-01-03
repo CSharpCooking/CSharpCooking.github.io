@@ -1,6 +1,7 @@
 # Источники
 
 ## Теория
+- [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
   - [Учебные материалы по главе «Параллельное программирование»](https://csharpcooking.github.io/theory/Parallel-Programming)
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
