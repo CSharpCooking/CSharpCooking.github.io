@@ -50,4 +50,4 @@
     - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)
   
 
-> *Замечание по прохождению тестов*: работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
+> ***Замечание по прохождению тестов:*** работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
