@@ -12,6 +12,6 @@
 6. [Тестовые задания к лекции 6](https://www.classmarker.com/online-test/start/test-intro/?quiz=hcv633315a6e7163)
 7. [Тестовые задания к лекции 7](https://www.classmarker.com/online-test/start/test-intro/?quiz=7dm633315d120c8a)
 8. [Тестовые задания к лекции 8](https://www.classmarker.com/online-test/start/test-intro/?quiz=fpm6333164c8e138)  
-
+  
 **Замечание по прохождению тестов:**
 Работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
