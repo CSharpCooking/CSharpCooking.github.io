@@ -5,6 +5,7 @@
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
   - [Учебные материалы по главе «Параллельное программирование»](https://csharpcooking.github.io/theory/Parallel-Programming)
+- [Stephen Toub (2010). Patterns of parallel programming. Microsoft Corporation](https://csharpcooking.github.io/theory/Patterns-of-Parallel-Programming-CSharp.pdf)
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
