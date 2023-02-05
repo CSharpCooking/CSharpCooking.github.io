@@ -2,6 +2,7 @@
 
 ## Теория
 - [C# 10 in a Nutshell: The Definitive Reference by Joseph Albahari](https://csharpcooking.github.io/theory/AlbahariCSharp10.pdf)
+- [Joe Mayo (2022). C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
   - [Учебные материалы по главе «Параллельное программирование»](https://csharpcooking.github.io/theory/Parallel-Programming)
