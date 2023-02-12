@@ -20,6 +20,7 @@
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 
 ## Практика
+- [Практикум по языку программирования C#](https://csharpcooking.github.io/practice/CSharp-Tasks)
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
