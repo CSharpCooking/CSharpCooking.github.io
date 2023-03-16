@@ -35,4 +35,4 @@
 - [Parallel Checker](https://parallel-checker.com/)
 - [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)
 - [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-- [PrivadoVPN](https://privadovpn.com/ru/)
+- [iTop VPN](https://ru.itopvpn.com/)
