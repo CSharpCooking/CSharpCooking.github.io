@@ -82,11 +82,50 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
 
 Ниже в таблице 1 представлен обзор отличий между типами `double` и `decimal`.
 
-Таблица 1. Отличия между типами `double` и `decimal`  20-56  
-|    **Характеристика**    |      **double**     |                                **decimal**                                |
-|:------------------------:|:-------------------:|:-------------------------------------------------------------------------:|
-| Внутреннее представление | Двоичное            | Десятичное                                                                |
-| Десятичная точность      | 15–16 значащих цифр | 28–29 значащих цифр                                                       |
-| Диапазон                 |                     |                                                                           |
-| Специальные значения     | +0, -0 и NaN        | Отсутствуют                                                               |
-| Скорость обработки       | Присущая процессору | Не присущая процессору (примерно в 10 раз медленнее, чем в случае double) |
+Таблица 1. Отличия между типами `double` и `decimal`  20-57  
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow"><span style="font-weight:bold">Характеристика</span></th>
+    <th class="tg-c3ow"><span style="font-weight:bold">double</span></th>
+    <th class="tg-c3ow"><span style="font-weight:bold">decimal</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Внутреннее представление</td>
+    <td class="tg-0pky">Двоичное</td>
+    <td class="tg-0pky">Десятичное</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Десятичная точность</td>
+    <td class="tg-0pky">15–16 значащих цифр</td>
+    <td class="tg-0pky">28–29 значащих цифр</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Диапазон</td>
+    <td class="tg-c6of"><p>&plusmn;(~1<span style="font-weight: 400;">0</span><sup><span style="font-weight: 400;">-324</span></sup><span style="font-weight: 400;">&ndash;~</span><span style="font-weight: 400;">10</span><span style="font-weight: 400;"><sup>308</sup>)</span></p></td>
+    <td class="tg-0pky"><p>&plusmn;(~1<span style="font-weight: 400;">0</span><sup><span style="font-weight: 400;">-28</span></sup><span style="font-weight: 400;">&ndash;~</span><span style="font-weight: 400;">10</span><span style="font-weight: 400;"><sup>28</sup>)</span></p></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Специальные значения</td>
+    <td class="tg-0pky">+0, -0, +∞, -∞ и NaN</td>
+    <td class="tg-0pky">Отсутствуют</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Скорость обработки</td>
+    <td class="tg-0pky">Присущая процессору</td>
+    <td class="tg-0pky">Не присущая процессору (примерно в 10 раз медленнее, чем в случае double)</td>
+  </tr>
+</tbody>
+</table>
