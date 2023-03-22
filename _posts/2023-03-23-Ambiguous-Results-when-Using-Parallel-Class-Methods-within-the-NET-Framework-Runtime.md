@@ -28,7 +28,23 @@ public static ParallelLoopResult For(
 - `TLocal` – тип данных, локальных для потока.
 - Возвращаемый объект – структура (`ParallelLoopResult`), в которой содержатся сведения о выполненной части цикла.
 
-Применим данный метод на практике, чтобы просуммировать квадратные корни чисел от 1 до $10^7$.
+Применим данный метод на практике, чтобы просуммировать квадратные корни чисел от 1 до $$10^7$$.
+
+```csharp
+
+object locker = new object();
+double grandTotal = 0;
+Parallel.For(1, 10000000,
+ () => 0.0, // Initialize the local value.
+ (i, state, localTotal) => // Body delegate. Notice that it
+  localTotal + Math.Sqrt(i), // returns the new local total.
+ localTotal => // Add the local
+  { lock (locker) grandTotal += localTotal; } // to the master value.
+);
+Console.WriteLine(grandTotal);
+```
+
+
 
 
 
