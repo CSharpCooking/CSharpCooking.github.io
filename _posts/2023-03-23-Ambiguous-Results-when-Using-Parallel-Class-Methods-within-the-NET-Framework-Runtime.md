@@ -82,7 +82,7 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
 
 Ниже в таблице 1 представлен обзор отличий между типами `double` и `decimal`.
 
-Таблица 1. Отличия между типами `double` и `decimal`  20-57  
+Таблица 1. Отличия между типами `double` и `decimal`  21-40  
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
@@ -125,7 +125,7 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
   <tr>
     <td class="tg-0pky">Скорость обработки</td>
     <td class="tg-0pky">Присущая процессору</td>
-    <td class="tg-0pky">Не присущая процессору (примерно в 10 раз медленнее, чем в случае double)</td>
+    <td class="tg-0pky">Не присущая процессору (примерно<br /> в 10 раз медленнее, чем в случае double)</td>
   </tr>
 </tbody>
 </table>
