@@ -199,109 +199,134 @@ internal ParallelForReplicatingTask(…)
   …
 }
 ```
-Метод rootTask.RunSynchronously запускает исполнение задач в рабочих потоках пула, при этом число задач задается свойством parallelOptions.EffectiveMaxConcurrencyLevel. Метод FindNewWork32 определяет рабочий диапазон для каждого потока пула. В представленном коде можно увидеть, что выполнение любой задачи не ограничивается выполнением первоначально определенного диапазона, потоки пула продолжают работу для вновь задаваемых диапазонов в операторе while.
+Метод `rootTask.RunSynchronously` запускает исполнение задач в рабочих потоках пула, при этом число задач задается свойством `parallelOptions.EffectiveMaxConcurrencyLevel`. Метод `FindNewWork32` определяет рабочий диапазон для каждого потока пула. В представленном коде можно увидеть, что выполнение любой задачи не ограничивается выполнением первоначально определенного диапазона, потоки пула продолжают работу для вновь задаваемых диапазонов в операторе `while`.
 
-Проведем детализацию работы метода Parallel.For с аргументом обобщенного типа на ранее представленном примере по суммированию квадратных корней чисел, расширив код следующим образом.
+Проведем детализацию работы метода `Parallel.For` с аргументом обобщенного типа на ранее представленном примере по суммированию квадратных корней чисел, расширив код следующим образом.
 
+```csharp
 object locker = new object();
-
 double grandTotal = 0;
-
 ConcurrentBag<(int?, double)> cb1 = new ConcurrentBag<(int?, double)>();
-
 ConcurrentDictionary<int?, long> cd = new ConcurrentDictionary<int?, long>();
-
 ConcurrentBag<(int?, int)> cb2 = new ConcurrentBag<(int?, int)>();
-
 var time = Stopwatch.StartNew();
-
 time.Start();
-
 Parallel.For(1, 1000,
-
  () => { return 0.0; },
-
  (i, state, localTotal) =>
-
  {
-
- cb1.Add((Task.CurrentId, localTotal));
-
- if (!cd.ContainsKey(Task.CurrentId)) cd[Task.CurrentId] = time.ElapsedTicks;
-
- cb2.Add((Task.CurrentId, i));
-
- return localTotal + Math.Sqrt(i);
-
+   cb1.Add((Task.CurrentId, localTotal));
+   if (!cd.ContainsKey(Task.CurrentId)) cd[Task.CurrentId] = time.ElapsedTicks;
+   cb2.Add((Task.CurrentId, i));
+   return localTotal + Math.Sqrt(i);
  },
-
  localTotal =>
-
  { lock (locker) grandTotal += localTotal; }
-
 );
-
 cb1.GroupBy(_ => _.Item1).Select(_ => new
-
 {
-
- TaskId = _.Key,
-
- Iterations = _.Count(),
-
- StartTime = cd[_.Key]
-
+  TaskId = _.Key,
+  Iterations = _.Count(),
+  StartTime = cd[_.Key]
 }).OrderBy(_ => _.StartTime).Dump();
-
 var query = cb2.OrderBy(_ => _.Item2).GroupBy(_ => _.Item1, _ => _.Item2);
-
 foreach (var grouping in query)
-
 {
-
- Console.WriteLine("TaskId: " + grouping.Key);
-
- var r = grouping.GetEnumerator();
-
- int? i = null;
-
- bool onlyOne = true;
-
- foreach (int iteration in grouping)
-
- {
-
- if (i == null)
-
-  Console.Write("{" + $"{iteration}");
-
- else
-
- {
-
-  if (iteration - i != 1)
-
-  Console.Write(",...," + i + "}, {" + iteration);
-
-  onlyOne = false;
-
- }
-
- i = iteration;
-
- }
-
- if (onlyOne) Console.WriteLine("}");
-
- else Console.WriteLine(",...," + i + "}");
-
+  Console.WriteLine("TaskId: " + grouping.Key);
+  var r = grouping.GetEnumerator();
+  int? i = null;
+  bool onlyOne = true;
+  foreach (int iteration in grouping)
+  {
+    if (i == null)
+      Console.Write("{" + $"{iteration}");
+    else
+    {
+      if (iteration - i != 1)
+        Console.Write(",...," + i + "}, {" + iteration);
+      onlyOne = false;
+    }
+    i = iteration;
+  }
+  if (onlyOne) Console.WriteLine("}");
+  else Console.WriteLine(",...," + i + "}");
 }
+```
+
+
 
 Программный код позволяет учесть:
-
-- идентификатор каждой задачи TaskId; 
-- количество итераций выполненное в рамках каждой задачи Iterations; 
-- StartTime – время начала работы каждой задачи, выраженное в тиках посредством класса Stopwatch (один тик является меньше одной микросекунды);
+- идентификатор каждой задачи `TaskId`; 
+- количество итераций выполненное в рамках каждой задачи `Iterations`; 
+- `StartTime` – время начала работы каждой задачи, выраженное в тиках посредством класса `Stopwatch` (один тик является меньше одной микросекунды);
 - диапазоны номеров обработанных итераций каждой задачи.
 
-Например, по результатам работы программы на машине, способной выполнять 8 потоков параллельно на аппаратном уровне, можно получить следующие показатели TaskId, Iterations, StartTime (табл. 2). Диапазоны номеров обработанных итераций представлены в таблице 3. 
+Например, по результатам работы программы на машине, способной выполнять 8 потоков параллельно на аппаратном уровне, можно получить следующие показатели `TaskId`, `Iterations`, `StartTime` (табл. 2). Диапазоны номеров обработанных итераций представлены в таблице 3. 
+
+Таблица 2. Показатели `TaskId`, `Iterations`, `StartTime` после завершения метода `Parallel.For`
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax">TaskId</th>
+    <th class="tg-0lax">Iterations</th>
+    <th class="tg-0lax">StartTime</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">20</td>
+    <td class="tg-0lax">205</td>
+    <td class="tg-0lax">54568</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">21</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">54597</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">16</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">54709</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">22</td>
+    <td class="tg-0lax">159</td>
+    <td class="tg-0lax">54846</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">18</td>
+    <td class="tg-0lax">204</td>
+    <td class="tg-0lax">54986</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">24</td>
+    <td class="tg-0lax">161</td>
+    <td class="tg-0lax">55689</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">17</td>
+    <td class="tg-0lax">111</td>
+    <td class="tg-0lax">55689</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">15</td>
+    <td class="tg-0lax">1</td>
+    <td class="tg-0lax">55821</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">19</td>
+    <td class="tg-0lax">156</td>
+    <td class="tg-0lax">55880</td>
+  </tr>
+</tbody>
+</table>
+
