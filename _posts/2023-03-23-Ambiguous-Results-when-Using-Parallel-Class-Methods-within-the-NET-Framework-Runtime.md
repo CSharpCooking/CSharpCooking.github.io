@@ -150,7 +150,7 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
 
 ## Исследование метода Parallel.For для детализации причины неоднозначности конечного результата
 
-Реализация метода `For` сложна и требует детального рассмотрения, которое выходит за рамки данной статьи. Тем не менее отметим некоторые моменты программной реализации метода Parallel.For с аргументом обобщенного типа.
+Реализация метода `For` сложна и требует детального рассмотрения, которое выходит за рамки данной статьи. Тем не менее отметим некоторые моменты программной реализации метода `Parallel.For` с аргументом обобщенного типа.
 
 ```csharp
 public static ParallelLoopResult For(int fromInclusive, int toExclusive, Func localInit, Func<int, ParallelLoopState, TLocal, TLocal> body, …)
@@ -186,7 +186,7 @@ private static ParallelLoopResult ForWorker(int fromInclusive, int toExclusive, 
         }
       }
       while (rangeWorker.FindNewWork32(out nFromInclusiveLocal, out nToExclusiveLocal) …);
-      //…
+      …
     }
   }, creationOptions, internalOptions);
   rootTask.RunSynchronously(parallelOptions.EffectiveTaskScheduler);
