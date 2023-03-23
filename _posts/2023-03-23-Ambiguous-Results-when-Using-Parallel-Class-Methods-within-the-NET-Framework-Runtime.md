@@ -373,3 +373,120 @@ foreach (var grouping in query)
   </tr>
 </tbody>
 </table>
+
+По результатам работы программы можно увидеть, что рабочие диапазоны различны. Некоторые задачи состоят из единственной итерации. Но это не является недостатком алгоритма по которому реализован исследуемый метод, а следствием того, что обработка одной итерации представляет собой нетрудоемкую с вычислительной точки зрения процедуры. Так, например, если в целевой метод делегата, представляющий четвертый параметр метода `Parallel.For`, добавить строки:
+
+```csharp
+for (int k = 0; k < 1000000; k++)
+  Math.Sqrt(k);
+```
+
+тем самым существенно усложнив обработку каждой итерации цикла, то можно получить равномерное распределение диапазонов по задачам (табл. 4).
+
+Таблица 4. Показатели `TaskId`, `Iterations`, `StartTime` после усложнения обработки каждой итерации цикла
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">TaskId</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">Iterations</span></th>
+    <th class="tg-amwm"><span style="font-style:normal;text-decoration:none;color:#000;background-color:transparent">StartTime</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">13</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">50828</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">10</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">63</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">50849</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">12</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">51226</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">16</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">51698</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">15</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">52224</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">11</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">95</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">52788</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">19</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">108</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">53181</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">17</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">84</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">53640</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">14</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">79</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">53976</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">20</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">32</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3263706</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">21</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">32</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3355186</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">22</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">32</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3462087</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">23</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">32</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3543335</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">24</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">29</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3562197</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">25</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">39</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3575327</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">26</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">29</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3639235</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">27</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">29</span></td>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3797790</span></td>
+  </tr>
+</tbody>
+</table>
