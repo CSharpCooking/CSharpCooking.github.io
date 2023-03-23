@@ -330,3 +330,45 @@ foreach (var grouping in query)
 </tbody>
 </table>
 
+Таблица 3. Диапазоны номеров обработанных итераций каждой задачи
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Идентификатор задачи</span></th>
+    <th class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Диапазоны номеров обработанных итераций</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">24</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{1,...,31}, {40,...,55}, {88,...,103}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{120,...,124}, {142,...,173}, {206,...,221}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{266,...,281}, {330,...,345}, {484,...,496} </span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">22</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{32,...,39}, {56,...,87}, {104,...,119}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{126,...,141}, {174,...,189}, {222,...,237}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{250,...,265}, {298,...,313}, {346,...,361}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{993,...,999}</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">15</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{125}</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">20</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{190,...,205}, {238,...,248}, {282,...,297}, </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{314,...,329}, {362,...,372}, {858,...,992}</span></td>
+  </tr>
+  <tr>
+    <td class="tg-baqh"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">16</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">{249}</span></td>
+  </tr>
+</tbody>
+</table>
