@@ -89,52 +89,6 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
   font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
   font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow"><span style="font-weight:bold">Характеристика</span></th>
-    <th class="tg-c3ow"><span style="font-weight:bold">double</span></th>
-    <th class="tg-c3ow"><span style="font-weight:bold">decimal</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Внутреннее представление</td>
-    <td class="tg-0pky">Двоичное</td>
-    <td class="tg-0pky">Десятичное</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Десятичная точность</td>
-    <td class="tg-0pky">15–16 значащих цифр</td>
-    <td class="tg-0pky">28–29 значащих цифр</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Диапазон</td>
-    <td class="tg-c6of"><p>&plusmn;(~1<span style="font-weight: 400;">0</span><sup><span style="font-weight: 400;">-324</span></sup><span style="font-weight: 400;">&ndash;~</span><span style="font-weight: 400;">10</span><span style="font-weight: 400;"><sup>308</sup>)</span></p></td>
-    <td class="tg-0pky"><p>&plusmn;(~1<span style="font-weight: 400;">0</span><sup><span style="font-weight: 400;">-28</span></sup><span style="font-weight: 400;">&ndash;~</span><span style="font-weight: 400;">10</span><span style="font-weight: 400;"><sup>28</sup>)</span></p></td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Специальные значения</td>
-    <td class="tg-0pky">+0, -0, +∞, -∞ и NaN</td>
-    <td class="tg-0pky">Отсутствуют</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Скорость обработки</td>
-    <td class="tg-0pky">Присущая процессору</td>
-    <td class="tg-0pky">Не присущая процессору (примерно<br /> в 10 раз медленнее, чем в случае double)</td>
-  </tr>
-</tbody>
-</table>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
-.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
 .tg .tg-0lax{text-align:left;vertical-align:top}
 </style>
@@ -175,12 +129,14 @@ Console.WriteLine (notQuiteWholeD < 1.0);  // True
 </tbody>
 </table>
 
-Раскроем тип decimal более детально, чтобы ответить на вопрос, почему обработка данных типа decimal не является присущей процессору. 
+Раскроем тип `decimal` более детально, чтобы ответить на вопрос, почему обработка данных типа `decimal` не является присущей процессору. 
 
-Двоичное представление decimal числа состоит из 1-битового знака, 96-битового целого числа и коэффициента масштабирования, используемого для деления целочисленного числа и указания его части десятичной дроби. Коэффициент масштабирования неявно представляет собой число 10, возведенное в степень в диапазоне от 0 до 28. Таким образом, bits – это массив из четырех элементов, состоящий из 32-разрядных целых чисел со знаком:
+Двоичное представление `decimal` числа состоит из 1-битового знака, 96-битового целого числа и коэффициента масштабирования, используемого для деления целочисленного числа и указания его части десятичной дроби. Коэффициент масштабирования неявно представляет собой число 10, возведенное в степень в диапазоне от 0 до 28.  
 
-- its[0], bits[1] и bits[2] содержат низкие, средние и высокие 32 биты 96-разрядного целого числа.
-- bits[3]:
+Таким образом, `decimal` число можно представить массивом `m`, который состоит из четырех 32-разрядных элементов, где:
+
+- `m[0]`, `m[1]` и `m[2]` содержат младшие, средние и высшие разряды 96-разрядного целого числа.
+- `m[3]`:
   - 0-15 не используются;
   - 16-23 (8 бит) содержат экспоненту от 0 до 28, что указывает на степень 10 для деления целочисленного числа;
   - 24-30 не используются;
