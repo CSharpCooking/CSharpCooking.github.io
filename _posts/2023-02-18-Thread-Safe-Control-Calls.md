@@ -88,7 +88,7 @@ void UpdateMessage (string message)
 partial class MyWindow : Window
 {
   TextBox txtMessage;
-  SynchronizationContext `uiSyncContext;
+  SynchronizationContext _uiSyncContext;
 
   public MyWindow()
   {
