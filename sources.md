@@ -16,11 +16,8 @@
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
 - [Кринкин К. В. Архитектура ЭВМ и основы ОС](https://www.youtube.com/playlist?list=PLhlTilzRdxyl456zNf9lOkDMNWIznSCxM)
   - [Тесты для самоконтроля](https://csharpcooking.github.io/tests/Computer-Architecture-and-OS-Basics)
-
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
-
 - [Уорд Б. Внутреннее устройство Linux](https://csharpcooking.github.io/theory/HowLinuxWorks.pdf)
-
 - [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
 
 ## Практика
@@ -29,6 +26,7 @@
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
+- [Курсовой проект по схемотехнике](CourseProjectOnCircuitEngineering.zip)
 
 ## Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
