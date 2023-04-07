@@ -19,6 +19,10 @@
 
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 
+- [Уорд Б. Внутреннее устройство Linux](https://csharpcooking.github.io/theory/HowLinuxWorks.pdf)
+
+- [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
+
 ## Практика
 - [Практикум по языку программирования C#](https://csharpcooking.github.io/practice/CSharp-Tasks)
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
