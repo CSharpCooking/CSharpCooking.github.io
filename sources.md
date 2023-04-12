@@ -26,7 +26,7 @@
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/practice/Network-Programming)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
-- [Курсовой проект по схемотехнике](CourseProjectOnCircuitEngineering.zip)
+- [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 
 ## Инструменты
 - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
