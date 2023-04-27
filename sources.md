@@ -30,12 +30,11 @@
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 
 ## Инструменты
-- [Visual Studio](https://visualstudio.microsoft.com/)
-- [LINQPad](https://www.linqpad.net/)
-- [Git](https://git-scm.com/)
-- [SmartGit](https://www.syntevo.com/smartgit/)
-- [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/)
-- [Parallel Checker](https://parallel-checker.com/)
-- [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)
-- [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-- [draw.io](https://www.diagrams.net/)
+- [Visual Studio](https://visualstudio.microsoft.com/) – интегрированная среда разработки (IDE) от Microsoft.
+- [LINQPad](https://www.linqpad.net/) – упрощенная IDE для .NET-разработчиков.
+- [Git](https://git-scm.com/) – распределенная система контроля версий.
+- [SmartGit](https://www.syntevo.com/smartgit/) – графический клиент для Git.
+- [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/) – инструмент разработки, предоставляемый Microsoft, который позволяет отлаживать и анализировать программы для операционной системы Windows.
+- [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads) – система управления базами данных, разработанная Microsoft.
+- [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) – интегрированная среда для управления и администрирования баз данных Microsoft SQL Server.
+- [draw.io](https://www.diagrams.net/) – инструмент для создания диаграмм и визуальных схем.
