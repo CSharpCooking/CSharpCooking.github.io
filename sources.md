@@ -19,6 +19,7 @@
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 - [Уорд Б. Внутреннее устройство Linux](https://csharpcooking.github.io/theory/HowLinuxWorks.pdf)
 - [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
+- [Джеймс Рамбо, Айвар Джекобсон. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
 
 ## Практика
 - [Практикум по языку программирования C#](https://csharpcooking.github.io/practice/CSharp-Tasks)
@@ -29,12 +30,12 @@
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 
 ## Инструменты
-- [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
-- [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
+- [Visual Studio](https://visualstudio.microsoft.com/)
+- [LINQPad](https://www.linqpad.net/)
 - [Git](https://git-scm.com/)
-- [SmartGit – Git Client for Windows, macOS, Linux](https://www.syntevo.com/smartgit/)
-- [Windows Debugger (WinDbg)](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/)
+- [SmartGit](https://www.syntevo.com/smartgit/)
+- [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/)
 - [Parallel Checker](https://parallel-checker.com/)
 - [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads)
 - [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16)
-- [iTop VPN](https://ru.itopvpn.com/)
+- [draw.io](https://www.diagrams.net/)
