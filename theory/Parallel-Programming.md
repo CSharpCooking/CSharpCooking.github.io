@@ -36,6 +36,5 @@
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
   - [Конспект](https://docs.google.com/document/d/11JR-oNC4iTP_p6x3UMmGoEPLl4yt0aFJKVJVE4Ovscw/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
-  - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)  
+  - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)
   
-> *Замечание по прохождению тестов:* работа с ClassMarker в России доступна через VPN, поэтому для прохождения тестов можно использовать, например, [PrivadoVPN](https://privadovpn.com/ru/).
