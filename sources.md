@@ -34,7 +34,7 @@
 - [LINQPad](https://www.linqpad.net/) – упрощенная IDE для .NET-разработчиков.
 - [Git](https://git-scm.com/) – распределенная система контроля версий.
 - [SmartGit](https://www.syntevo.com/smartgit/) – графический клиент для Git.
-- [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/) – инструмент разработки, предоставляемый Microsoft, который позволяет отлаживать и анализировать программы для операционной системы Windows.
+- [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/) – инструмент разработки, который позволяет отлаживать и анализировать программы для операционной системы Windows.
 - [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads) – система управления базами данных, разработанная Microsoft.
 - [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16) – интегрированная среда для управления и администрирования баз данных Microsoft SQL Server.
 - [draw.io](https://www.diagrams.net/) – инструмент для создания диаграмм и визуальных схем.
