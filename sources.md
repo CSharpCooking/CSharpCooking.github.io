@@ -21,6 +21,7 @@
 - [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
 - [Буч Г., Рамбо Д., Якобсон И. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
 - [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.pdf)
+- [Фолкнер Э., Чавез К. Adobe Photoshop СС. Официальный учебный курс](https://csharpcooking.github.io/theory/AdobePhotoshopCC.pdf)
 
 ## Практика
 - [Практикум по языку программирования C#](https://csharpcooking.github.io/practice/CSharp-Tasks)
