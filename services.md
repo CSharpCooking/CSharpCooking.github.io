@@ -2,7 +2,7 @@
 
 ## Виды
 
-- [Содействие по подготовке и публикации научных статей](https://csharpcooking.github.io/publications)
+- [Подготовка и публикация научных статей](https://csharpcooking.github.io/publications)
 - Рекомендательные письма
 - Реклама
 
