@@ -9,8 +9,8 @@ show_excerpts: true
 sass:
   sass_dir: _sass
 plainwhite:
-  name: C# Cooking
-  tagline: Рецепты на языке C#
+  name: Рецепты на языке C#
+  #tagline: Рецепты на языке C#
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
   disqus_shortname: csharpcooking
