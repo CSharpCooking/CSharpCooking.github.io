@@ -19,6 +19,7 @@
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 - [Уорд Б. Внутреннее устройство Linux](https://csharpcooking.github.io/theory/HowLinuxWorks.pdf)
 - [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
+- [Джумма Т. Говорить красиво и убедительно](https://csharpcooking.github.io/theory/Djumma.pdf)
 - [Буч Г., Рамбо Д., Якобсон И. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
 - [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.pdf)
 - [Фолкнер Э., Чавез К. Adobe Photoshop СС. Официальный учебный курс](https://csharpcooking.github.io/theory/AdobePhotoshopCC.pdf)
