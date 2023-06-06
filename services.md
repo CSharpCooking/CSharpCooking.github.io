@@ -2,7 +2,7 @@
 
 ## Виды
 
-- [Подготовка и публикация научных статей](https://csharpcooking.github.io/publications)
+- [Научные статьи](https://csharpcooking.github.io/publications)
 - Консультации
 - Реклама
 
