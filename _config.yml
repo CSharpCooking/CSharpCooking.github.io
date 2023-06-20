@@ -3,7 +3,6 @@ author: Ruslan Gibadullin
 email: landwatersun@gmail.com
 description: Рецепты вкусных программ на языке C# 
 show_excerpts: true
-
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
@@ -56,8 +55,6 @@ plainwhite:
 # this and add the path to the pages in order as they should show up
 #header_pages:
 # - about.md
-
-
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
