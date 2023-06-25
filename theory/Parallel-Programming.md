@@ -1,9 +1,7 @@
-# Учебные материалы по главе «Параллельное программирование» 
+# Материалы по учебному курсу «Параллельное программирование на языке C#» 
 
 ## Аннотация
-В главе «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip) раскрываются многопоточные API-интерфейсы и конструкции, направленные на использование преимуществ многоядерных процессоров: Parallel LINQ, класс Parallel, параллелизм задач, параллельные коллекции.  
-
-Все перечисленное было добавлено в версии .NET Framework 4.0 и вместе известно под названием Parallel Framework (PFX). Класс Parallel и конструкции параллелизма задач называют библиотекой параллельных задач (Task Parallel Library – TPL).
+Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip). В курсе раскрываются многопоточные API-интерфейсы и конструкции, направленные на использование преимуществ многоядерных процессоров: Parallel LINQ, класс Parallel, параллелизм задач, параллельные коллекции.
 
 ## Материалы
 - **Parallel LINQ**
@@ -37,4 +35,3 @@
   - [Конспект](https://docs.google.com/document/d/11JR-oNC4iTP_p6x3UMmGoEPLl4yt0aFJKVJVE4Ovscw/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
   - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)
-  
