@@ -18,7 +18,7 @@
   - [Презентация](https://docs.google.com/presentation/d/1B5xi6MpBbLNloHWpidP0XuJyV6Ax3lT9Cpb-5P5i9N0/)
   - [Конспект](https://docs.google.com/document/d/1gG7hJrWyNKyvQoANUY4pXIGpgNOJ8iBxH0qHnn6Durk/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
-  - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Class-Parallel)
+  - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Class-Parallel)
 
 - **Параллелизм задач**
 
@@ -26,7 +26,7 @@
   - [Презентация](https://docs.google.com/presentation/d/1t_LaWDYYuJo9BNNYcOlzJ2DIQ0PMiqbalOK01iqFDcs/)
   - [Конспект](https://docs.google.com/document/d/1EyCGAMRF6IW6-k1s9Fwz61uKvq21eXCH9ZMf-Bcx9xA/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
-  - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Task-Parallelism)
+  - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Task-Parallelism)
 
 - **Параллельные коллекции**
 
@@ -34,4 +34,4 @@
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
   - [Конспект](https://docs.google.com/document/d/11JR-oNC4iTP_p6x3UMmGoEPLl4yt0aFJKVJVE4Ovscw/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
-  - [Задание](https://csharpcooking.github.io/theory/Parallel-Programming-Concurrent-Collections)
+  - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Concurrent-Collections)
