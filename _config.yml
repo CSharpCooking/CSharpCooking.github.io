@@ -25,9 +25,6 @@ plainwhite:
       url: "/"
     - title: Источники
       url: "/sources"
-    - title: Источники 2
-      url: "/sources"	  
-  # generate social links in footer
   social_links:
     youtube: CSharpCooking
     #twitter: samarsault
