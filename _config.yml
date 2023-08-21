@@ -23,7 +23,7 @@ plainwhite:
   navigation:
     - title: Главная
       url: "/"
-    - title: Курсы
+    - title: Учебные курсы
       url: "/courses"
     - title: Источники
       url: "/sources"
