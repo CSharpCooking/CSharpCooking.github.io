@@ -5,13 +5,11 @@
 
 ## Материалы
 - **Parallel LINQ**
-
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
   - [Презентация](https://docs.google.com/presentation/d/1BMUTPVtklogdIl4Pw_wYmGRv15OlNAxKOUUl4Jfptx4/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - Задание (в процессе подготовки)
 - **Класс Parallel**
-
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
   - [Презентация](https://docs.google.com/presentation/d/1B5xi6MpBbLNloHWpidP0XuJyV6Ax3lT9Cpb-5P5i9N0/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
