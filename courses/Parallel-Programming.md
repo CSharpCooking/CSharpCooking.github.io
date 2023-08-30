@@ -15,7 +15,7 @@
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Class-Parallel)
 - **Параллелизм задач**
-  - Видеолекция (в процессе подготовки)
+  - [Видеолекция](https://youtu.be/98Hyw6Xjn6o)
   - [Презентация](https://docs.google.com/presentation/d/1t_LaWDYYuJo9BNNYcOlzJ2DIQ0PMiqbalOK01iqFDcs/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Task-Parallelism)
