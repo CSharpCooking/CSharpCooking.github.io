@@ -20,7 +20,7 @@
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Task-Parallelism)
 - **Работа с AggregateException**
-  - Видеолекция (в процессе подготовки)
+  - [Видеолекция](https://youtu.be/5U6fk6XC6AU)
   - [Презентация](https://docs.google.com/presentation/d/1i5Kq_PSj-3fQ8FLi2YXcmVnUnsq6rFS1XT6ICGwARmc/)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
