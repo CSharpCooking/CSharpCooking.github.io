@@ -31,6 +31,7 @@
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
+- [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
 
 ## Инструменты
 - [Visual Studio](https://visualstudio.microsoft.com/) – интегрированная среда разработки (IDE) от Microsoft.
