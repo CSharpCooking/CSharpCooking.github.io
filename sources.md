@@ -42,6 +42,6 @@
 - [Microsoft SQL Server](https://www.microsoft.com/ru-ru/sql-server/sql-server-downloads) – система управления базами данных, разработанная Microsoft.
 - [Microsoft SQL Server Management Studio](https://docs.microsoft.com/ru-ru/sql/ssms/download-sql-server-management-studio-ssms) – интегрированная среда для управления и администрирования баз данных Microsoft SQL Server.
 - [Visual Paradigm Online](https://online.visual-paradigm.com/) – онлайн-инструмент для построения диаграмм.
-- [Microsoft MPI](https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi) – реализация майкрософт стандарта интерфейса передачи сообщений для разработки и запуска параллельных приложений на платформе Windows.
+- [Microsoft MPI](https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi) – реализация Microsoft стандарта интерфейса передачи сообщений для разработки и запуска параллельных приложений на платформе Windows.
   - [MPI.NET: High-performance C# Library for Message Passing](https://github.com/mpidotnet/MPI.NET/)
 - [Claude AI](https://claude.ai/) – чат-бот с искусственным интеллектом.
