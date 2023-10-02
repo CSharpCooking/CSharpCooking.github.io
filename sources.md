@@ -33,7 +33,7 @@
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
-  - [Материалы к видеокурсу](https://csharpcooking.github.io/practice/netskills.7z)
+  - [Материалы к видеокурсу](https://github.com/CSharpCooking/CSharpCooking.github.io/raw/gh-pages/practice/netskills.7z)
 
 
 ## Инструменты
