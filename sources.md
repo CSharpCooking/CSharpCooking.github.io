@@ -32,6 +32,9 @@
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
+- [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
+  - [Материалы к видеокурсу](https://csharpcooking.github.io/practice/netskills.zip)
+
 
 ## Инструменты
 - [Visual Studio](https://visualstudio.microsoft.com/) – интегрированная среда разработки (IDE) от Microsoft.
