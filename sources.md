@@ -11,6 +11,7 @@
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
+- [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.pdf)
 - [Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд.](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
 - [Дэвид М. Харрис и Сара Л. Харрис. Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/DigitalDesignAndComputerArchitecture.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
@@ -47,4 +48,4 @@
 - [Visual Paradigm Online](https://online.visual-paradigm.com/) – онлайн-инструмент для построения диаграмм.
 - [Microsoft MPI](https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi) – реализация Microsoft стандарта интерфейса передачи сообщений для разработки и запуска параллельных приложений на платформе Windows.
   - [MPI.NET: High-performance C# Library for Message Passing](https://github.com/mpidotnet/MPI.NET/)
-- [Claude AI](https://claude.ai/) – чат-бот с искусственным интеллектом.
+- [Expresso](https://ultrapico.com/Expresso.htm) – редактор и тестировщик регулярных выражений.
