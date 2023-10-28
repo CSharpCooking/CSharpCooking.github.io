@@ -11,6 +11,7 @@
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
+- [Молинаро Э.  SQL. Сборник рецептов](https://csharpcooking.github.io/theory/SQLCookbook.pdf)
 - [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.pdf)
   - [Код приложений и модульные тесты](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 
