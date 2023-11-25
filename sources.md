@@ -36,6 +36,8 @@
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
+  - [Пример программной реализации](https://csharpcooking.github.io/practice/MPI-EFCore-Coursework-Example.zip) (автор – [Виктор Докучаев](https://t.me/VictorDokuchaev))
+
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
   - [Материалы к видеокурсу](https://github.com/CSharpCooking/CSharpCooking.github.io/raw/gh-pages/practice/netskills.7z)
 
