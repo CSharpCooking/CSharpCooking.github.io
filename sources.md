@@ -46,6 +46,7 @@
 ## Инструменты
 - [Visual Studio](https://visualstudio.microsoft.com/) – интегрированная среда разработки (IDE) от Microsoft.
 - [LINQPad](https://www.linqpad.net/) – упрощенная IDE для .NET-разработчиков.
+- [Online C# Compiler](https://www.onlinegdb.com/online_csharp_compiler) – code, compile, run and debug C# program online.
 - [Git](https://git-scm.com/) – распределенная система контроля версий.
 - [SmartGit](https://www.syntevo.com/smartgit/) – графический клиент для Git.
 - [Windows Debugger](https://docs.microsoft.com/ru-ru/windows-hardware/drivers/debugger/debugger-download-tools/) – инструмент разработки, который позволяет отлаживать и анализировать программы для операционной системы Windows.
