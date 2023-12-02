@@ -55,3 +55,5 @@
 - [Microsoft MPI](https://learn.microsoft.com/ru-ru/message-passing-interface/microsoft-mpi) – реализация Microsoft стандарта интерфейса передачи сообщений для разработки и запуска параллельных приложений на платформе Windows.
   - [MPI.NET: High-performance C# Library for Message Passing](https://github.com/mpidotnet/MPI.NET/)
 - [Expresso](https://ultrapico.com/Expresso.htm) – редактор и тестировщик регулярных выражений.
+- [Claude AI](https://claude.ai/chats) – чат-бот с искусственным интеллектом.
+- [ZoogVPN](https://zoogvpn.com/ru-ru/) – VPN-сервис.
