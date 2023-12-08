@@ -58,3 +58,4 @@
 - [Expresso](https://ultrapico.com/Expresso.htm) – редактор и тестировщик регулярных выражений.
 - [Claude AI](https://claude.ai/chats) – чат-бот с искусственным интеллектом.
 - [ZoogVPN](https://zoogvpn.com/ru-ru/) – VPN-сервис.
+- [Total Commander Portable 10.0 micro](https://csharpcooking.github.io/data/TotalCommanderPortable.zip) – файловый менеджер для Windows с удобным пользовательским интерфейсом.
