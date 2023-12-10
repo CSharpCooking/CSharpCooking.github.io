@@ -1,6 +1,7 @@
 # Источники
 
 ## Теория
+- [C# 12 in a Nutshell: The Definitive Reference by Joseph Albahari](https://csharpcooking.github.io/theory/AlbahariCSharp12.zip)
 - [C# 10 in a Nutshell: The Definitive Reference by Joseph Albahari](https://csharpcooking.github.io/theory/AlbahariCSharp10.pdf)
 - [Joe Mayo (2022). C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
