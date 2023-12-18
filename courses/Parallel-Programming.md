@@ -26,6 +26,6 @@
   - Задание (в процессе подготовки)
 - **Параллельные коллекции**
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
-  - Видеолекция (в процессе подготовки)
+  - [Видеолекция](https://youtu.be/VpgkBGA-98s)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Concurrent-Collections)
