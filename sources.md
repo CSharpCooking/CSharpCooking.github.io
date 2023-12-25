@@ -27,6 +27,7 @@
 - [Джумма Т. Говорить красиво и убедительно](https://csharpcooking.github.io/theory/Djumma.pdf)
 - [Буч Г., Рамбо Д., Якобсон И. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
 - [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.pdf)
+- [ГОСТ 19.701-90 ЕСПД. Схемы алгоритмов, программ, данных и систем](https://csharpcooking.github.io/theory/gost-19-701-90.pdf)
 - [Фолкнер Э., Чавез К. Adobe Photoshop СС. Официальный учебный курс](https://csharpcooking.github.io/theory/AdobePhotoshopCC.pdf)
 - [Просветительский канал по информатике и вычислительной технике "LandWaterSun"](https://www.youtube.com/landwatersun)
 
