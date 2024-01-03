@@ -28,8 +28,7 @@ wordsToTest[12342] = "wubsie";
 wordsToTest[12344] = "adgdgr";
 wordsToTest[12348] = "dfgsie";
 
-var misspellings = new ConcurrentBag < Tuple < int,
-  string >> ();
+var misspellings = new ConcurrentBag < Tuple < int, string >> ();
 
 Parallel.ForEach(wordsToTest, (word, state, i) => {
   if (!wordLookup.Contains(word))
