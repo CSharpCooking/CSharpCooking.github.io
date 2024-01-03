@@ -22,8 +22,11 @@ string[] wordsToTest = Enumerable.Range(0, 1000000)
   .Select(i => wordList[random.Next(0, wordList.Length)])
   .ToArray();
 
-wordsToTest[12345] = "woozsh"; // Introduce a couple
-wordsToTest[23456] = "wubsie"; // of spelling mistakes.
+// Introducing a few spelling mistakes.
+wordsToTest[12340] = "woozsh";
+wordsToTest[12342] = "wubsie";
+wordsToTest[12344] = "adgdgr";
+wordsToTest[12348] = "dfgsie";
 
 var misspellings = new ConcurrentBag < Tuple < int,
   string >> ();
@@ -36,7 +39,7 @@ Parallel.ForEach(wordsToTest, (word, state, i) => {
 misspellings.Dump();
 ```
 
-Модифицируйте программу таким образом, чтобы продемонстрировать раннее прекращение параллельного метода  `Parallel.ForEach` посредством вызова метода `Break` или `Stop` на объекте `ParallelLoopState` (реализуйте оба варианта).
+Модифицируйте программу таким образом, чтобы продемонстрировать раннее прекращение параллельного метода  `Parallel.ForEach` после выявления первой ошибки. Для решения используйте метод `Break` или `Stop` на объекте `ParallelLoopState` (реализуйте оба варианта).
 
 ## Методические указания по выполнению
 
