@@ -8,7 +8,7 @@
   - [Презентация](https://docs.google.com/presentation/d/1BMUTPVtklogdIl4Pw_wYmGRv15OlNAxKOUUl4Jfptx4/)
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
-  - Задание (в процессе подготовки)
+  - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Parallel-LINQ)
 - **Класс Parallel**
   - [Презентация](https://docs.google.com/presentation/d/1B5xi6MpBbLNloHWpidP0XuJyV6Ax3lT9Cpb-5P5i9N0/)
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
