@@ -1,7 +1,7 @@
 # Учебный курс «Параллельное программирование на языке C#» 
 
 ## Аннотация
-Учебный курс подготовлен на основе [главы «Параллельное программирование»](https://csharpcooking.github.io/courses/AlbahariCSharp7-ParallelProgramming.pdf) книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip). В курсе раскрываются многопоточные API-интерфейсы и конструкции, направленные на использование преимуществ многоядерных процессоров: Parallel LINQ, класс Parallel, параллелизм задач, работа с AggregateException, параллельные коллекции.
+В учебном курсе раскрываются многопоточные API-интерфейсы и конструкции, направленные на использование преимуществ многоядерных процессоров: Parallel LINQ, класс Parallel, параллелизм задач, работа с AggregateException, параллельные коллекции.
 
 ## Материалы
 - **Parallel LINQ**
@@ -29,3 +29,11 @@
   - [Видеолекция](https://youtu.be/VpgkBGA-98s)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Concurrent-Collections)
+
+## Источники
+
+- Учебный курс подготовлен на основе [главы «Параллельное программирование»](https://csharpcooking.github.io/courses/AlbahariCSharp7-ParallelProgramming.pdf) книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip).
+- Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
+  - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
+  - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
+- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/?a_aid=65957b40c9435) (комплексное решение для безопасности трафика и приватности в интернете).
