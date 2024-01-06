@@ -59,5 +59,5 @@
   - [MPI.NET: High-performance C# Library for Message Passing](https://github.com/mpidotnet/MPI.NET/)
 - [Expresso](https://ultrapico.com/Expresso.htm) – редактор и тестировщик регулярных выражений.
 - [Claude AI](https://claude.ai/chats) – чат-бот с искусственным интеллектом.
-- [ZoogVPN](https://zoogvpn.com/ru-ru/) – VPN-сервис.
+- [ZoogVPN](https://zoogvpn.com/?a_aid=65957b40c9435) – VPN-сервис.
 - [Total Commander Portable 10.0 micro](https://csharpcooking.github.io/data/TotalCommanderPortable.zip) – файловый менеджер для Windows с удобным пользовательским интерфейсом.
