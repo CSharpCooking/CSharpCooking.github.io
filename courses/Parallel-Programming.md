@@ -32,7 +32,7 @@
 
 ## Источники
 
-- Учебный курс подготовлен на основе [главы «Параллельное программирование»](https://csharpcooking.github.io/courses/AlbahariCSharp7-ParallelProgramming.pdf) книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip).
+- Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip).
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
