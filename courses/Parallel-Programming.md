@@ -22,7 +22,7 @@
 4. **Работа с AggregateException**
   - [Презентация](https://docs.google.com/presentation/d/1i5Kq_PSj-3fQ8FLi2YXcmVnUnsq6rFS1XT6ICGwARmc/)
   - [Видеолекция](https://youtu.be/5U6fk6XC6AU)
-  - Тест (в процессе подготовки)
+  - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445)
   - Задание (в процессе подготовки )
 5. **Параллельные коллекции**
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
