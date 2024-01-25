@@ -29,4 +29,4 @@ if (!File.Exists(wordLookupFile)) // Contains about 150000 words
 
 ## Вариант решения
 
-Если Вы столкнулись с трудностями при решении этой задачи или Вам достаточно просто ознакомиться с методикой её решения, то ответ доступен по [ссылке]([ParallelProgramming/Parallel-LINQ-Task-Solution/Program.cs at Parallel-LINQ · CSharpCooking/ParallelProgramming (github.com)](https://github.com/CSharpCooking/ParallelProgramming/blob/Parallel-LINQ/Parallel-LINQ-Task-Solution/Program.cs)).
+Если Вы столкнулись с трудностями при решении этой задачи или Вам достаточно просто ознакомиться с методикой её решения, то ответ доступен по [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Parallel-LINQ/Parallel-LINQ-Task-Solution/Program.cs).
