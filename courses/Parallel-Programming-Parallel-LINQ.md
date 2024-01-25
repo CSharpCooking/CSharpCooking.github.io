@@ -9,7 +9,7 @@ string wordLookupFile = Path.Combine(Path.GetTempPath(), "WordLookup.txt");
 
 if (!File.Exists(wordLookupFile)) // Contains about 150000 words
   new WebClient().DownloadFile(
-    "http://www.albahari.com/ispell/allwords.txt", wordLookupFile);
+    "https://csharpcooking.github.io/data/allwords.txt", wordLookupFile);
 ```
 
 Расширьте этот код, добавив следующую функциональность:  
@@ -26,3 +26,7 @@ if (!File.Exists(wordLookupFile)) // Contains about 150000 words
 - Для написания и проверки кода рекомендуется использовать одно из следующих программных обеспечений:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
+
+## Вариант решения
+
+Если Вы столкнулись с трудностями при решении этой задачи или Вам достаточно просто ознакомиться с методикой её решения, то ответ доступен по [ссылке]([ParallelProgramming/Parallel-LINQ-Task-Solution/Program.cs at Parallel-LINQ · CSharpCooking/ParallelProgramming (github.com)](https://github.com/CSharpCooking/ParallelProgramming/blob/Parallel-LINQ/Parallel-LINQ-Task-Solution/Program.cs)).
