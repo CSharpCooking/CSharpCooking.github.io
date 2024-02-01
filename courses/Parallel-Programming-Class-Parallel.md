@@ -9,7 +9,7 @@ string wordLookupFile = Path.Combine(Path.GetTempPath(), "WordLookup.txt");
 
 if (!File.Exists(wordLookupFile)) // Contains about 150000 words
   new WebClient().DownloadFile(
-    "http://www.albahari.com/ispell/allwords.txt", wordLookupFile);
+    "https://csharpcooking.github.io/data/allwords.txt", wordLookupFile);
 
 var wordLookup = new HashSet < string > (
   File.ReadAllLines(wordLookupFile),
@@ -23,10 +23,10 @@ string[] wordsToTest = Enumerable.Range(0, 1000000)
   .ToArray();
 
 // Introducing a few spelling mistakes
-wordsToTest[12340] = "woozsh";
-wordsToTest[12342] = "wubsie";
-wordsToTest[12344] = "adgdgr";
-wordsToTest[12348] = "dfgsie";
+wordsToTest[340] = "woozsh";
+wordsToTest[2_342] = "wubsie";
+wordsToTest[32_344] = "adgdgr";
+wordsToTest[502_348] = "dfgsie";
 
 var misspellings = new ConcurrentBag < Tuple < int, string >> ();
 
@@ -35,10 +35,13 @@ Parallel.ForEach(wordsToTest, (word, state, i) => {
     misspellings.Add(Tuple.Create((int) i, word));
 });
 
-misspellings.Dump();
+foreach (var misspelling in misspellings)
+{
+    Console.WriteLine($"Misspelled word '{misspelling.Item2}' found at position {misspelling.Item1}");
+}
 ```
 
-Модифицируйте программу таким образом, чтобы продемонстрировать раннее прекращение параллельного метода  `Parallel.ForEach`, например, после выявления первой ошибки. Для решения используйте метод `Break` или `Stop` на объекте `ParallelLoopState` (реализуйте оба варианта).
+Модифицируйте программу таким образом, чтобы продемонстрировать раннее прекращение циклов, инициированных параллельным методом  `Parallel.ForEach`, после выявления четвертой ошибки. Для решения используйте метод `Break` или `Stop` на объекте `ParallelLoopState` (реализуйте оба варианта, пояснив разницу между ними). В случае применения метода `Break` выведите номер итерации, на которой был вызван данный метод.
 
 ## Методические указания по выполнению
 
@@ -46,3 +49,7 @@ misspellings.Dump();
 - Для написания и проверки кода рекомендуется использовать одно из следующих программных обеспечений:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
+
+## Вариант решения
+
+Если задача вызвала затруднения или же вам достаточно ознакомиться лишь с методом её решения, ответ можно найти по [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Class-Parallel/Class-Parallel-Task-Solution/Program.cs).
