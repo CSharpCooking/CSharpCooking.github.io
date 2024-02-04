@@ -52,4 +52,4 @@ foreach (var misspelling in misspellings)
 
 ## Вариант решения
 
-Если задача вызвала затруднения или же вам достаточно ознакомиться лишь с методом её решения, ответ можно найти по [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Class-Parallel/Class-Parallel-Task-Solution/Program.cs).
+Если вы столкнулись с трудностями при выполнении этого задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Class-Parallel/Class-Parallel-Task-Solution/Program.cs).
