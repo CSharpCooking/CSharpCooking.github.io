@@ -2,65 +2,15 @@
 
 ## Описание задания
 
-Ниже представлена *очередь* производителей/потребителей с использованием задач.
+Сравните производительность стандартных и параллельных коллекций при выполнении типичных операций (*добавление*, *удаление*, *поиск*). Для этого выполните следующие шаги.
 
-```csharp
-void Main()
-{
-  using (var pcQ = new PCQueue(1))
-  {
-    Task task1 = pcQ.Enqueue(() => Console.WriteLine("Too"));
-    Task task2 = pcQ.Enqueue(() => Console.WriteLine("Easy!"));
+1. Создайте набор тестов, который будет выполнять типичные операции на `List<T>`, `Dictionary<TKey,TValue>`, `ConcurrentBag<T>`, `ConcurrentDictionary<TKey,TValue>`. При этом определите несколько уровней объема данных для тестирования, например, 10 000, 100 000, и 1 000 000 элементов.
 
-    task1.ContinueWith(_ => "Task 1 complete".Dump());
-    task2.ContinueWith(_ => "Task 2 complete".Dump());
-  }
-}
+   > Замечание: *поиск* и *удаление* не являются типичными операциями для `ConcurrentBag`, поэтому для данного типа коллекции их можно пропустить.
 
-public class PCQueue : IDisposable
-{
-  BlockingCollection<Task> _taskQ = new BlockingCollection<Task>();
+2. Используйте многопоточность для работы с параллельными коллекциями и сравните их производительность с однопоточным использованием обычных коллекций.
 
-  public PCQueue(int workerCount)
-  {
-    // Create and start a separate Task for each consumer:
-    for (int i = 0; i < workerCount; i++)
-      Task.Factory.StartNew(Consume);
-  }
-
-  public Task Enqueue(Action action, CancellationToken cancelToken = default(CancellationToken))
-  {
-    var task = new Task(action, cancelToken);
-    _taskQ.Add(task);
-    return task;
-  }
-
-  public Task<TResult> Enqueue<TResult>(Func<TResult> func,
-    CancellationToken cancelToken = default(CancellationToken))
-  {
-    var task = new Task<TResult>(func, cancelToken);
-    _taskQ.Add(task);
-    return task;
-  }
-
-  void Consume()
-  {
-    foreach (var task in _taskQ.GetConsumingEnumerable())
-      try
-      {
-        if (!task.IsCanceled) task.RunSynchronously();
-      }
-      catch (InvalidOperationException) { }  // Race condition
-  }
-
-  public void Dispose() { _taskQ.CompleteAdding(); }
-}
-```
-
-На основе данного кода программы выполните следующие шаги:
-
-1. Реализуйте *стек* производителей/потребителей. 
-2. Задействуйте при работе со стеком обобщенный метод `Enqueue<TResult>`, задав максимальную степень параллелизма значением 2.
+3. Сделайте выводы о целесообразности использования параллельных коллекций в различных сценариях.
 
 ## Методические указания по выполнению
 
@@ -68,3 +18,7 @@ public class PCQueue : IDisposable
 - Для написания и проверки кода рекомендуется использовать одно из следующих программных обеспечений:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
+
+## Вариант решения
+
+Если вы столкнулись с трудностями при выполнении этого задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Concurrent-Collections/Concurrent-Collections-Task-Solution/Program.cs).
