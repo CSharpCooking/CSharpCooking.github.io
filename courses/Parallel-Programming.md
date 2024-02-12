@@ -5,26 +5,31 @@
 
 ## Материалы
 1. **Parallel LINQ**
+  - [Конспект](https://docs.google.com/document/d/1NgKZFDPha8Bc_P8mi3ZvnYl5oIuGlAuJQS2F1VLmKmM/)
   - [Презентация](https://docs.google.com/presentation/d/1BMUTPVtklogdIl4Pw_wYmGRv15OlNAxKOUUl4Jfptx4/)
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Parallel-LINQ)
 2. **Класс Parallel**
+  - [Конспект](https://docs.google.com/document/d/1gG7hJrWyNKyvQoANUY4pXIGpgNOJ8iBxH0qHnn6Durk/)
   - [Презентация](https://docs.google.com/presentation/d/1B5xi6MpBbLNloHWpidP0XuJyV6Ax3lT9Cpb-5P5i9N0/)
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Class-Parallel)
 3. **Параллелизм задач**
+  - [Конспект](https://docs.google.com/document/d/1EyCGAMRF6IW6-k1s9Fwz61uKvq21eXCH9ZMf-Bcx9xA/)
   - [Презентация](https://docs.google.com/presentation/d/1t_LaWDYYuJo9BNNYcOlzJ2DIQ0PMiqbalOK01iqFDcs/)
   - [Видеолекция](https://youtu.be/98Hyw6Xjn6o)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Task-Parallelism)
 4. **Работа с AggregateException**
+  - Конспект (в процессе подготовки)
   - [Презентация](https://docs.google.com/presentation/d/1i5Kq_PSj-3fQ8FLi2YXcmVnUnsq6rFS1XT6ICGwARmc/)
   - [Видеолекция](https://youtu.be/5U6fk6XC6AU)
   - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445)
-  - Задание (в процессе подготовки )
+  - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Working-with-AggregateException)
 5. **Параллельные коллекции**
+  - [Конспект](https://docs.google.com/document/d/11JR-oNC4iTP_p6x3UMmGoEPLl4yt0aFJKVJVE4Ovscw/)
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
   - [Видеолекция](https://youtu.be/VpgkBGA-98s)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
