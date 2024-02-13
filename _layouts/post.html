@@ -7,14 +7,8 @@ layout: default
   </a>
   <div class="post-meta">
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: "%d/%m/%Y" }}</div>
-    {%- if page.categories.size > 0 -%}
-    <ul class="post-categories">
-      {%- for tag in page.categories -%}
-      <li>{{ tag }}</li>
-      {%- endfor -%}
-    </ul>
-    {%- endif -%}
-  </div>
+    {{page.categories}}
+    </div>
   <div class="post">
     {{ content }}
   </div>
