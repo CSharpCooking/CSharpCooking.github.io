@@ -42,3 +42,9 @@
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
 - Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435).
+
+## Автор
+
+Гибадуллин Руслан Фаршатович | [@RuslanGibadullin](https://t.me/RuslanGibadullin)
+> Кандидат технических наук, доцент кафедры компьютерных систем Казанского национального исследовательского технического университета им. А.Н. Туполева–КАИ.
+
