@@ -32,7 +32,14 @@ layout: default
           <div class="post-date">
             <i class="icon-calendar"></i>
             {{ post.date | date: "%d/%m/%Y" }}
-          </div>          
+          </div>
+          {%- if post.categories.size > 0-%}
+          <ul class="post-categories">
+            {%- for tag in post.categories -%}
+            <li>{{ tag }}</li>
+            {%- endfor -%}
+          </ul>
+          {%- endif -%}          
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
