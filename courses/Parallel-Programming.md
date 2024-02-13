@@ -5,19 +5,19 @@
 
 ## Материалы
 1. **Parallel LINQ**
-  - [Конспект](https://docs.google.com/document/d/1NgKZFDPha8Bc_P8mi3ZvnYl5oIuGlAuJQS2F1VLmKmM/)
+  - [Конспект](https://docs.google.com/document/d/1ml3sl3OuUKsrFjB1dccf6L0Yj4Xvp8EdICzV-r8WSY4/)
   - [Презентация](https://docs.google.com/presentation/d/1BMUTPVtklogdIl4Pw_wYmGRv15OlNAxKOUUl4Jfptx4/)
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Parallel-LINQ)
 2. **Класс Parallel**
-  - [Конспект](https://docs.google.com/document/d/1gG7hJrWyNKyvQoANUY4pXIGpgNOJ8iBxH0qHnn6Durk/)
+  - [Конспект](https://docs.google.com/document/d/1-N5YSDCPnd2m6e3oZIxZeIlTE055tRp74mElEu1a09I/)
   - [Презентация](https://docs.google.com/presentation/d/1B5xi6MpBbLNloHWpidP0XuJyV6Ax3lT9Cpb-5P5i9N0/)
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Class-Parallel)
 3. **Параллелизм задач**
-  - [Конспект](https://docs.google.com/document/d/1EyCGAMRF6IW6-k1s9Fwz61uKvq21eXCH9ZMf-Bcx9xA/)
+  - [Конспект](https://docs.google.com/document/d/1OpuY5eMTAHo8ijH6vsf_TzyQcu63TjCFQz5IDB-Kegg/)
   - [Презентация](https://docs.google.com/presentation/d/1t_LaWDYYuJo9BNNYcOlzJ2DIQ0PMiqbalOK01iqFDcs/)
   - [Видеолекция](https://youtu.be/98Hyw6Xjn6o)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
@@ -29,7 +29,7 @@
   - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445)
   - [Задание](https://csharpcooking.github.io/courses/Parallel-Programming-Working-with-AggregateException)
 5. **Параллельные коллекции**
-  - [Конспект](https://docs.google.com/document/d/11JR-oNC4iTP_p6x3UMmGoEPLl4yt0aFJKVJVE4Ovscw/)
+  - [Конспект](https://docs.google.com/document/d/1cnThA4kU_GkdYrmOVY0vpUhZ2bxSxHkPApbRBCLmJF0/)
   - [Презентация](https://docs.google.com/presentation/d/1OBqXKOe7gDKed-ZJNgP-T11WtPUxTaANuf_vuAY3YIc/)
   - [Видеолекция](https://youtu.be/VpgkBGA-98s)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
