@@ -7,8 +7,8 @@ layout: default
   </a>
   <div class="post-meta">
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: "%d/%m/%Y" }}</div>
-    {{ page.categories | escape }}
-    </div>
+	<div class="post-categories">{{ page.categories | join() }}</div>  
+  </div>
   <div class="post">
     {{ content }}
   </div>

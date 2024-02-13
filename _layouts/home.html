@@ -33,7 +33,7 @@ layout: default
             <i class="icon-calendar"></i>
             {{ post.date | date: "%d/%m/%Y" }}
           </div>
-          {{post.categories | escape}}
+          <div class="post-categories">{{ post.categories | join() }}</div>
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
