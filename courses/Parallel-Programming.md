@@ -1,9 +1,11 @@
 # Учебный курс «Параллельное программирование на языке C#» 
 
 ## Аннотация
+
 В учебном курсе раскрываются многопоточные API-интерфейсы и конструкции, направленные на использование преимуществ многоядерных процессоров: Parallel LINQ, класс Parallel, параллелизм задач, работа с AggregateException, параллельные коллекции.
 
 ## Материалы
+
 1. **Parallel LINQ**
   - [Конспект](https://docs.google.com/document/d/1ml3sl3OuUKsrFjB1dccf6L0Yj4Xvp8EdICzV-r8WSY4/)
   - [Презентация](https://docs.google.com/presentation/d/1BMUTPVtklogdIl4Pw_wYmGRv15OlNAxKOUUl4Jfptx4/)
