@@ -7,7 +7,7 @@
 
 1. **Многопоточная обработка**
   - Конспект (в процессе подготовки)
-  - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/) (в процессе подготовки)
+  - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
