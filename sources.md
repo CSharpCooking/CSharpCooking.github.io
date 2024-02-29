@@ -13,7 +13,7 @@
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
 - [Молинаро Э.  SQL. Сборник рецептов](https://csharpcooking.github.io/theory/SQLCookbook.pdf)
-- [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.pdf)
+- [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.zip)
   - [Код приложений и модульные тесты](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 
 - [Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд.](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
@@ -24,7 +24,7 @@
 - [Абрамов Е. В., Шагеев Д. О. Параллельные СУБД](https://csharpcooking.github.io/theory/ParallelDBMS.pdf)
 - [Уорд Б. Внутреннее устройство Linux](https://csharpcooking.github.io/theory/HowLinuxWorks.pdf)
 - [Буч Г., Рамбо Д., Якобсон И. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
-- [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.pdf)
+- [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.zip)
 - [ГОСТ 19.701-90 ЕСПД. Схемы алгоритмов, программ, данных и систем](https://csharpcooking.github.io/theory/gost-19-701-90.pdf)
 - [Фолкнер Э., Чавез К. Adobe Photoshop СС. Официальный учебный курс](https://csharpcooking.github.io/theory/AdobePhotoshopCC.pdf)
 - [Просветительский канал по информатике и вычислительной технике "LandWaterSun"](https://www.youtube.com/landwatersun)
