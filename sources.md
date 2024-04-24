@@ -63,4 +63,4 @@
 - [ZoogVPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435) – VPN-сервис.
 - [Total Commander Portable 10.0 micro](https://csharpcooking.github.io/data/TotalCommanderPortable.zip) – файловый менеджер для Windows с удобным пользовательским интерфейсом.
 - [Endel](https://endel.io) – генеративное музыкальное приложение.
-  - [Endel Mod (Premium Unlocked)](https://liteapks.com/download/endel-40468/)
+  - [Endel Mod (Premium Unlocked)](https://liteapks.com/endel.html)
