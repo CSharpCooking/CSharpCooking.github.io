@@ -64,3 +64,4 @@
 - [Total Commander Portable 10.0 micro](https://csharpcooking.github.io/data/TotalCommanderPortable.zip) – файловый менеджер для Windows с удобным пользовательским интерфейсом.
 - [Endel](https://endel.io) – генеративное музыкальное приложение.
   - [Endel Mod (Premium Unlocked)](https://liteapks.com/endel.html)
+- [NoxPlayer](https://ru.bignox.com) – Android эмулятор на ПК.
