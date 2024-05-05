@@ -3,10 +3,11 @@
 ## Теория
 - [C# 12 in a Nutshell: The Definitive Reference by Joseph Albahari](https://csharpcooking.github.io/theory/AlbahariCSharp12.zip)
 - [C# 10 in a Nutshell: The Definitive Reference by Joseph Albahari](https://csharpcooking.github.io/theory/AlbahariCSharp10.pdf)
-- [Joe Mayo (2022). C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
+- [Joe Mayo. C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
-- [Stephen Toub (2010). Patterns of parallel programming. Microsoft Corporation](https://csharpcooking.github.io/theory/Patterns-of-Parallel-Programming-CSharp.pdf)
+- [Ошероув Р. Искусство автономного тестирования с примерами на C#](https://csharpcooking.github.io/theory/RoyOsherove-The-Art-of-Unit-Testing.pdf)
+- [Stephen Toub. Patterns of parallel programming. Microsoft Corporation](https://csharpcooking.github.io/theory/Patterns-of-Parallel-Programming-CSharp.pdf)
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
 - [Мартин Р., Мартин М. Принципы, паттерны и методики гибкой разработки на языке C#](https://csharpcooking.github.io/theory/Agile-Principles-Patterns-and-Practices-in-CSharp.pdf)
@@ -16,7 +17,7 @@
 - [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.zip)
   - [Код приложений и модульные тесты](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 
-- [Таненбаум Э., Остин Т. Архитектура компьютера. 6-е изд.](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
+- [Таненбаум Э., Остин Т. Архитектура компьютера](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
 - [Дэвид М. Харрис и Сара Л. Харрис. Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/DigitalDesignAndComputerArchitecture.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
 - [Кринкин К. В. Архитектура ЭВМ и основы ОС](https://www.youtube.com/playlist?list=PLhlTilzRdxyl456zNf9lOkDMNWIznSCxM)
