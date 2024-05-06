@@ -16,7 +16,6 @@
 - [Молинаро Э.  SQL. Сборник рецептов](https://csharpcooking.github.io/theory/SQLCookbook.pdf)
 - [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.zip)
   - [Код приложений и модульные тесты](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
-
 - [Таненбаум Э., Остин Т. Архитектура компьютера](https://csharpcooking.github.io/theory/ComputerArchitecture.pdf)
 - [Дэвид М. Харрис и Сара Л. Харрис. Цифровая схемотехника и архитектура компьютера, второе издание](https://csharpcooking.github.io/theory/DigitalDesignAndComputerArchitecture.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
@@ -42,10 +41,10 @@
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
   - [Пример программной реализации](https://csharpcooking.github.io/practice/MPI-EFCore-Coursework-Example.zip) (автор – [Виктор Докучаев](https://t.me/VictorDokuchaev))
-
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
   - [Материалы к видеокурсу](https://github.com/CSharpCooking/CSharpCooking.github.io/raw/gh-pages/practice/netskills.7z)
-
+- [Реализации шифров "Кузнечик" и "Магма" на C#](https://github.com/dunglq2000/KuznyechikCrypto/)
+  - [KuznyechikCrypto-main.zip](https://csharpcooking.github.io/data/KuznyechikCrypto-main.zip)
 
 ## Инструменты
 - [Visual Studio](https://visualstudio.microsoft.com/) – интегрированная среда разработки (IDE) от Microsoft.
