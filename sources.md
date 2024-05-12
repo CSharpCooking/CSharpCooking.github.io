@@ -64,4 +64,4 @@
 - [Total Commander Portable 10.0 micro](https://csharpcooking.github.io/data/TotalCommanderPortable.zip) – файловый менеджер для Windows с удобным пользовательским интерфейсом.
 - [Endel](https://endel.io) – генеративное музыкальное приложение.
   - [Endel Mod (Premium Unlocked)](https://liteapks.com/endel.html)
-- [MuMu Player](https://www.mumuplayer.com) – Android эмулятор на ПК.
+- [MuMu Nebula](https://www.mumuplayer.com/ru/mumu-nebula.html) – Android эмулятор на ПК.
