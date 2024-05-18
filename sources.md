@@ -65,3 +65,4 @@
 - [Endel](https://endel.io) – генеративное музыкальное приложение.
   - [Endel Mod (Premium Unlocked)](https://liteapks.com/endel.html)
 - [MuMu Nebula](https://www.mumuplayer.com/ru/mumu-nebula.html) – Android эмулятор на ПК.
+- [BenchmarkDotNet](https://benchmarkdotnet.org) – библиотека для измерения производительности приложения на языке программирования C# и .NET.
