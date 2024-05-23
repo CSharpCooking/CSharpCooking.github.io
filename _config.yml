@@ -28,7 +28,7 @@ plainwhite:
     - title: Источники
       url: "/sources"
     - title: Услуги
-      url: "https://wa.me/c/79172262386"
+      url: "/services"
   social_links:
     youtube: CSharpCooking
     #twitter: samarsault
