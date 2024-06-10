@@ -7,6 +7,7 @@
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9.zip)
 - [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip)
 - [Ошероув Р. Искусство автономного тестирования с примерами на C#](https://csharpcooking.github.io/theory/RoyOsherove-The-Art-of-Unit-Testing.pdf)
+- [Ферроне Х. Изучаем C# через разработку игр на Unity](https://csharpcooking.github.io/theory/Learning-CSharp-by-Developing-Games-with-Unity.pdf)
 - [Stephen Toub. Patterns of parallel programming. Microsoft Corporation](https://csharpcooking.github.io/theory/Patterns-of-Parallel-Programming-CSharp.pdf)
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
