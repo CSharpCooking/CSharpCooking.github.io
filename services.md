@@ -13,6 +13,7 @@
 - [Программные системы и вычислительные методы (ВАК, К3)](https://nbpublish.com/itmag/)
 - [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
 - [IEEE Xplore (Scopus, Conf. paper)](http://ieeexplore.ieee.org/Xplore/home.jsp)
+- [AIP Conference Proceedings (Scopus и Web of Science, Conf. paper)](https://publishing.aip.org/publications/conference-proceedings/)
 
 ## Контакты
 
