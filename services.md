@@ -8,10 +8,11 @@
 
 Подготовка научных статей и их сопровождение до публикации в научных журналах:
 
-- [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
 - [Международный научно-исследовательский журнал (ВАК, К1)](https://research-journal.org/)
 - [Computational nanotechnology (ВАК, К2)](https://urvak.ru/journals/computational-nanotechnology/)
 - [Программные системы и вычислительные методы (ВАК, К3)](https://nbpublish.com/itmag/)
+- [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
+- [IEEE Xplore (Scopus, Conf. paper)](http://ieeexplore.ieee.org/Xplore/home.jsp)
 
 ## Контакты
 
