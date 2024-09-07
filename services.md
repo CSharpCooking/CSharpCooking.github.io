@@ -14,6 +14,7 @@
 - [IEEE Xplore (Scopus, Conf. paper)](http://ieeexplore.ieee.org/Xplore/home.jsp)
 - [AIP Conference Proceedings (Scopus и Web of Science, Conf. paper)](https://publishing.aip.org/publications/conference-proceedings/)
 - [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
+- Статья в сборнике трудов конференции (eLibrary.ru, РИНЦ)
 
 ## Контакты
 
