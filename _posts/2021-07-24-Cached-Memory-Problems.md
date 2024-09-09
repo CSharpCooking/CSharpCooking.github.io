@@ -3,6 +3,7 @@ layout: post
 title: "Проблемы кэшируемой памяти"
 date: 2021-07-24
 author: Руслан Гибадуллин
+author_url: https://t.me/RuslanGibadullin
 ---
 Раскрывается приём работы с кэш-памятью, обеспечивающий эффективную работу приложения по критерию быстродействия в многопоточном сценарии. См. **[далее](https://csharpcooking.github.io/2021/07/24/Cached-Memory-Problems.html)**.
 
