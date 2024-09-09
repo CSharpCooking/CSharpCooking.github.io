@@ -5,7 +5,7 @@ date: 2021-05-01
 author: Руслан Гибадуллин
 author_url: https://t.me/RuslanGibadullin
 ---
-Предлагается программа проверки орфографии, которая выполняется быстро для документов большого объема за счет использования всех свободных процессорных ядер. См. **[далее](https://csharpcooking.github.io/2021/05/01/Parallel-Spellchecker.html)**.
+Предлагается программа проверки орфографии, которая выполняется быстро для документов большого объема за счет использования всех свободных процессорных ядер. См. <a href="https://csharpcooking.github.io/2021/05/01/Parallel-Spellchecker.html" style="text-decoration: underline; font-weight: bold;">далее</a>.
 
 ## Шаги написания программы [^1]
 

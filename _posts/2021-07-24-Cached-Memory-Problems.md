@@ -5,7 +5,7 @@ date: 2021-07-24
 author: Руслан Гибадуллин
 author_url: https://t.me/RuslanGibadullin
 ---
-Раскрывается приём работы с кэш-памятью, обеспечивающий эффективную работу приложения по критерию быстродействия в многопоточном сценарии. См. **[далее](https://csharpcooking.github.io/2021/07/24/Cached-Memory-Problems.html)**.
+Раскрывается приём работы с кэш-памятью, обеспечивающий эффективную работу приложения по критерию быстродействия в многопоточном сценарии. См. <a href="https://csharpcooking.github.io/2021/07/24/Cached-Memory-Problems.html" style="text-decoration: underline; font-weight: bold;">далее</a>.
 
 ## Проблематика
 
