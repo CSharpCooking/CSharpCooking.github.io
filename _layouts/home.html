@@ -33,8 +33,8 @@ layout: default
             <i class="icon-calendar"></i>
             {{ post.date | date: "%d/%m/%Y" }}
           </div>
-          <div class="post-author">
-			<a href="{{ page.author_url | escape }}">{{ page.author | escape }}</a>
+		  <div class="post-author">
+				<a href="{{ post.author_url | escape }}">{{ post.author | escape }}</a>
 		  </div>
         </div>
         <div class="post">
