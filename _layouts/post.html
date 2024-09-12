@@ -7,9 +7,15 @@ layout: default
   </a>
   <div class="post-meta">
     <div class="post-date"><i class="icon-calendar"></i>{{ page.date | date: "%d/%m/%Y" }}</div>
-	<div class="post-author">
-		<a href="{{ page.author_url | escape }}">{{ page.author | escape }}</a>
-	</div> 
+    <div class="post-author">
+      {% if page.authors %}
+        {% for author in page.authors %}
+          <a href="{{ author.url | escape }}">{{ author.name | escape }}</a>{% if forloop.last == false %}, {% endif %}
+        {% endfor %}
+      {% else %}
+        <a href="{{ page.author_url | escape }}">{{ page.author | escape }}</a>
+      {% endif %}
+    </div>
   </div>
   <div class="post">
     {{ content }}

@@ -33,9 +33,15 @@ layout: default
             <i class="icon-calendar"></i>
             {{ post.date | date: "%d/%m/%Y" }}
           </div>
-		  <div class="post-author">
+			<div class="post-author">
+			  {%- if post.authors -%}
+				{% for author in post.authors %}
+				  <a href="{{ author.url | escape }}">{{ author.name | escape }}</a>{% if forloop.last == false %}, {% endif %}
+				{% endfor %}
+			  {%- else -%}
 				<a href="{{ post.author_url | escape }}">{{ post.author | escape }}</a>
-		  </div>
+			  {%- endif -%}
+			</div>
         </div>
         <div class="post">
           {%- if site.show_excerpts -%}
