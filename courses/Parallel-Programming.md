@@ -53,6 +53,7 @@
   - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
   - Электронная почта: [CSharpCooking@gmail.com](mailto:CSharpCooking@gmail.com)
 
+<html>
 {%- if site.plainwhite.disqus_shortname -%}
 <div id="disqus_thread" style="margin-top:25px"></div>
 <script>
@@ -69,3 +70,4 @@
 </script>
 <noscript>Пожалуйста, включите JavaScript для просмотра <a href="https://disqus.com/?ref_noscript" rel="nofollow">комментариев, поддерживаемых Disqus</a>.</noscript>
 {%- endif -%}
+</html>
