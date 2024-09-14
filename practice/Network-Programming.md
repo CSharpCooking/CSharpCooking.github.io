@@ -111,4 +111,22 @@
   
   ![](\pastes\2022-01-31-21-21-30.png)  
   Рис. Отсылаемые поля в POST-запросе
-  
+
+<html>
+{%- if site.plainwhite.disqus_shortname -%}
+<div id="disqus_thread" style="margin-top:25px"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ page.url | absolute_url }}';
+        this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ site.plainwhite.disqus_shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Пожалуйста, включите JavaScript для просмотра <a href="https://disqus.com/?ref_noscript" rel="nofollow">комментариев, поддерживаемых Disqus</a>.</noscript>
+{%- endif -%}
+</html>  

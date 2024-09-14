@@ -104,3 +104,22 @@ var ResultGroupBy = from lj in LeftJoin
 - [C# 4.0: полное руководство / Шилдт Г. // Пер. с англ. – М.: ООО "И.Д. Вильямс". 2011](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf). (См. главу «Запросы LINQ».)
 - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/).
 - [Пример требований к оформлению отчета по выполненной работе](https://csharpcooking.github.io/data/LINQReportRequirements.zip). 
+
+<html>
+{%- if site.plainwhite.disqus_shortname -%}
+<div id="disqus_thread" style="margin-top:25px"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = '{{ page.url | absolute_url }}';
+        this.page.identifier = '{{ page.url | absolute_url }}';
+    };
+    (function () {
+        var d = document, s = d.createElement('script');
+        s.src = 'https://{{ site.plainwhite.disqus_shortname }}.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Пожалуйста, включите JavaScript для просмотра <a href="https://disqus.com/?ref_noscript" rel="nofollow">комментариев, поддерживаемых Disqus</a>.</noscript>
+{%- endif -%}
+</html>
