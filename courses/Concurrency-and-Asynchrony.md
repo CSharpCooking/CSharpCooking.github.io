@@ -1,4 +1,4 @@
-# Учебный курс «Параллелизм и асинхронность в C#» 
+# Учебный курс «Параллелизм и асинхронность» 
 
 ## Аннотация
 В учебном курсе раскрываются основы многопоточности и задач, подробно обсуждаются принципы асинхронности и асинхронные функции С#.
@@ -58,6 +58,7 @@
   - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
   - Электронная почта: [CSharpCooking@gmail.com](mailto:CSharpCooking@gmail.com)
   
+
  <html>
 {%- if site.plainwhite.disqus_shortname -%}
 <div id="disqus_thread" style="margin-top:25px"></div>
