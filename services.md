@@ -6,7 +6,7 @@
 
 ## Публикации
 
-Подготовка научных статей и их сопровождение до публикации в научных журналах/сборниках:
+Подготовка научных статей по направлению «Информатика и вычислительная техника» и их сопровождение до публикации в научных журналах/сборниках:
 
 - [Международный научно-исследовательский журнал (ВАК, К1)](https://research-journal.org/)
 - [Computational nanotechnology (ВАК, К2)](https://urvak.ru/journals/computational-nanotechnology/)
@@ -20,4 +20,3 @@
 
 - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
 - WhatsApp: [+7 917 226-23-86](https://wa.me/message/3Y4EESWILAWWM1)
-- Электронная почта: [CSharpCooking@gmail.com](mailto:CSharpCooking@gmail.com)

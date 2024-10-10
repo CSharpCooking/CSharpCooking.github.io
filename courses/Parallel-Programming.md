@@ -51,7 +51,7 @@
   - Кандидат технических наук, доцент кафедры компьютерных систем Казанского национального исследовательского технического университета им. А.Н. Туполева–КАИ.
 - **Контакты**
   - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
-  - Электронная почта: [CSharpCooking@gmail.com](mailto:CSharpCooking@gmail.com)
+  - WhatsApp: [+7 917 226-23-86](https://wa.me/message/3Y4EESWILAWWM1)
 
 <html>
 {%- if site.plainwhite.disqus_shortname -%}
