@@ -15,6 +15,7 @@
 - [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCore.zip)
   - [Код приложений и модульные тесты](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
+- [Ритчи Деннис М., Керниган Брайан У. Язык программирования Си](https://csharpcooking.github.io/theory/BrianKernighanDennisRitchieTheCProgrammingLanguage.pdf)
 - [Бен-Ган И. Microsoft SQL Server 2012. Основы T-SQL](https://csharpcooking.github.io/theory/MicrosoftSQLServer2012.zip)
 - [Буч Г., Рамбо Д., Якобсон И. Язык UML. Руководство пользователя](https://csharpcooking.github.io/theory/UnifiedModelingLanguageUsereGuide.pdf)
 - [Фаулер M. UML. Основы](https://csharpcooking.github.io/theory/OsnovyUML.zip)
