@@ -36,7 +36,7 @@
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 6. **Устаревшие шаблоны**
-  - [Конспект](https://docs.google.com/document/d/1Mk-4KCMLNORLSQEnzcC3_r0NMKINTdgjcpgGrut4y7o/)
+  - [Конспект](https://docs.google.com/document/d/1IdZHy2T2BWiKtIHaBry6vAwGJZ_RU-sZXKmuRWsII8Q/)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
