@@ -1,11 +1,10 @@
-# Практикум по сетевому программированию на языке C# [↩︎](/sources)
+# рактикум по сетевому программированию на языке C# [↩︎](/sources)
 
 ## Задания
 
 1. Протестировать приложение [Multi-Client/Server GUI Application](https://csharpcooking.github.io/practice/Multi-Client-Chat-Server-Original-Version.zip), найти и устранить ошибки, которые возникают в ходе работы с данным приложением.
 2. Развить решение первого задания, обеспечив передачу данных между клиентами и сервером по защищенному каналу с использованием криптографического алгоритма AES.
 3. Разработать программу для авторизации на сайте [bookland.com](http://www.bookland.com) и вывода списка товаров корзины пользователя.
-4. Разработать программу для сохранения изображения PNG из [https://academia-library.ru/reader/?id=143477&page=1](https://academia-library.ru/reader/?id=143477&page=1).      
 
 ## Рекомендации
 
@@ -55,15 +54,14 @@
       {
         SymmetricAlgorithm algorithm = DES.Create();
         ICryptoTransform transform = algorithm.CreateDecryptor(key, iv);
- 			byte[] inputbuffer = Encoding.Unicode.GetBytes(text);
- 			byte[] outputBuffer = transform.TransformFinalBlock(inputbuffer, 0, inputbuffer.Length);
- 			return Encoding.Unicode.GetString(outputBuffer);
-  		}
- 	}
+        byte[] inputbuffer = Encoding.Unicode.GetBytes(text);
+        byte[] outputBuffer = transform.TransformFinalBlock(inputbuffer, 0, inputbuffer.Length);
+        return Encoding.Unicode.GetString(outputBuffer);
+      }
+    }
   }
   ```
-<br>
-
+  
 * Для выполнения третьего задания рекомендуется ознакомиться с примером авторизации на сайте (с сериализацией/десериализацией cookie-наборов):
   
   ```csharp
@@ -105,10 +103,8 @@
     }
   }
   ```
-<br>
-
   Информацию об отсылаемых полях легко получить, воспользовавшись инструментальными средствами браузера.
-  
+
   ![](\pastes\2022-01-31-21-21-30.png)  
   Рис. Отсылаемые поля в POST-запросе
 
