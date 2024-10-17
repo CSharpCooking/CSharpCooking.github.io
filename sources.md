@@ -8,6 +8,7 @@
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Joe Mayo. C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
 - [Ошероув Р. Искусство автономного тестирования с примерами на C#](https://csharpcooking.github.io/theory/RoyOsherove-The-Art-of-Unit-Testing.pdf)
+- [Акиньшин А. Профессиональный бенчмарк: искусство измерения производительности](https://csharpcooking.github.io/theory/ProNETBenchmarking.zip)
 - [Ферроне Х. Изучаем C# через разработку игр на Unity](https://csharpcooking.github.io/theory/Learning-CSharp-by-Developing-Games-with-Unity.pdf)
 - [Stephen Toub. Patterns of parallel programming. Microsoft Corporation](https://csharpcooking.github.io/theory/Patterns-of-Parallel-Programming-CSharp.pdf)
 - [Стивен К. Конкурентность в C#. Асинхронное, параллельное и многопоточное программирование](https://csharpcooking.github.io/theory/CSharpConcurrency.zip)
