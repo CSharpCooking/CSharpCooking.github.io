@@ -25,8 +25,6 @@ plainwhite:
       url: "/"
     - title: Учебные курсы
       url: "/courses"
-    - title: Трансляции
-      url: "/broadcasts"
     - title: Источники
       url: "/sources"
     - title: Услуги
