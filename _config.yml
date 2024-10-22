@@ -121,8 +121,8 @@ comments:
   giscus:
     repo: CSharpCooking/CSharpCooking.github.io
     repo_id: R_kgDONDo-lQ
-    category: General
-    category_id: DIC_kwDONDo-lc4CjmT6
+    category: Announcements
+    category_id: DIC_kwDONDo-lc4CjmT5
     mapping: # optional, default to 'pathname'
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
