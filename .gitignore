@@ -29,3 +29,4 @@ assets/js/dist
 
 .vs/
 .vs/*
+/.vs/slnx.sqlite
