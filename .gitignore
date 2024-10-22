@@ -28,3 +28,4 @@ assets/js/dist
 /.vs/csharpcooking.github.io/FileContentIndex
 
 .vs/
+.vs/*
