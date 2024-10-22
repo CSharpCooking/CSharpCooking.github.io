@@ -107,9 +107,8 @@ avatar: https://raw.githubusercontent.com/guzelitta/guzelitta.github.io/refs/hea
 # boolean type, the global switch for TOC in posts.
 toc: true
 
-comments: true
-  # Global switch for the post-comment system. Keeping it empty means disabled. 
-  
+comments: 
+  # Global switch for the post-comment system. Keeping it empty means disabled.   
   provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   #disqus:
