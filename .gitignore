@@ -26,3 +26,5 @@ package-lock.json
 _sass/dist
 assets/js/dist
 /.vs/csharpcooking.github.io/FileContentIndex
+
+.vs/
