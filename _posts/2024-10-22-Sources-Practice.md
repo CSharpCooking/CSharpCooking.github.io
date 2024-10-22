@@ -1,6 +1,6 @@
 ---
 title: "Практика"
-description: "Ссылки на материалы по практике"
+description: "Ссылки на практические материалы"
 author: RuslanGibadullin
 date: 2024-10-22
 categories: [Источники]
