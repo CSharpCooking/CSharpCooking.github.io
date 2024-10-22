@@ -107,10 +107,10 @@ avatar: https://raw.githubusercontent.com/guzelitta/guzelitta.github.io/refs/hea
 # boolean type, the global switch for TOC in posts.
 toc: true
 
-comments:
+comments: true
   # Global switch for the post-comment system. Keeping it empty means disabled. 
   
-  provider: disqus # [disqus | utterances | giscus]
+  provider: giscus # [disqus | utterances | giscus]
   # The provider options are as follows:
   #disqus:
   #  shortname: csharpcooking
