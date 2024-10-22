@@ -1,5 +1,5 @@
 ---
-title: "Практика"
+title: "Практические материалы"
 description: "Ссылки на практические материалы"
 author: RuslanGibadullin
 date: 2024-10-22
@@ -17,6 +17,6 @@ tags: [практика]
   - [KuznyechikCrypto-main.zip](https://csharpcooking.github.io/data/KuznyechikCrypto-main.zip)
 - [Хританков А. С., Полежаев В. А., Андрианов А. И. Проектирование на UML. Сборник задач](https://csharpcooking.github.io/practice/Designing-on-UML-Collection-of-Tasks.pdf)
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
-  - [Материалы к видеокурсу](https://github.com/CSharpCooking/CSharpCooking.github.io/raw/refs/heads/main/practice/netskills.7z)
+  - [Материалы к видеокурсу](https://github.com/CSharpCooking/csharpcooking.github.io/raw/refs/heads/main/practice/netskills.7z)
 - [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
