@@ -25,8 +25,5 @@ package-lock.json
 # Misc
 _sass/dist
 assets/js/dist
-/.vs/csharpcooking.github.io/FileContentIndex
 
-.vs/
-.vs/*
-/.vs/slnx.sqlite
+/.vs
