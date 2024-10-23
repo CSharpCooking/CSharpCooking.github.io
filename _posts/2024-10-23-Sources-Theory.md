@@ -1,6 +1,6 @@
 ---
 title: "Теоретические материалы"
-description: "Ссылки на теоретические материалы"
+description: "Ссылки на теоретические материалы."
 author: RuslanGibadullin
 date: 2024-10-23
 categories: [Источники]
