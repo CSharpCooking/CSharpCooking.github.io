@@ -1,4 +1,10 @@
-# Практическое задание по теме «Класс Parallel»
+---
+title: "Практическое задание по теме «Класс Parallel»"
+description: "..."
+author: RuslanGibadullin
+date: 2022-05-05
+tags: [класс Parallel]
+---
 
 ## Описание задания
 
