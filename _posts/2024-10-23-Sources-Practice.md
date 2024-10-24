@@ -7,7 +7,7 @@ categories: [Источники]
 tags: [практика]
 ---
 
-- [Практикум по языку программирования C#](https://csharpcooking.github.io/practice/CSharp-Tasks)
+- [Практикум по языку программирования C#](https://csharpcooking.github.io/posts/CSharp-Tasks)
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/posts/Network-Programming/)
 - [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
