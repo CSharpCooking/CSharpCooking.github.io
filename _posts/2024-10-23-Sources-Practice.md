@@ -2,7 +2,7 @@
 title: "Практические материалы"
 description: "Ссылки на практические материалы."
 author: RuslanGibadullin
-date: 2024-10-22
+date: 2024-10-23
 categories: [Источники]
 tags: [практика]
 ---
