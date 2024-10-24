@@ -10,7 +10,7 @@ tags: [практика]
 - [Практикум по языку программирования C#](https://csharpcooking.github.io/posts/CSharp-Tasks)
 - [Практикум по параллельному программированию на языке C#](https://csharpcooking.github.io/practice/PPCSharp.zip)
 - [Практикум по сетевому программированию на языке C#](https://csharpcooking.github.io/posts/Network-Programming/)
-- [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/practice/SQL-LINQ)
+- [Практикум по составлению запросов на языках SQL и LINQ](https://csharpcooking.github.io/posts/SQL-LINQ)
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://csharpcooking.github.io/practice/MPISQLReportRequirements.zip)
   - [Пример программной реализации](https://csharpcooking.github.io/practice/MPI-EFCore-Coursework-Example.zip) (автор – [Виктор Докучаев](https://t.me/VictorDokuchaev))
 - [Реализации шифров "Кузнечик" и "Магма" на C#](https://github.com/dunglq2000/KuznyechikCrypto/)
