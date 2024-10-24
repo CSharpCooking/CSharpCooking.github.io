@@ -2,7 +2,7 @@
 title: "Теоретические материалы"
 description: "Ссылки на теоретические материалы."
 author: RuslanGibadullin
-date: 2024-10-23
+date: 2024-10-24
 categories: [Источники]
 tags: [теория]
 ---
