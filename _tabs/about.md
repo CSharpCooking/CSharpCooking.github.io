@@ -26,7 +26,7 @@ order: 4
 - [Международный научно-исследовательский журнал (ВАК, К1)](https://research-journal.org/)
 - [Computational nanotechnology (ВАК, К2)](https://urvak.ru/journals/computational-nanotechnology/)
 - [Программные системы и вычислительные методы (ВАК, К3)](https://nbpublish.com/itmag/)
-- [IEEE Xplore (Scopus, Conf. paper)](http://ieeexplore.ieee.org/Xplore/home.jsp)
+- [IEEE Xplore (Scopus, Conf. paper)](https://ieeexplore.ieee.org/Xplore/home.jsp)
 - [AIP Conference Proceedings (Scopus и Web of Science, Conf. paper)](https://publishing.aip.org/publications/conference-proceedings/)
 - [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
 - [Сборник трудов конференции (eLibrary.ru, РИНЦ)](https://github.com/CSharpCooking/CSharpCooking.github.io/data/InformationLetters/)
