@@ -26,7 +26,7 @@ order: 4
   - [IEEE Xplore (Scopus, Conf. paper)](https://ieeexplore.ieee.org/Xplore/home.jsp)
   - [AIP Conference Proceedings (Scopus и Web of Science, Conf. paper)](https://publishing.aip.org/publications/conference-proceedings/)
   - [E3S Web of Conferences (Scopus, Conf. paper)](https://www.e3s-conferences.org/)
-  - [Сборник трудов конференции (eLibrary.ru, РИНЦ)](https://github.com/CSharpCooking/CSharpCooking.github.io/data/InformationLetters/)
+  - [Сборник трудов конференции (eLibrary.ru, РИНЦ)](https://github.com/CSharpCooking/CSharpCooking.github.io/tree/main/data/InformationLetters)
 
 
 ## Контакты
