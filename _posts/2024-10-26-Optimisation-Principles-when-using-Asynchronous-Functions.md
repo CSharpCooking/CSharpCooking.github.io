@@ -4,7 +4,6 @@ description: "В докладе будут представлены резуль
 author: RuslanGibadullin
 date: 2024-10-26
 tags: [асинхронное программирование, Task, IValueTaskSource]
-image:
-  path: https://raw.githubusercontent.com/CSharpCooking/csharpcooking.github.io/refs/heads/main/pastes/2024-09-13.jpg
+image: https://raw.githubusercontent.com/CSharpCooking/csharpcooking.github.io/refs/heads/main/pastes/2024-09-13.jpg
 ---
 
