@@ -5,6 +5,7 @@ author: RuslanGibadullin
 date: 2024-10-21
 categories: [Трансляции]
 tags: [Parallel LINQ, параллелизм задач, параллельные коллекции]
+pin: true
 ---
 
 - **19.11.2024, 15:00**  
