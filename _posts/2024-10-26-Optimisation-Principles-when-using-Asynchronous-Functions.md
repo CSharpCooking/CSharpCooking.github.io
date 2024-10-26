@@ -8,6 +8,7 @@ pin: true
 image:
   path: https://raw.githubusercontent.com/CSharpCooking/csharpcooking.github.io/refs/heads/main/pastes/2024-09-13.jpg  
   alt: Афиша предстоящего доклада.
-  style: "max-width: 100%; height: auto;"
+  width: 600
+  height: auto
 ---
 
