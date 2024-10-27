@@ -18,5 +18,6 @@ tags: [практика]
 - [Хританков А. С., Полежаев В. А., Андрианов А. И. Проектирование на UML. Сборник задач](https://csharpcooking.github.io/practice/Designing-on-UML-Collection-of-Tasks.pdf)
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
   - [Материалы к видеокурсу](https://github.com/CSharpCooking/csharpcooking.github.io/raw/refs/heads/main/practice/netskills.7z)
-- [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
+- [Практикум по синтезу операционных логико-запоминающих сред](https://csharpcooking.github.io/practice/LogicStorageEnvironments.pdf)
+  - [Дополнительные материалы к практикуму](https://csharpcooking.github.io/practice/LogicStorageEnvironments.zip)
 - [Курсовой проект по схемотехнике](https://csharpcooking.github.io/practice/CourseProjectOnCircuitEngineering.zip)
