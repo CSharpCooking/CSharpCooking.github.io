@@ -6,7 +6,6 @@ author: RuslanGibadullin
 date: 2024-10-23
 categories: [Учебные курсы]
 tags: [учебный курс, Parallel LINQ, класс Parallel, параллелизм задач, работа с AggregateException, параллельные коллекции]
-
 ---
 
 ## Материалы
