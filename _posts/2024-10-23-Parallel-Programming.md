@@ -44,7 +44,7 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 
 ## Источники
 
-- Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip).
+- Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7Ru.pdf).
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
@@ -57,3 +57,4 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 - **Контакты**
   - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
   - WhatsApp: [+7 917 226-23-86](https://wa.me/message/3Y4EESWILAWWM1)
+  - Email: [RFGibadullin@kai.ru](mailto:RFGibadullin@kai.ru)
