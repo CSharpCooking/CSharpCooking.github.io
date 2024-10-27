@@ -45,7 +45,7 @@ foreach (var misspelling in misspellings)
 
 ## Методические указания по выполнению
 
-- Для выполнения задания рекомендуется ознакомиться с темой "Класс Parallel" 23-й главы "Параллельное программирование" книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7.zip).
+- Для выполнения задания рекомендуется ознакомиться с темой "Класс Parallel" 23-й главы "Параллельное программирование" книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7Ru.pdf).
 - Для написания и проверки кода рекомендуется использовать одно из следующих программных обеспечений:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
