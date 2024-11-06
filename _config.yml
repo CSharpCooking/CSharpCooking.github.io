@@ -98,7 +98,7 @@ theme_mode: #[light | dark]
 #cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://raw.githubusercontent.com/guzelitta/guzelitta.github.io/refs/heads/main/assets/portfolio.svg
+avatar: https://raw.githubusercontent.com/csharpcooking/csharpcooking.github.io/refs/heads/main/assets/portfolio.svg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
