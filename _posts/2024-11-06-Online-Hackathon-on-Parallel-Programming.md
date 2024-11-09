@@ -7,7 +7,7 @@ tags: [параллельное программирование, транспо
 categories: [Хакатоны]
 pin: true
 image:
-  path: /data/hakaton.png
+  path: /data/hakaton-16-9.png
 ---
 
 ## Формат хакатона
