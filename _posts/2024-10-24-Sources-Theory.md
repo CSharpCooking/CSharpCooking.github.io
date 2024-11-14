@@ -10,7 +10,7 @@ tags: [теория]
 - [Albahari J. C# 12 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp12En.pdf)
 - [Albahari J. C# 10 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp10En.pdf)
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9Ru.pdf)
-  - [Albahari J. C# 9 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp9En.pdf)
+  - [Albahari J. C# 9.0 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp9En.pdf)
 - [Албахари Д., Албахари Б. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7Ru.pdf)
   - [Albahari J. Albahari B. C# 7.0 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp7En.pdf) 
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
