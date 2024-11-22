@@ -8,8 +8,7 @@ order: 4
 
 Руслан Фаршатович Гибадуллин, кандидат технических наук, доцент кафедры компьютерных систем Казанского национального исследовательского технического университета им. А.Н. Туполева–КАИ.
 - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
-- WhatsApp: [+7 917 226-23-86](https://wa.me/message/3Y4EESWILAWWM1)
-- Email: [RFGibadullin@kai.ru](mailto:RFGibadullin@kai.ru)
+- Email: [RuslanGibadullin@vk.com](mailto:RuslanGibadullin@vk.com)
 
 ## Миссия
 
