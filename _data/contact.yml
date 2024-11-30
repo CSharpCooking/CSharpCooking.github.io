@@ -7,9 +7,9 @@
   icon: "fa-brands fa-youtube"
   url: https://www.youtube.com/CSharpCooking
   
-- type: instagram
-  icon: "fa-brands fa-instagram"
-  url: https://www.instagram.com/CSharpCooking
+#- type: instagram
+#  icon: "fa-brands fa-instagram"
+#  url: https://www.instagram.com/CSharpCooking
   
 - type: telegram
   icon: "fa-brands fa-telegram"
