@@ -11,9 +11,9 @@
   icon: "fa-brands fa-instagram"
   url: https://www.instagram.com/CSharpCooking
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+#- type: email
+#  icon: "fas fa-envelope"
+#  noblank: true # open link in current tab
 
 #- type: rss
 #  icon: "fas fa-rss"
