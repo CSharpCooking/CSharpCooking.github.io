@@ -41,8 +41,8 @@ social:
     #- https://twitter.com/username # change to your Twitter homepage
     - https://github.com/CSharpCooking # change to your GitHub homepage
     # Uncomment below to add more social links
-    - https://www.youtube.com/CSharpCooking
-    - https://www.t.me/CSharpCooking
+    # - https://www.youtube.com/CSharpCooking
+    # - https://www.t.me/CSharpCooking
 
 # Site Verification Settings
 #webmaster_verifications:
