@@ -20,3 +20,5 @@ tags: [архитектура, компьютерные системы]
 7. [Тестовые задания к лекции 7](https://www.classmarker.com/online-test/start/test-intro/?quiz=7dm633315d120c8a)
 8. [Тестовые задания к лекции 8](https://www.classmarker.com/online-test/start/test-intro/?quiz=fpm6333164c8e138)
 9. [Тестовые задания к лекции 9](https://www.classmarker.com/online-test/start/?quiz=7ry650730bfe0df4)
+
+> Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435). В качестве альтернативы можно воспользоваться веб-прокси, например, [Proxyium](https://proxyium.com).
