@@ -123,8 +123,8 @@ comments:
     repo_id: R_kgDONDo-lQ
     category: General
     category_id: DIC_kwDONDo-lc4CjmT6
-    mapping: url
-    strict: # optional, default to '0'
+    mapping: pathname
+    strict: 1
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
