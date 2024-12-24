@@ -123,7 +123,7 @@ comments:
     repo_id: R_kgDONDo-lQ
     category: General
     category_id: DIC_kwDONDo-lc4CjmT6
-    mapping: # optional, default to 'pathname'
+    mapping: url
     strict: # optional, default to '0'
     input_position: # optional, default to 'bottom'
     lang: # optional, default to the value of `site.lang`
