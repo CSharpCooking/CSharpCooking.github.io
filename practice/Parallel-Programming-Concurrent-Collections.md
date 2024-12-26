@@ -21,4 +21,4 @@
 
 ## Вариант решения
 
-Если вы столкнулись с трудностями при выполнении этого задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Concurrent-Collections/Concurrent-Collections-Task-Solution/Program.cs).
+Если вы столкнулись с трудностями при выполнении данного задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Concurrent-Collections/Concurrent-Collections-Task-Solution/Program.cs).
