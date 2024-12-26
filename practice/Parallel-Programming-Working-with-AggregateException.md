@@ -13,4 +13,4 @@
 
 ## Вариант решения
 
-Если вы столкнулись с трудностями при выполнении этого задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Working-with-AggregateException/Working-with-AggregateException-Task-Solution/Program.cs).
+Если вы столкнулись с трудностями при выполнении данного задания, решение доступно по следующей [ссылке](https://github.com/CSharpCooking/ParallelProgramming/blob/Working-with-AggregateException/Working-with-AggregateException-Task-Solution/Program.cs).
