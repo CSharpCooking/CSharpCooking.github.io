@@ -5,7 +5,7 @@ author: RuslanGibadullin
 date: 2024-11-06
 tags: [параллельное программирование, транспортная задача]
 categories: [Хакатоны]
-pin: true
+pin: false
 image:
   path: /data/hakaton-m.png
 ---
