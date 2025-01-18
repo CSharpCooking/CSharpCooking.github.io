@@ -7,6 +7,7 @@ order: 4
 ## Автор
 
 Руслан Фаршатович Гибадуллин, кандидат технических наук, доцент кафедры компьютерных систем Казанского национального исследовательского технического университета им. А.Н. Туполева–КАИ.
+- Публикации: [eLibrary](https://www.elibrary.ru/author_items.asp?authorid=830879), [Google Scholar](https://scholar.google.com/citations?user=z84Y_r0AAAAJ), [ResearchGate](https://www.researchgate.net/profile/Ruslan-Gibadullin), [IEEE Xplore](https://ieeexplore.ieee.org/author/37085772621).
 - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
 - Email: [RuslanGibadullin@vk.com](mailto:RuslanGibadullin@vk.com)
 
