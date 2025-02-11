@@ -10,8 +10,9 @@ pin: true
 
 - **15.02.2025, 20:00**  
   Гибадуллин Р.Ф. Введение, процесс разработки  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
-
+  - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-1-Vvedenie-Protcess-Razrabotki.pdf)
+  - [Подключение через Telegram](https://t.me/CSharpCooking)
+  
 - **01.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности  
   [Подключение через Telegram](https://t.me/CSharpCooking)
