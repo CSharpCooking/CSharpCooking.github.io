@@ -11,32 +11,32 @@ pin: true
 - **15.02.2025, 20:00**  
   Гибадуллин Р.Ф. Введение, процесс разработки  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-1-Vvedenie-Protcess-Razrabotki.pdf)
-  - [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
   
 - **01.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **15.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: дополнительные понятия, диаграммы объектов  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **29.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы пакетов, диаграммы развертывания  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **12.04.2025, 20:00**  
   Гибадуллин Р.Ф. Прецеденты, диаграммы состояний  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **26.04.2025, 20:00**  
   Гибадуллин Р.Ф.  Диаграммы деятельности, коммуникационные диаграммы  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **17.05.2025, 20:00**  
   Гибадуллин Р.Ф. Составные структуры, диаграммы компонентов, кооперации  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
 
 - **31.05.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы обзора взаимодействия, временные диаграммы  
-  [Подключение через Telegram](https://t.me/CSharpCooking)
+  - [Подключение](https://t.me/CSharpCooking)
