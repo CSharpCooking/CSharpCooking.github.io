@@ -47,7 +47,7 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
-- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435). В качестве альтернативы можно воспользоваться веб-прокси, например, [LumiProxy](https://www.lumiproxy.com/ru/online-proxy/proxysite/).
+- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435). В качестве альтернативы можно воспользоваться веб-прокси, например, [Proxy.al](https://www.proxy.al).
 
 ## Автор
 
