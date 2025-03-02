@@ -16,7 +16,7 @@ pin: true
 - **01.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-2-Class-Diagrams-Basics-Sequence-Diagrams.pdf)
-  - [Подключение](https://my.mts-link.ru/j/111673973/1945683358)
+  - [Запись](https://t.me/CSharpCooking/228)
   
 - **15.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: дополнительные понятия, диаграммы объектов  
