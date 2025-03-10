@@ -19,6 +19,13 @@ order: 4
 - проведение трансляций;
 - организация хакатонов.
 
+## Каналы
+
+- [youtube.com/CSharpCooking](https://www.youtube.com/CSharpCooking)
+- [rutube.ru/u/csharpcooking](https://rutube.ru/u/csharpcooking/)
+- [t.me/CSharpCooking](https://t.me/CSharpCooking)
+- [instagram.com/CSharpCooking](https://www.instagram.com/CSharpCooking/)
+
 ## Другие проекты автора
 
 - 📚 **Просветительский канал по информатике и вычислительной технике «LandWaterSun»**  
