@@ -20,8 +20,9 @@ pin: true
   
 - **15.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: дополнительные понятия, диаграммы объектов  
+  - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-3-Class-Diagrams-Additional-Concepts-Object-Diagrams.pdf)
   - [Подключение](https://my.mts-link.ru/j/111673973/2057724120)
-
+  
 - **29.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы пакетов, диаграммы развертывания  
   - [Подключение](https://my.mts-link.ru/j/111673973/2051904880)
