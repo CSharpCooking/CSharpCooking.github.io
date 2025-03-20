@@ -8,3 +8,5 @@ pin: true
 image:
   path: /pastes/2025-03-20.png
 ---
+
+Скоро ...
