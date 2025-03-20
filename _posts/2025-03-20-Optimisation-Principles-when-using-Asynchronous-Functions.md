@@ -6,7 +6,7 @@ date: 2025-03-20
 tags: [асинхронное программирование, Task, IValueTaskSource]
 pin: true
 image:
-  path: /data/Optimisation-Principles-when-using-Asynchronous-Functions.png
+  path: /pastes/2025-03-20.png
 ---
 
 Скоро ... 
