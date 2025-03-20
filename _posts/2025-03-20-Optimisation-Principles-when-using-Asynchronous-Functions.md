@@ -8,3 +8,5 @@ pin: true
 image:
   path: /data/Optimisation-Principles-when-using-Asynchronous-Functions.png
 ---
+
+Скоро ...
