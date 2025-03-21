@@ -11,13 +11,13 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 ## Материалы
 
 1. **Parallel LINQ**
-  - [Конспект](https://csharpcooking.github.io/data/ParallelProgramming/Parallel-LINQ.pdf)
+  - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Parallel-LINQ.pdf)
   - [Презентация](https://docs.google.com/presentation/d/17ck5HP8plNOskZErLhYqEUMb1I09cIulUXPO-GEVG5o/)
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7) 👉 [Proxy.al](https://www.proxy.al)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Parallel-LINQ.pdf)
 2. **Класс Parallel**
-  - [Конспект](https://docs.google.com/document/d/1-N5YSDCPnd2m6e3oZIxZeIlTE055tRp74mElEu1a09I/)
+  - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Class-Parallel.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1PrLVw8yPrQln7bGVA-1rggYV2GOsT0xspGu7U-rGvgQ/)
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77) 👉 [Proxy.al](https://www.proxy.al) 
