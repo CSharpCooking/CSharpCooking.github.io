@@ -23,7 +23,7 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77) 👉 [Proxy.al](https://www.proxy.al) 
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Class-Parallel.pdf)
 3. **Параллелизм задач**
-  - [Конспект](https://docs.google.com/document/d/1OpuY5eMTAHo8ijH6vsf_TzyQcu63TjCFQz5IDB-Kegg/)
+  - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Task-Parallelism.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1IjvaNTtpNb3GXGAYo6j_r7yQrHA152V4B8c30TAyzcE/)
   - [Видеолекция](https://youtu.be/98Hyw6Xjn6o)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09) 👉 [Proxy.al](https://www.proxy.al)
