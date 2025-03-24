@@ -25,8 +25,9 @@ pin: true
   
 - **29.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы пакетов, диаграммы развертывания  
+  - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-4-Package-Diagrams-Deployment-Diagrams.pdf)
   - [Подключение](https://my.mts-link.ru/j/111673973/2051904880)
-
+  
 - **12.04.2025, 20:00**  
   Гибадуллин Р.Ф. Прецеденты, диаграммы состояний  
   - [Подключение](https://my.mts-link.ru/j/111673973/864275837)
