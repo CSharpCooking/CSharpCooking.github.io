@@ -14,31 +14,31 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
   - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Parallel-LINQ.pdf)
   - [Презентация](https://docs.google.com/presentation/d/17ck5HP8plNOskZErLhYqEUMb1I09cIulUXPO-GEVG5o/)
   - [Видеолекция](https://youtu.be/68vVLvOEOQk)
-  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7) 👉 [Proxy.al](https://www.proxy.al)
+  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Parallel-LINQ.pdf)
 2. **Класс Parallel**
   - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Class-Parallel.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1PrLVw8yPrQln7bGVA-1rggYV2GOsT0xspGu7U-rGvgQ/)
   - [Видеолекция](https://youtu.be/3Zbc7Ykj_OU)
-  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77) 👉 [Proxy.al](https://www.proxy.al) 
+  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Class-Parallel.pdf)
 3. **Параллелизм задач**
   - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Task-Parallelism.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1IjvaNTtpNb3GXGAYo6j_r7yQrHA152V4B8c30TAyzcE/)
   - [Видеолекция](https://youtu.be/98Hyw6Xjn6o)
-  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09) 👉 [Proxy.al](https://www.proxy.al)
+  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Task-Parallelism.pdf)
 4. **Работа с AggregateException**
   - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Working-with-AggregateException.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1JLtQefzgP0uiarGSI58CHUKR_iGHb-08uem5Lv6rzfo/)
   - [Видеолекция](https://youtu.be/5U6fk6XC6AU)
-  - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445) 👉 [Proxy.al](https://www.proxy.al)
+  - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445)https://www.proxy.al)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Working-with-AggregateException.pdf)
 5. **Параллельные коллекции**
   - [Конспект](https://csharpcooking.github.io/data/Parallel-Programming/Concurrent-Collections.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1f1ihTc_LCigsvPHbp0Ncg7nUgC7su3hKayvtKrv1Szc/)
   - [Видеолекция](https://youtu.be/VpgkBGA-98s)
-  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c) 👉 [Proxy.al](https://www.proxy.al)
+  - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)https://www.proxy.al)
   - [Задание](https://csharpcooking.github.io/practice/Parallel-Programming-Concurrent-Collections.pdf)
 
 ## Источники
@@ -47,7 +47,7 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
-- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435). В качестве альтернативы можно воспользоваться веб-прокси, например, [Proxy.al](https://www.proxy.al).
+- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Zoog VPN](https://zoogvpn.com/ru-ru/?a_aid=65957b40c9435).
 
 ## Автор
 
