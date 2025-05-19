@@ -11,27 +11,27 @@ pin: true
 - **15.02.2025, 20:00**  
   Гибадуллин Р.Ф. Введение, процесс разработки  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-1-Vvedenie-Protcess-Razrabotki.pdf)
-  - [Запись](https://t.me/CSharpCooking/217)
+  - [Запись](https://rutube.ru/video/b6838121f21b9ca03ebf2d5d04132314/)
   
 - **01.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-2-Class-Diagrams-Basics-Sequence-Diagrams.pdf) 
-  - [Запись](https://t.me/CSharpCooking/228)
+  - [Запись](https://rutube.ru/video/254c93686bf3cdcff10faa67d6343933/)
   
 - **15.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы классов: дополнительные понятия, диаграммы объектов  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-3-Class-Diagrams-Additional-Concepts-Object-Diagrams.pdf)
-  - [Запись](https://t.me/CSharpCooking/230) 
+  - [Запись](https://rutube.ru/video/c15bc766420d2cafc9f94b758116b22e/) 
   
 - **29.03.2025, 20:00**  
   Гибадуллин Р.Ф. Диаграммы пакетов, диаграммы развертывания  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-4-Package-Diagrams-Deployment-Diagrams.pdf)
-  - [Запись](https://t.me/CSharpCooking/232)
+  - [Запись](https://rutube.ru/video/e2923d967795fc6d41253dcea96073a8/)
   
 - **17.05.2025, 20:00**  
   Гибадуллин Р.Ф. Прецеденты, диаграммы состояний  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-5-Precedents-State-Diagrams.pdf)
-  - [Подключение](https://kai.mts-link.ru/j/111673973/1837502871)
+  - [Запись](https://rutube.ru/video/e6e60d92b904d3b568c65b7db682dcc7/)
   
 - **Дата и время уточняется**  
   Гибадуллин Р.Ф.  Диаграммы деятельности, коммуникационные диаграммы  
