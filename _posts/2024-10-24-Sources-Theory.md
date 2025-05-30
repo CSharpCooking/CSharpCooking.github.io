@@ -46,7 +46,6 @@ tags: [теория]
 - [Брайант Р. Э., О’Халларн Д. Компьютерные системы: архитектура и программирование](https://csharpcooking.github.io/theory/Computer-Systems-A-Programmer-Perspective-Ru.pdf)
   - [Bryant R. E., O’Hallaron D. R. Computer systems: a programmer’s perspective](https://csharpcooking.github.io/theory/Computer-Systems-A-Programmer-Perspective-En.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
-- [Кринкин К. В. Архитектура ЭВМ и основы ОС](https://rutube.ru/plst/525530/)
 - [Фолкнер Э., Чавез К. Adobe Photoshop СС. Официальный учебный курс](https://csharpcooking.github.io/theory/AdobePhotoshopCC.pdf)
 - [Франческо Цирилло. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
 - [Джумма Т. Говорить красиво и убедительно](https://csharpcooking.github.io/theory/Djumma.pdf)
