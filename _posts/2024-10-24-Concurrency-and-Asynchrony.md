@@ -10,7 +10,7 @@ tags: [учебный курс, асинхронное программиров�
 ## Материалы
 
 1. **Многопоточная обработка**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Threading.pdf) 
+  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Threading.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
