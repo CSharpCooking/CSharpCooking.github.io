@@ -34,6 +34,6 @@ pin: true
   - [Rutube](https://rutube.ru/video/946a842b70e8281964d0a610902d877a/) 🔹 [YouTube](https://youtu.be/nMU5AXCuYd4)
 - **Дата и время уточняется**  
   Гибадуллин Р.Ф. Составные структуры, диаграммы компонентов, кооперации 
-  - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-7-Composite-Structures-Component-Diagrams-Collaborations.pdf)
+  - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-7-Composite-Structures-Component-Diagrams-Collaborations.pdf) 
 - **Дата и время уточняется**  
   Гибадуллин Р.Ф. Диаграммы обзора взаимодействия, временные диаграммы  
