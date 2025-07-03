@@ -29,6 +29,7 @@ tags: [теория]
   - [Smith J. P. Entity Framework core in action](https://csharpcooking.github.io/theory/EntityFrameworkCoreEn.pdf)
   - [Дополнительные материалы к книге](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
+- [Кокоса К. Управление памятью в .NET для профессионалов](https://csharpcooking.github.io/theory/ProNETMemoryManagement.pdf)
 - [Ритчи Деннис М., Керниган Брайан У. Язык программирования Си](https://csharpcooking.github.io/theory/BrianKernighanDennisRitchieTheCProgrammingLanguage.pdf)
 - [Короткевич Д. SQL Server. Наладка и оптимизация для профессионалов](https://csharpcooking.github.io/theory/SQLServer.pdf)
 - [Жао Э. SQL. Pocket guide](https://csharpcooking.github.io/theory/SQLPocketGuide.pdf)
