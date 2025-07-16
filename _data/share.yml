@@ -14,9 +14,13 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
 
-  - type: Threads
-    icon: "fa-brands fa-square-threads"
-    link: "https://www.threads.net/intent/post?text=TITLE%20URL"
+  - type: ВКонтакте
+    icon: "fa-brands fa-vk"
+    link: "https://vk.com/share.php?url=URL&text=TITLE"
+
+#  - type: Threads
+#    icon: "fa-brands fa-square-threads"
+#    link: "https://www.threads.net/intent/post?text=TITLE%20URL"
 
   # Uncomment below if you need to.
   #
