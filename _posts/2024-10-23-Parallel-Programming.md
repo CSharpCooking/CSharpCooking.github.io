@@ -47,7 +47,6 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
-- Для прохождения тестов возможно потребуется применение VPN сервиса, например, [Bebra VPN](https://bebra.id).
 
 ## Автор
 
