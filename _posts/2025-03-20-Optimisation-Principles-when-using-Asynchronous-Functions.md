@@ -11,7 +11,7 @@ image:
 
 #### Презентация
 
-[https://prezi.com/view/fAFT36943lPYguq49HrN/](https://prezi.com/view/fAFT36943lPYguq49HrN/). 
+[https://prezi.com/view/fAFT36943lPYguq49HrN/](https://prezi.com/view/fAFT36943lPYguq49HrN/)
 
 #### Статья
 
