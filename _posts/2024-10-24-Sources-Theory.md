@@ -14,7 +14,7 @@ tags: [теория]
   - [Albahari J. C# 9.0 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp9En.pdf)
 - [Албахари Д., Албахари Б. C# 7.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp7Ru.pdf)
   - [Albahari J. Albahari B. C# 7.0 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp7En.pdf) 
-- [Курс: C# Developer. Professional](https://vkvideo.ru/playlist/-145052891_82)
+- [OTUS. Открытые уроки по C#](https://vkvideo.ru/playlist/-145052891_82)
 - [Герберт Ш. C# 4.0: Полное руководство](https://csharpcooking.github.io/theory/SchildtCSharp4.pdf)
 - [Joe Mayo. C# Cookbook: Modern Recipes for Professional Developers](https://csharpcooking.github.io/theory/JoeMayoCSharpCookbook.pdf)
 - [Ошероув Р. Искусство автономного тестирования с примерами на C#](https://csharpcooking.github.io/theory/RoyOsherove-The-Art-of-Unit-Testing.pdf)
