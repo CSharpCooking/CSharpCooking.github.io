@@ -7,7 +7,7 @@ categories: [Источники]
 tags: [теория]
 ---
 
-- [Албахари Д. C# 12. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp12Ru.pdf) 
+- [Албахари Д. C# 12. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp12Ru.pdf)
   - [Albahari J. C# 12 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp12En.pdf)
 - [Albahari J. C# 10 in a Nutshell: The Definitive Reference](https://csharpcooking.github.io/theory/AlbahariCSharp10En.pdf)
 - [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9Ru.pdf)
