@@ -8,7 +8,7 @@ tags: [UML, разработка программного обеспечения
 pin: true
 ---
 
-- **Гибадуллин Р.Ф. Введение, процесс разработки** 
+- **Гибадуллин Р.Ф. Введение, процесс разработки**
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-1-Vvedenie-Protcess-Razrabotki.pdf)
   - Запись от 15.02.2025: [Rutube](https://rutube.ru/video/b6838121f21b9ca03ebf2d5d04132314/) \| [YouTube](https://youtu.be/zudJeVCwgQw)
 - **Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности**  
