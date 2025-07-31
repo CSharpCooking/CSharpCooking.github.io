@@ -13,7 +13,7 @@ pin: true
   - Запись от 15.02.2025: [Rutube](https://rutube.ru/video/b6838121f21b9ca03ebf2d5d04132314/) \| [YouTube](https://youtu.be/zudJeVCwgQw)
 - **Гибадуллин Р.Ф. Диаграммы классов: основы, диаграммы последовательности**  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-2-Class-Diagrams-Basics-Sequence-Diagrams.pdf)
-  - Запись от 01.03.2025: [Rutube](https://rutube.ru/video/254c93686bf3cdcff10faa67d6343933/)🔹[YouTube](https://youtu.be/Q3SkZHmAUqY)
+  - Запись от 01.03.2025: [Rutube](https://rutube.ru/video/254c93686bf3cdcff10faa67d6343933/) \| [YouTube](https://youtu.be/Q3SkZHmAUqY)
 - **Гибадуллин Р.Ф. Диаграммы классов: дополнительные понятия, диаграммы объектов**  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-3-Class-Diagrams-Additional-Concepts-Object-Diagrams.pdf)
   - Запись от 15.03.2025: [Rutube](https://rutube.ru/video/c15bc766420d2cafc9f94b758116b22e/)🔹[YouTube](https://youtu.be/7WlB3GyvQO0)
