@@ -4,7 +4,7 @@ description: "В докладе представлены принципы упр
 author: RuslanGibadullin
 date: 2025-03-20
 tags: [асинхронное программирование, Task, IValueTaskSource]
-pin: true
+pin: false
 image:
   path: /pastes/2025-03-20.png
 ---
