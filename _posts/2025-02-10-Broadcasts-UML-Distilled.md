@@ -33,4 +33,4 @@ pin: true
 - **03.08.2025, 20:00 мск** \| **Гибадуллин Р.Ф. Диаграммы обзора взаимодействия, временные диаграммы**  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-8-Interaction-Overview-Diagrams-Timeline-Diagrams.pdf) 
   - [Презентация](https://prezi.com/view/CJBODHVnqI4ZfLeLUPBK/)
-  - [Ссылка для подключения](https://kai.mts-link.ru/j/111673973/99835882)
+  - Запись от 03.08.2025: [Rutube](https://rutube.ru/video/b278a16d15f794c70a7679a286a925be/) \| [YouTube](https://youtu.be/uS4__pgIICo)
