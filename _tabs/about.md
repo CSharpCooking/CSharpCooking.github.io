@@ -24,7 +24,7 @@ order: 4
 - [youtube.com/CSharpCooking](https://www.youtube.com/CSharpCooking)
 - [rutube.ru/u/csharpcooking](https://rutube.ru/u/csharpcooking/)
 - [t.me/CSharpCooking](https://t.me/CSharpCooking)
-- [instagram.com/CSharpCooking](https://www.instagram.com/CSharpCooking/)
+- [instagram.com/CSharpCooking](https://www.instagram.com/CSharpCooking/)[^*]
 
 ## Другие проекты автора
 
@@ -37,8 +37,11 @@ order: 4
   -  [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
   -  [t.me/ChessCorner](https://t.me/ChessCorner)
   -  [chessking.com/tournaments/personal#id=12067](https://chessking.com/tournaments/personal#id=12067)
+  -  [lichess.org/team/chess-corner-club](https://lichess.org/team/chess-corner-club)
 - 🏋 **Любительский турнир по подтягиваниям на турнике «Лесенка»**  
   Присоединяйтесь к нашему сообществу энтузиастов физической активности:
   - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
   - [rutube.ru/u/pullingups](https://rutube.ru/u/pullingups/)
   -  [t.me/PullingUps](https://t.me/PullingUps)
+
+[^*]: Социальная сеть *Instagram* принадлежит компании *Meta*, признанной экстремистской и запрещённой на территории Российской Федерации.
