@@ -24,7 +24,7 @@ order: 4
 - [youtube.com/CSharpCooking](https://www.youtube.com/CSharpCooking)
 - [rutube.ru/u/csharpcooking](https://rutube.ru/u/csharpcooking/)
 - [t.me/CSharpCooking](https://t.me/CSharpCooking)
-- [instagram.com/CSharpCooking](https://www.instagram.com/CSharpCooking/) [^a]
+- [instagram.com/CSharpCooking](https://www.instagram.com/CSharpCooking/) [^†]
 
 ## Другие проекты автора
 
@@ -44,4 +44,4 @@ order: 4
   - [rutube.ru/u/pullingups](https://rutube.ru/u/pullingups/)
   -  [t.me/PullingUps](https://t.me/PullingUps)
 
-[^a]: Социальная сеть *Instagram* принадлежит компании *Meta*, признанной экстремистской и запрещённой на территории Российской Федерации.
+[^†]: Социальная сеть *Instagram* принадлежит компании *Meta*, признанной экстремистской и запрещённой на территории Российской Федерации.
