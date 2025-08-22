@@ -30,7 +30,7 @@ tags: [теория]
   - [Дополнительные материалы к книге](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Кокоса К. Управление памятью в .NET для профессионалов](https://csharpcooking.github.io/theory/ProNETMemoryManagement.pdf)
-- [OTUS. Онлайн-образование](https://vkvideo.ru/@otusru/playlists)
+- [Роби Р., Замора Дж. Параллельные и высокопроизводительные вычисления](https://csharpcooking.github.io/theory/Parallel-and-High-Performance-Computing.pdf)
 - [Ритчи Деннис М., Керниган Брайан У. Язык программирования Си](https://csharpcooking.github.io/theory/BrianKernighanDennisRitchieTheCProgrammingLanguage.pdf)
 - [Короткевич Д. SQL Server. Наладка и оптимизация для профессионалов](https://csharpcooking.github.io/theory/SQLServer.pdf)
 - [Жао Э. SQL. Pocket guide](https://csharpcooking.github.io/theory/SQLPocketGuide.pdf)
