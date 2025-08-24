@@ -618,10 +618,10 @@ public class Program
 }
 ```
 
-Вывод программы:
-`firstValueTask.Result: Результат #1`
-`firstValueTask.Result: Результат #2`
-`secondValueTask.Result: Результат #2`
+Вывод программы:  
+`firstValueTask.Result: Результат #1`  
+`firstValueTask.Result: Результат #2`  
+`secondValueTask.Result: Результат #2`  
 
 Структурно представим выполнение вышеуказанного кода:
 
