@@ -874,9 +874,7 @@ public class Ackermann
 
 Таблица – Результаты тестирования реализаций функции Аккермана
 
-```html
 <table>
-  <caption><strong>Таблица 1 – Результаты тестирования реализаций функции Аккермана</strong></caption>
   <thead>
     <tr>
       <th>Метод</th>
@@ -894,49 +892,40 @@ public class Ackermann
     <tr><td>ValueTask</td><td>4</td><td>1</td><td>1</td><td>76,036</td><td>2,2531</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>4</td><td>1</td><td>1</td><td>378,316</td><td>11,3795</td><td>0,0877</td><td>368</td></tr>
     <tr><td>Task</td><td>4</td><td>1</td><td>1</td><td>50,700</td><td>1,0317</td><td>–</td><td>–</td></tr>
-
     <tr><td>Baseline</td><td>6</td><td>1</td><td>2</td><td>7,313</td><td>0,0782</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>6</td><td>1</td><td>2</td><td>106,601</td><td>6,3150</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>6</td><td>1</td><td>2</td><td>503,147</td><td>28,4584</td><td>0,1354</td><td>568</td></tr>
-    <tr><td>Task</td><td>6</td><td>1</td><td>2</td><td>65,809</td><td>2,1491</td><td>–</td><td>–</td></tr>
-
+    <tr><td>Task</td><td>6</td><td>1</td><td>2</td><td>65,809</td><td>2,1491</td><td>–</td><td>–</td></tr>    
     <tr><td>Baseline</td><td>8</td><td>1</td><td>3</td><td>8,576</td><td>0,2664</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>8</td><td>1</td><td>3</td><td>136,545</td><td>3,2220</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>8</td><td>1</td><td>3</td><td>678,346</td><td>19,3167</td><td>0,1831</td><td>768</td></tr>
-    <tr><td>Task</td><td>8</td><td>1</td><td>3</td><td>89,820</td><td>2,4432</td><td>–</td><td>–</td></tr>
-
+    <tr><td>Task</td><td>8</td><td>1</td><td>3</td><td>89,820</td><td>2,4432</td><td>–</td><td>–</td></tr>    
     <tr><td>Baseline</td><td>14</td><td>2</td><td>1</td><td>18,519</td><td>0,6279</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>14</td><td>2</td><td>1</td><td>270,178</td><td>7,9779</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>14</td><td>2</td><td>1</td><td>1221,201</td><td>29,1151</td><td>0,3242</td><td>1360</td></tr>
-    <tr><td>Task</td><td>14</td><td>2</td><td>1</td><td>163,981</td><td>5,7236</td><td>–</td><td>–</td></tr>
-
+    <tr><td>Task</td><td>14</td><td>2</td><td>1</td><td>163,981</td><td>5,7236</td><td>–</td><td>–</td></tr>    
     <tr><td>Baseline</td><td>27</td><td>2</td><td>2</td><td>36,497</td><td>0,6551</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>27</td><td>2</td><td>2</td><td>482,350</td><td>11,3347</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>27</td><td>2</td><td>2</td><td>3009,284</td><td>60,8933</td><td>0,6599</td><td>3376</td></tr>
-    <tr><td>Task</td><td>27</td><td>2</td><td>2</td><td>352,306</td><td>7,8184</td><td>–</td><td>–</td></tr>
-
+    <tr><td>Task</td><td>27</td><td>2</td><td>2</td><td>352,306</td><td>7,8184</td><td>–</td><td>–</td></tr>    
     <tr><td>Baseline</td><td>44</td><td>2</td><td>3</td><td>57,001</td><td>0,7175</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>44</td><td>2</td><td>3</td><td>814,358</td><td>28,9962</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>44</td><td>2</td><td>3</td><td>4343,942</td><td>172,8679</td><td>1,5030</td><td>6296</td></tr>
-    <tr><td>Task</td><td>44</td><td>2</td><td>3</td><td>569,717</td><td>13,4053</td><td>0,0515</td><td>216</td></tr>
-
+    <tr><td>Task</td><td>44</td><td>2</td><td>3</td><td>569,717</td><td>13,4053</td><td>0,0515</td><td>216</td></tr>    
     <tr><td>Baseline</td><td>106</td><td>3</td><td>1</td><td>135,360</td><td>1,1921</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>106</td><td>3</td><td>1</td><td>1961,375</td><td>62,9385</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>106</td><td>3</td><td>1</td><td>10705,974</td><td>446,4759</td><td>4,0436</td><td>16937</td></tr>
-    <tr><td>Task</td><td>106</td><td>3</td><td>1</td><td>1534,464</td><td>40,6479</td><td>0,3777</td><td>1584</td></tr>
-
+    <tr><td>Task</td><td>106</td><td>3</td><td>1</td><td>1534,464</td><td>40,6479</td><td>0,3777</td><td>1584</td></tr>    
     <tr><td>Baseline</td><td>541</td><td>3</td><td>2</td><td>674,350</td><td>5,9826</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>541</td><td>3</td><td>2</td><td>9459,547</td><td>181,8086</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>541</td><td>3</td><td>2</td><td>66247,500</td><td>5013,7841</td><td>21,8506</td><td>91701</td></tr>
-    <tr><td>Task</td><td>541</td><td>3</td><td>2</td><td>9222,128</td><td>378,4115</td><td>4,7455</td><td>19872</td></tr>
-
+    <tr><td>Task</td><td>541</td><td>3</td><td>2</td><td>9222,128</td><td>378,4115</td><td>4,7455</td><td>19872</td></tr>    
     <tr><td>Baseline</td><td>2432</td><td>3</td><td>3</td><td>3293,043</td><td>44,9792</td><td>–</td><td>–</td></tr>
     <tr><td>ValueTask</td><td>2432</td><td>3</td><td>3</td><td>44116,709</td><td>1783,5449</td><td>–</td><td>–</td></tr>
     <tr><td>IValueTaskSource</td><td>2432</td><td>3</td><td>3</td><td>414282,242</td><td>17464,7995</td><td>96,6797</td><td>416848</td></tr>
     <tr><td>Task</td><td>2432</td><td>3</td><td>3</td><td>46579,047</td><td>1897,1332</td><td>30,3345</td><td>126864</td></tr>
   </tbody>
 </table>
-```
 
 
 
