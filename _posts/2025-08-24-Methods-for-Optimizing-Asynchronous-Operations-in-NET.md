@@ -947,4 +947,4 @@ public class Ackermann
 [^3]: Исходный код класса MemoryStream в .NET Runtime [Электронный ресурс] // GitHub: репозиторий dotnet/runtime. – URL: <https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/IO/MemoryStream.cs> (дата обращения: 24.08.2025).
 [^4]: Козлов Д. А., Говохин Н. А. Исследование функции Аккермана //Технические и математические науки. Студенческий научный форум. – 2018. – С. 96-110.
 [^5]: Исходный код программы AsyncAckermannBenchmark [Электронный ресурс] // GitHub: репозиторий CSharpCooking/AsyncAckermannBenchmark. – URL: <https://github.com/CSharpCooking/AsyncAckermannBenchmark/blob/main/AsyncAckermannBenchmark/Program.cs> (дата обращения: 24.08.2025).
-[^6]: Akinshin, Andrey. Pro. NET Benchmarking. Apress, 2019.
+[^6]: Akinshin A. Pro. NET Benchmarking. Apress, 2019.
