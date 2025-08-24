@@ -757,7 +757,7 @@ objPool.Complete(); // Завершаем операцию
 objPool.Dispose(); // Возвращаем объект в пул
 ```
 
-![Вывод программы с использованием ManualResetValueTaskSourceCore](https://raw.githubusercontent.com/dgash2201/Article_pictures/refs/heads/main/8.png)
+![Вывод программы с использованием ManualResetValueTaskSourceCore](https://raw.githubusercontent.com/CSharpCooking/csharpcooking.github.io/refs/heads/main/pastes/2025-08-24-8.png)
 
 Рисунок 8 – Вывод программы с использованием `ManualResetValueTaskSourceCore`
 
