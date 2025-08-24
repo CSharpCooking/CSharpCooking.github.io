@@ -874,80 +874,44 @@ public class Ackermann
 
 Таблица – Результаты тестирования реализаций функции Аккермана
 
-<style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 4px 8px;
-  text-align: center;
-}
-tbody tr:nth-child(8n+1),
-tbody tr:nth-child(8n+2),
-tbody tr:nth-child(8n+3),
-tbody tr:nth-child(8n+4) {
-  background-color: #f9f9f9;
-}
-tbody tr:nth-child(8n+5),
-tbody tr:nth-child(8n+6),
-tbody tr:nth-child(8n+7),
-tbody tr:nth-child(8n+8) {
-  background-color: #e6e6e6;
-}
-</style>
-<table border="1">
-  <thead>
-    <tr>
-      <th>Метод</th>
-      <th>Число рек. вызовов</th>
-      <th>m</th>
-      <th>n</th>
-      <th>Средн. арифм., нс</th>
-      <th>Станд. откл., нс</th>
-      <th>Кол-во сборок мусора в Gen0 на 1000 операций</th>
-      <th>Кол-во выделяемой памяти в куче за 1 вызов метода, байт</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Baseline</td><td>4</td><td>1</td><td>1</td><td>3,506</td><td>0,0902</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>4</td><td>1</td><td>1</td><td>76,036</td><td>2,2531</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>4</td><td>1</td><td>1</td><td>378,316</td><td>11,3795</td><td>0,0877</td><td>368</td></tr>
-    <tr><td>Task</td><td>4</td><td>1</td><td>1</td><td>50,700</td><td>1,0317</td><td>–</td><td>–</td></tr>
-    <tr><td>Baseline</td><td>6</td><td>1</td><td>2</td><td>7,313</td><td>0,0782</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>6</td><td>1</td><td>2</td><td>106,601</td><td>6,3150</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>6</td><td>1</td><td>2</td><td>503,147</td><td>28,4584</td><td>0,1354</td><td>568</td></tr>
-    <tr><td>Task</td><td>6</td><td>1</td><td>2</td><td>65,809</td><td>2,1491</td><td>–</td><td>–</td></tr>    
-    <tr><td>Baseline</td><td>8</td><td>1</td><td>3</td><td>8,576</td><td>0,2664</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>8</td><td>1</td><td>3</td><td>136,545</td><td>3,2220</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>8</td><td>1</td><td>3</td><td>678,346</td><td>19,3167</td><td>0,1831</td><td>768</td></tr>
-    <tr><td>Task</td><td>8</td><td>1</td><td>3</td><td>89,820</td><td>2,4432</td><td>–</td><td>–</td></tr>    
-    <tr><td>Baseline</td><td>14</td><td>2</td><td>1</td><td>18,519</td><td>0,6279</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>14</td><td>2</td><td>1</td><td>270,178</td><td>7,9779</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>14</td><td>2</td><td>1</td><td>1221,201</td><td>29,1151</td><td>0,3242</td><td>1360</td></tr>
-    <tr><td>Task</td><td>14</td><td>2</td><td>1</td><td>163,981</td><td>5,7236</td><td>–</td><td>–</td></tr>    
-    <tr><td>Baseline</td><td>27</td><td>2</td><td>2</td><td>36,497</td><td>0,6551</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>27</td><td>2</td><td>2</td><td>482,350</td><td>11,3347</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>27</td><td>2</td><td>2</td><td>3009,284</td><td>60,8933</td><td>0,6599</td><td>3376</td></tr>
-    <tr><td>Task</td><td>27</td><td>2</td><td>2</td><td>352,306</td><td>7,8184</td><td>–</td><td>–</td></tr>    
-    <tr><td>Baseline</td><td>44</td><td>2</td><td>3</td><td>57,001</td><td>0,7175</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>44</td><td>2</td><td>3</td><td>814,358</td><td>28,9962</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>44</td><td>2</td><td>3</td><td>4343,942</td><td>172,8679</td><td>1,5030</td><td>6296</td></tr>
-    <tr><td>Task</td><td>44</td><td>2</td><td>3</td><td>569,717</td><td>13,4053</td><td>0,0515</td><td>216</td></tr>    
-    <tr><td>Baseline</td><td>106</td><td>3</td><td>1</td><td>135,360</td><td>1,1921</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>106</td><td>3</td><td>1</td><td>1961,375</td><td>62,9385</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>106</td><td>3</td><td>1</td><td>10705,974</td><td>446,4759</td><td>4,0436</td><td>16937</td></tr>
-    <tr><td>Task</td><td>106</td><td>3</td><td>1</td><td>1534,464</td><td>40,6479</td><td>0,3777</td><td>1584</td></tr>    
-    <tr><td>Baseline</td><td>541</td><td>3</td><td>2</td><td>674,350</td><td>5,9826</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>541</td><td>3</td><td>2</td><td>9459,547</td><td>181,8086</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>541</td><td>3</td><td>2</td><td>66247,500</td><td>5013,7841</td><td>21,8506</td><td>91701</td></tr>
-    <tr><td>Task</td><td>541</td><td>3</td><td>2</td><td>9222,128</td><td>378,4115</td><td>4,7455</td><td>19872</td></tr>    
-    <tr><td>Baseline</td><td>2432</td><td>3</td><td>3</td><td>3293,043</td><td>44,9792</td><td>–</td><td>–</td></tr>
-    <tr><td>ValueTask</td><td>2432</td><td>3</td><td>3</td><td>44116,709</td><td>1783,5449</td><td>–</td><td>–</td></tr>
-    <tr><td>IValueTaskSource</td><td>2432</td><td>3</td><td>3</td><td>414282,242</td><td>17464,7995</td><td>96,6797</td><td>416848</td></tr>
-    <tr><td>Task</td><td>2432</td><td>3</td><td>3</td><td>46579,047</td><td>1897,1332</td><td>30,3345</td><td>126864</td></tr>
-  </tbody>
-</table>
+| Метод | Число рек. вызовов | m | n | Средн. арифм., нс | Станд. откл., нс | Кол-во сборок мусора в Gen0 на 1000 операций | Кол-во выделяемой памяти в куче за 1 вызов метода, байт |
+| :- | :-: | :-: | :-: | -: | -: | -: | -: |
+| Baseline | 4 | 1 | 1 | 3,506 | 0,0902 | - | - |
+| ValueTask | 4 | 1 | 1 | 76,036 | 2,2531 | - | - |
+| IValueTaskSource | 4 | 1 | 1 | 378,316 | 11,3795 | 0,0877 | 368 |
+| Task | 4 | 1 | 1 | 50,700 | 1,0317 | - | - |
+| Baseline | 6 | 1 | 2 | 7,313 | 0,0782 | - | - |
+| ValueTask | 6 | 1 | 2 | 106,601 | 6,3150 | - | - |
+| IValueTaskSource | 6 | 1 | 2 | 503,147 | 28,4584 | 0,1354 | 568 |
+| Task | 6 | 1 | 2 | 65,809 | 2,1491 | - | - |
+| Baseline | 8 | 1 | 3 | 8,576 | 0,2664 | - | - |
+| ValueTask | 8 | 1 | 3 | 136,545 | 3,2220 | - | - |
+| IValueTaskSource | 8 | 1 | 3 | 678,346 | 19,3167 | 0,1831 | 768 |
+| Task | 8 | 1 | 3 | 89,820 | 2,4432 | - | - |
+| Baseline | 14 | 2 | 1 | 18,519 | 0,6279 | - | - |
+| ValueTask | 14 | 2 | 1 | 270,178 | 7,9779 | - | - |
+| IValueTaskSource | 14 | 2 | 1 | 1221,201 | 29,1151 | 0,3242 | 1360 |
+| Task | 14 | 2 | 1 | 163,981 | 5,7236 | - | - |
+| Baseline | 27 | 2 | 2 | 36,497 | 0,6551 | - | - |
+| ValueTask | 27 | 2 | 2 | 482,350 | 11,3347 | - | - |
+| IValueTaskSource | 27 | 2 | 2 | 3009,284 | 60,8933 | 0,6599 | 3376 |
+| Task | 27 | 2 | 2 | 352,306 | 7,8184 | - | - |
+| Baseline | 44 | 2 | 3 | 57,001 | 0,7175 | - | - |
+| ValueTask | 44 | 2 | 3 | 814,358 | 28,9962 | - | - |
+| IValueTaskSource | 44 | 2 | 3 | 4343,942 | 172,8679 | 1,5030 | 6296 |
+| Task | 44 | 2 | 3 | 569,717 | 13,4053 | 0,0515 | 216 |
+| Baseline | 106 | 3 | 1 | 135,360 | 1,1921 | - | - |
+| ValueTask | 106 | 3 | 1 | 1961,375 | 62,9385 | - | - |
+| IValueTaskSource | 106 | 3 | 1 | 10705,974 | 446,4759 | 4,0436 | 16937 |
+| Task | 106 | 3 | 1 | 1534,464 | 40,6479 | 0,3777 | 1584 |
+| Baseline | 541 | 3 | 2 | 674,350 | 5,9826 | - | - |
+| ValueTask | 541 | 3 | 2 | 9459,547 | 181,8086 | - | - |
+| IValueTaskSource | 541 | 3 | 2 | 66247,500 | 5013,7841 | 21,8506 | 91701 |
+| Task | 541 | 3 | 2 | 9222,128 | 378,4115 | 4,7455 | 19872 |
+| Baseline | 2432 | 3 | 3 | 3293,043 | 44,9792 | - | - |
+| ValueTask | 2432 | 3 | 3 | 44116,709 | 1783,5449 | - | - |
+| IValueTaskSource | 2432 | 3 | 3 | 414282,242 | 17464,7995 | 96,6797 | 416848 |
+| Task | 2432 | 3 | 3 | 46579,047 | 1897,1332 | 30,3345 | 126864 |
 
 ![Времена работы методов Baseline, ValueTask, IValueTaskSource, Task](https://raw.githubusercontent.com/CSharpCooking/csharpcooking.github.io/refs/heads/main/pastes/2025-08-24-9.png)
 
