@@ -524,7 +524,7 @@ public class DatabaseReadOperation : IValueTaskSource<string>, IDisposable
     return objPool; 
   }
 
-  public ValueTask<string> StartobjPoolAsync() 
+  public ValueTask<string> StartOperationAsync() 
   { 
     return new ValueTask<string>(this, _token); 
   }
@@ -578,7 +578,7 @@ public class Program
   { 
     // Первый запрос к базе данных 
     var objPool = DatabaseReadOperation.Rent("Результат #1"); 
-    ValueTask<string> firstValueTask = objPool.StartobjPoolAsync();
+    ValueTask<string> firstValueTask = objPool.StartOperationAsync();
 
     // Обработка запроса 
     ThreadPool.QueueUserWorkItem(async _ => 
@@ -602,7 +602,7 @@ public class Program
                       
     // Второй запрос к базе данных, используя повторно тот же объект из пула 
     objPool = DatabaseReadOperation.Rent("Результат #2"); 
-    ValueTask<string> secondValueTask = objPool.StartobjPoolAsync(); 
+    ValueTask<string> secondValueTask = objPool.StartOperationAsync(); 
 
     // Обработка второго запроса 
     ThreadPool.QueueUserWorkItem(async _ => 
