@@ -883,6 +883,18 @@ th, td {
   padding: 4px 8px;
   text-align: center;
 }
+tbody tr:nth-child(8n+1),
+tbody tr:nth-child(8n+2),
+tbody tr:nth-child(8n+3),
+tbody tr:nth-child(8n+4) {
+  background-color: #f9f9f9;
+}
+tbody tr:nth-child(8n+5),
+tbody tr:nth-child(8n+6),
+tbody tr:nth-child(8n+7),
+tbody tr:nth-child(8n+8) {
+  background-color: #e6e6e6;
+}
 </style>
 <table border="1">
   <thead>
