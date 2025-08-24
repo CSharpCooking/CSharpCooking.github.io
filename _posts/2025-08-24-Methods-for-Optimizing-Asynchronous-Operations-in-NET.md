@@ -36,7 +36,7 @@ int GetPrimesCount(int start, int count)
 { 
   // Создаем диапазон чисел от start до start + count 
   return Enumerable.Range(start, count) 
-    AsParallel().Count(n => 
+    .AsParallel().Count(n => 
       // Проверяем, является ли число n простым 
       Enumerable.Range(2, (int)Math.Sqrt(n) - 1).All(i => n % i > 0) 
     ); 
