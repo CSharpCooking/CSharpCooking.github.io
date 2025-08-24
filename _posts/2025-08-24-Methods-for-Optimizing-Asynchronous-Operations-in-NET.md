@@ -874,7 +874,17 @@ public class Ackermann
 
 Таблица – Результаты тестирования реализаций функции Аккермана
 
-<table>
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 4px 8px;
+  text-align: center;
+}
+</style>
+<table border="1">
   <thead>
     <tr>
       <th>Метод</th>
