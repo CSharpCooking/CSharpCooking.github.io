@@ -943,8 +943,8 @@ public class Ackermann
 ## Использованные источники
 
 [^1]: Гибадуллин Р. Ф. Потокобезопасные вызовы элементов управления в обогащенных клиентских приложениях / Р. Ф. Гибадуллин // Программные системы и вычислительные методы. – 2022. – № 4. – С. 1-19. – DOI 10.7256/2454-0714.2022.4.39029.
-[^2]: Исходный код класса Task в .NET Runtime [Электронный ресурс] // GitHub: репозиторий dotnet/runtime. – URL: <https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Task.cs> (дата обращения: 28.04.2025).
-[^3]: Исходный код класса MemoryStream в .NET Runtime [Электронный ресурс] // GitHub: репозиторий dotnet/runtime. – URL: <https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/IO/MemoryStream.cs> (дата обращения: 28.04.2025).
+[^2]: Исходный код класса Task в .NET Runtime [Электронный ресурс] // GitHub: репозиторий dotnet/runtime. – URL: <https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/Threading/Tasks/Task.cs> (дата обращения: 24.08.2025).
+[^3]: Исходный код класса MemoryStream в .NET Runtime [Электронный ресурс] // GitHub: репозиторий dotnet/runtime. – URL: <https://github.com/dotnet/runtime/blob/main/src/libraries/System.Private.CoreLib/src/System/IO/MemoryStream.cs> (дата обращения: 24.08.2025).
 [^4]: Козлов Д. А., Говохин Н. А. Исследование функции Аккермана //Технические и математические науки. Студенческий научный форум. – 2018. – С. 96-110.
-[^5]: Исходный код программы AsyncAckermannBenchmark [Электронный ресурс] // GitHub: репозиторий CSharpCooking/AsyncAckermannBenchmark. – URL: <https://github.com/CSharpCooking/AsyncAckermannBenchmark/blob/main/AsyncAckermannBenchmark/Program.cs> (дата обращения: 28.04.2025).
+[^5]: Исходный код программы AsyncAckermannBenchmark [Электронный ресурс] // GitHub: репозиторий CSharpCooking/AsyncAckermannBenchmark. – URL: <https://github.com/CSharpCooking/AsyncAckermannBenchmark/blob/main/AsyncAckermannBenchmark/Program.cs> (дата обращения: 24.08.2025).
 [^6]: Akinshin, Andrey. Pro. NET Benchmarking. Apress, 2019.
