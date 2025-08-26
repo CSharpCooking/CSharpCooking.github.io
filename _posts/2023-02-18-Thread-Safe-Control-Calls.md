@@ -123,7 +123,7 @@ partial class MyWindow : Window
 
 Удобство в том, что один и тот же подход работает со всеми обогащенными API-интерфейсами. Правда не все реализации `SynchronizationContext` гарантируют порядок выполнения делегатов или их синхронизацию (см. таблицу). Реализации `SynchronizationContext` на основе UI этим условиям удовлетворяют, тогда как `ASP.NET SynchronizationContext` обеспечивает только синхронизацию (т.е. фокусируется на синхронизации доступа к общим ресурсам в многопоточной среде, но не гарантирует порядок выполнения асинхронных операций или делегатов).
 
-Таблица – Сводное описание реализаций `SynchronizationContext`
+Таблица – Сводное описание реализаций `SynchronizationContext`  
 <style type="text/css">
 .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
 .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
