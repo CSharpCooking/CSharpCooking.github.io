@@ -7,7 +7,7 @@ categories: [Доклады]
 tags: [DLL, COM, PInvoke, Interop, CLR, маршализация, низкоуровневый код, интеграция]
 pin: true
 image:
-  path: /data/Formation-of-Integration-Mechanisms-with-Low-Level-Dynamically-Connected-Libraries-and-COM-Components.png
+  path: /pastes/2025-09-15.png
 ---
 
 Анонс предстоящего доклада.
