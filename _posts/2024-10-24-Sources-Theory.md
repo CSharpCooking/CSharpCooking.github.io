@@ -29,6 +29,7 @@ tags: [теория]
 - [Смит Дж. П. Entity Framework Core в действии](https://csharpcooking.github.io/theory/EntityFrameworkCoreRu.pdf)
   - [Smith J. P. Entity Framework core in action](https://csharpcooking.github.io/theory/EntityFrameworkCoreEn.pdf)
   - [Дополнительные материалы к книге](https://github.com/JonPSmith/EfCoreinAction-SecondEdition/blob/master/README.md)
+- [Лок Э. ASP.NET Core в действии](https://csharpcooking.github.io/theory/ASP-NET-Core-in-Action.pdf)
 - [Домашняя страница документации и учебных ресурсов Майкрософт для разработчиков и технических специалистов](https://docs.microsoft.com/)
 - [Кокоса К. Управление памятью в .NET для профессионалов](https://csharpcooking.github.io/theory/ProNETMemoryManagement.pdf)
 - [Роби Р., Замора Дж. Параллельные и высокопроизводительные вычисления](https://csharpcooking.github.io/theory/Parallel-and-High-Performance-Computing.pdf)
