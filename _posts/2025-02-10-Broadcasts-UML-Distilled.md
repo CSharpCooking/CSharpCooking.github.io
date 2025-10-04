@@ -30,7 +30,11 @@ pin: true
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-7-Composite-Structures-Component-Diagrams-Collaborations.pdf) 
   - [Презентация](https://prezi.com/view/rzaJZ6nUKNUrSnWyeSCj/)
   - Запись от 18.07.2025: [Rutube](https://rutube.ru/video/fdc5332d778cac5f4c9619b306a72086/) \| [YouTube](https://youtu.be/xcaavNnd52Y)
-- **03.08.2025, 20:00 мск** \| **Гибадуллин Р.Ф. Диаграммы обзора взаимодействия, временные диаграммы**  
+- **Гибадуллин Р.Ф. Диаграммы обзора взаимодействия, временные диаграммы**  
   - [Материал](https://csharpcooking.github.io/theory/Osnovy-UML-8-Interaction-Overview-Diagrams-Timeline-Diagrams.pdf) 
   - [Презентация](https://prezi.com/view/CJBODHVnqI4ZfLeLUPBK/)
   - Запись от 03.08.2025: [Rutube](https://rutube.ru/video/b278a16d15f794c70a7679a286a925be/) \| [YouTube](https://youtu.be/uS4__pgIICo)
+
+- **06.10.2025, 19:00 мск** \| **Солопий А.В. UML-диаграммы на примере средств визуализации PlantUML и Mermaid**  
+  - [Презентация](https://csharpcooking.github.io/theory/UML-Plant-Mermaid.pdf)
+  - [Ссылка для подключения](https://kai.mts-link.ru/j/111673973/5065142545)
