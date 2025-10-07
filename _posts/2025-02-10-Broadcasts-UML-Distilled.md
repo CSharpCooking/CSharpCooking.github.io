@@ -37,4 +37,4 @@ pin: true
 
 - **06.10.2025, 19:00 мск** \| **Солопий А.В. UML-диаграммы на примере средств визуализации PlantUML и Mermaid**  
   - [Презентация](https://csharpcooking.github.io/theory/UML-Plant-Mermaid.pdf)
-  - [Ссылка для подключения](https://kai.mts-link.ru/j/111673973/5065142545)
+  - Запись от 06.10.2025: [Rutube](https://rutube.ru/video/e477b2bd74e701bcb872b2c577337a23/) \| [YouTube](https://youtu.be/4wG7_lAdApg)
