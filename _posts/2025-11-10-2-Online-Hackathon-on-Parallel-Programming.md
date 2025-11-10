@@ -27,11 +27,11 @@ image:
 
 ## Организатор
 
-[Кафедра компьютерных систем КНИТУ-КАИ](https://kai.ru/web/institute-of-technical-cybernetics-and-informatics/kafedra-komp-uternyh-sistem).
+[Кафедра компьютерных систем КНИТУ-КАИ](https://kai.ru/web/institute-of-technical-cybernetics-and-informatics/kafedra-komp-uternyh-sistem)
 
 ## Партнер
 
-[АО «БАРС Груп»](https://bars.group). 
+[АО «БАРС Груп»](https://bars.group)
 
 ## Регистрационная форма
 
