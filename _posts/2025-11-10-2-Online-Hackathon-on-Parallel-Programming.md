@@ -5,7 +5,7 @@ author: RuslanGibadullin
 date: 2025-11-10
 tags: [параллельное программирование, взлом шифра]
 categories: [Хакатоны]
-pin: false
+pin: true
 image:
   path: /data/Hackathon-2/hakaton-2.png
 ---
