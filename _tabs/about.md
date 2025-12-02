@@ -31,14 +31,10 @@ order: 4
   Расширьте свои знания в сфере IT, подписавшись на каналы: 
   - [youtube.com/LandWaterSun](https://www.youtube.com/LandWaterSun)
   - [rutube.ru/u/landwatersun](https://rutube.ru/u/landwatersun/)
-  
 - ♟ **Просветительский канал по шахматам «Шахматный уголок»**  
   Совершенствуйте свое мастерство в шахматах, изучая теорию, решая увлекательные задачи и участвуя в онлайн-турнирах:
   -  [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
   -  [t.me/ChessCorner](https://t.me/ChessCorner)
-  -  [chessking.com/tournaments/personal#id=12067](https://chessking.com/tournaments/personal#id=12067)
-  -  [lichess.org/team/chess-corner-club](https://lichess.org/team/chess-corner-club)
-  
 - 🏋 **Любительский турнир по подтягиваниям на турнике «Лесенка»**  
   Присоединяйтесь к нашему сообществу энтузиастов физической активности:
   - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
