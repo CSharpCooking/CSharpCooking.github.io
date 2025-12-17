@@ -51,6 +51,5 @@ tags: [учебный курс, Parallel LINQ, класс Parallel, паралл
 ## Автор
 
 Руслан Фаршатович Гибадуллин, кандидат технических наук, доцент кафедры компьютерных систем Казанского национального исследовательского технического университета им. А.Н. Туполева–КАИ.
-- Публикации: [eLibrary](https://www.elibrary.ru/author_items.asp?authorid=830879), [IEEE Xplore](https://ieeexplore.ieee.org/author/37085772621), [ORCID](https://orcid.org/0000-0001-9359-911X), [Google Scholar](https://scholar.google.com/citations?user=z84Y_r0AAAAJ), [ResearchGate](https://www.researchgate.net/profile/Ruslan-Gibadullin).
 - Telegram: [@RuslanGibadullin](https://t.me/RuslanGibadullin)
 - Email: [RuslanGibadullin@vk.com](mailto:RuslanGibadullin@vk.com)
