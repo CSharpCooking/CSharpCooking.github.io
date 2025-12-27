@@ -51,4 +51,4 @@ tags: [теория]
   - [Bryant R. E., O’Hallaron D. R. Computer systems: a programmer’s perspective](https://csharpcooking.github.io/theory/Computer-Systems-A-Programmer-Perspective-En.pdf)
 - [Райхлин В. А., Гибадуллин Р. Ф. Схемотехника ЭВМ](https://csharpcooking.github.io/theory/ComputerCircuitry.pdf)
 - [Джумма Т.В. Говорить красиво и убедительно. Как общаться и выступать легко и эффективно](https://csharpcooking.github.io/theory/Djumma.pdf)
-- [Чирилло Ф. Техника Помидора](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
+- [Чирилло Ф. Метод Помидора. Управление временем, вдохновением и концентрацией](https://csharpcooking.github.io/theory/PomodoroTechnique.pdf)
