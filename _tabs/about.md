@@ -27,17 +27,15 @@ order: 4
 
 ## Другие проекты автора
 
-- 📚 **Просветительский канал по информатике и вычислительной технике «LandWaterSun»**  
-  Расширьте свои знания в сфере IT, подписавшись на каналы: 
+- 📚 **LandWaterSun** — просветительский канал по информатике и вычислительной технике.
   - [youtube.com/LandWaterSun](https://www.youtube.com/LandWaterSun)
   - [rutube.ru/u/landwatersun](https://rutube.ru/u/landwatersun/)
-- ♟ **Просветительский канал по шахматам «Шахматный уголок»**  
-  - Записи онлайн-турниров, разборы партий и шахматная аналитика:
-    - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
-  - Подписка на обучающий контент:
-    - [@ChessCornerBot](https://t.me/ChessCornerBot)
-- 🏋 **Любительский турнир по подтягиваниям на турнике «Лесенка»**  
-  Присоединяйтесь к нашему сообществу энтузиастов физической активности:
+
+- ♟ **Шахматный уголок** — записи онлайн-турниров, разборы партий, шахматная аналитика и обучающий контент.
+  - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
+  - [t.me/ChessCorner](https://t.me/ChessCorner)
+
+- 🏋 **Лесенка** — любительский турнир по подтягиваниям на турнике.
   - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
   - [rutube.ru/u/pullingups](https://rutube.ru/u/pullingups/)
-  -  [t.me/PullingUps](https://t.me/PullingUps)
+  - [t.me/PullingUps](https://t.me/PullingUps)
