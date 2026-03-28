@@ -13,7 +13,7 @@ pin: true
 1. **Многопоточная обработка**
   - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Threading.pdf) 
   - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/)
-  - Видеолекция (в процессе подготовки)
+  - [Видеолекция](https://rutube.ru/video/846debd8e81b4799563d4dfd74b22543/)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 2. **Задачи**
