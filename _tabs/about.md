@@ -29,3 +29,17 @@ order: 4
 - [youtube.com/CSharpCooking](https://www.youtube.com/CSharpCooking)
 - [rutube.ru/u/csharpcooking](https://rutube.ru/u/csharpcooking/)
 - [t.me/CSharpCooking](https://t.me/CSharpCooking)
+
+## Другие проекты автора
+
+- 📚 **LandWaterSun** — просветительский канал по информатике и вычислительной технике.
+  - [youtube.com/LandWaterSun](https://www.youtube.com/LandWaterSun)
+  - [rutube.ru/u/landwatersun](https://rutube.ru/u/landwatersun/)
+
+- ♟ **Шахматный уголок** — записи онлайн-турниров, разборы шахматных задач.
+  - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
+  
+- 🏋 **Лесенка** — любительский турнир по подтягиваниям на турнике.
+  - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
+  - [rutube.ru/u/pullingups](https://rutube.ru/u/pullingups/)
+  - [t.me/PullingUps](https://t.me/PullingUps)
