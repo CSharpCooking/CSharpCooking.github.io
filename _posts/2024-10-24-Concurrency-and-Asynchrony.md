@@ -14,7 +14,7 @@ pin: true
   - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Threading.pdf) 
   - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/)
   - [Видеолекция](https://rutube.ru/video/846debd8e81b4799563d4dfd74b22543/)
-  - Тест (в процессе подготовки)
+  - [Тест](https://www.classmarker.com/online-test/start/?quiz=qpp69e3d8126d320)
   - Задание (в процессе подготовки)
 2. **Задачи**
   - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Tasks.pdf)
