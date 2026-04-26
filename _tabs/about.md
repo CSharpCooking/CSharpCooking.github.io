@@ -36,8 +36,9 @@ order: 4
   - [youtube.com/LandWaterSun](https://www.youtube.com/LandWaterSun)
   - [rutube.ru/u/landwatersun](https://rutube.ru/u/landwatersun/)
 
-- ♟ **Шахматный уголок** — разборы шахматных задач.
+- ♟ **Шахматный уголок** — просветительский канал по шахматам.
   - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
+  - [t.me/ChessCorner](https://t.me/ChessCorner)
   
 - 🏋 **Лесенка** — любительский турнир по подтягиваниям на турнике.
   - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
