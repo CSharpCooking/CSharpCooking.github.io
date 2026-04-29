@@ -37,7 +37,7 @@ order: 4
   - [rutube.ru/u/landwatersun](https://rutube.ru/u/landwatersun/)
 
 - ♟ **Шахматный уголок** — просветительский канал по шахматам.
-  - [youtube.com/ChessCornerRus](https://www.youtube.com/@ChessCornerRus)
+  - [youtube.com/@ChessCornerRus](https://www.youtube.com/@ChessCornerRus)
   - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
   - [t.me/ChessCorner](https://t.me/ChessCorner)
   
