@@ -5,8 +5,12 @@
 
 - type: youtube
   icon: "fa-brands fa-youtube"
-  url: https://www.youtube.com/CSharpCooking  
- 
+  url: https://www.youtube.com/CSharpCooking
+
+- type: rutube
+  icon: "fa-solid fa-circle-play"
+  url: https://rutube.ru/u/csharpcooking/
+
 - type: telegram
   icon: "fa-brands fa-telegram"
   url: https://www.t.me/CSharpCooking
@@ -15,9 +19,9 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-#- type: rss
-#  icon: "fas fa-rss"
-#  noblank: true
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
