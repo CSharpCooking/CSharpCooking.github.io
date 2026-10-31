@@ -13,7 +13,7 @@ tags: [многопоточность, параллельное программ
 
 ```csharp
 if (!File.Exists(wordLookupFile)) // Contains about 150,000 words
-new WebClient().DownloadFile("https://csharpcooking.github.io/data/allwords.txt", 
+new WebClient().DownloadFile("https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/allwords.txt", 
 							 wordLookupFile);
 var wordLookup = new HashSet<string>(File.ReadAllLines(wordLookupFile),
 				     StringComparer.InvariantCultureIgnoreCase);

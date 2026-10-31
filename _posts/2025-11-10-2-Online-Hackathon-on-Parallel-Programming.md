@@ -7,15 +7,15 @@ tags: [параллельное программирование]
 categories: [Хакатоны]
 pin: false
 image:
-  path: /data/Hackathon-2/hakaton-2.png
+  path: /assets/img/posts/hakaton-2.png
 ---
 
 ## Формат хакатона
 
 Семь дней активного программирования для решения поставленной задачи. В хакатоне могут принимать участие обучающиеся образовательных организаций высшего образования Республики Татарстан технических направлений и специальностей всех уровней подготовки. Количество команд – не более 20. Число участников в команде — не более 3 (допускается одиночное участие).
 
-- [Приказ](/data/Hackathon-2/2025-10-27-Prikaz.pdf)
-- [Положение](/data/Hackathon-2/2025-10-27-Polozhenie.pdf)
+- [Приказ](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/2025-10-27-Prikaz.pdf)
+- [Положение](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/2025-10-27-Polozhenie.pdf)
 
 ## Программа хакатона
 
