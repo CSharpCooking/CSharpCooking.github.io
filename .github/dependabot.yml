@@ -1,0 +1,12 @@
+# Dependabot checks the versions of the GitHub Actions used in the workflows
+# and opens one grouped pull request when newer versions are released.
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "monthly"
+    groups:
+      github-actions:
+        patterns:
+          - "*"

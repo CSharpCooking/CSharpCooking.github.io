@@ -4,44 +4,44 @@ description: "В учебном курсе раскрываются основы
 author: RuslanGibadullin
 date: 2024-10-24
 categories: [Учебные курсы]
-tags: [учебный курс, асинхронное программирование, асинхронные функции, многопоточность, async, await]
+tags: [многопоточность, Task, асинхронное программирование]
 pin: true
 ---
 
 ## Материалы
 
 1. **Многопоточная обработка**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Threading.pdf) 
+  - [Конспект](/data/Concurrency-and-Asynchrony/Threading.pdf) 
   - [Презентация](https://docs.google.com/presentation/d/1uQOhfmOKg1tRgGXUjDdSM6pHCOooOQ2OY6CKacptGsw/)
   - [Видеолекция](https://rutube.ru/video/846debd8e81b4799563d4dfd74b22543/)
   - [Тест](https://www.classmarker.com/online-test/start/?quiz=qpp69e3d8126d320)
   - Задание (в процессе подготовки)
 2. **Задачи**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Tasks.pdf)
+  - [Конспект](/data/Concurrency-and-Asynchrony/Tasks.pdf)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 3. **Принципы асинхронности**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Principles-of-Asynchrony.pdf)
+  - [Конспект](/data/Concurrency-and-Asynchrony/Principles-of-Asynchrony.pdf)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 4. **Асинхронные функции в C#**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Asynchronous-Functions.pdf)
+  - [Конспект](/data/Concurrency-and-Asynchrony/Asynchronous-Functions.pdf)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 5. **Асинхронные шаблоны**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Asynchronous-Patterns.pdf)
+  - [Конспект](/data/Concurrency-and-Asynchrony/Asynchronous-Patterns.pdf)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
   - Задание (в процессе подготовки)
 6. **Устаревшие шаблоны**
-  - [Конспект](https://csharpcooking.github.io/data/Concurrency-and-Asynchrony/Obsolete-Patterns.pdf)
+  - [Конспект](/data/Concurrency-and-Asynchrony/Obsolete-Patterns.pdf)
   - Презентация (в процессе подготовки)
   - Видеолекция (в процессе подготовки)
   - Тест (в процессе подготовки)
@@ -49,7 +49,7 @@ pin: true
 
 ## Источники
 
-- Учебный курс подготовлен на основе главы «Параллелизм и асинхронность» книги [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://csharpcooking.github.io/theory/AlbahariCSharp9Ru.pdf).
+- Учебный курс подготовлен на основе главы «Параллелизм и асинхронность» книги [Албахари Д. C# 9.0. Справочник. Полное описание языка](/theory/AlbahariCSharp9Ru.pdf).
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
