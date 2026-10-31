@@ -212,8 +212,6 @@ exclude:
   - LICENSE
   - "*.config.js"
   - package*.json
-  # LFS archives kept only for github.com/.../raw/... links shared outside the site
-  - data
 
 jekyll-archives:
   enabled: [categories, tags]
