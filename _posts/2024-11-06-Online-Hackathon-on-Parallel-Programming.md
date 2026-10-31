@@ -7,7 +7,7 @@ tags: [параллельное программирование]
 categories: [Хакатоны]
 pin: false
 image:
-  path: /data/hakaton-m.png
+  path: /assets/img/posts/hakaton-m.png
 ---
 
 ## Формат хакатона

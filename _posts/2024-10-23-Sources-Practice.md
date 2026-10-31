@@ -15,7 +15,7 @@ tags: [учебные материалы]
 - [Курсовая работа на тему "Параллельная обработка SQL-запросов с применением MPI.NET"](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/MPISQLReportRequirements.zip)
   - [Пример программной реализации](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/MPI-EFCore-Coursework-Example.zip) (автор – [Виктор Докучаев](https://t.me/VictorDokuchaev))
 - [Реализации шифров "Кузнечик" и "Магма" на C#](https://github.com/dunglq2000/KuznyechikCrypto/)
-  - [KuznyechikCrypto-main.zip](/data/KuznyechikCrypto-main.zip)
+  - [KuznyechikCrypto-main.zip](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/KuznyechikCrypto-main.zip)
 - [Хританков А. С., Полежаев В. А., Андрианов А. И. Проектирование на UML. Сборник задач](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Designing-on-UML-Collection-of-Tasks.pdf)
 - [Практический видеокурс для новичков в мире сетевых технологий](https://www.youtube.com/playlist?list=PLcDkQ2Au8aVNYsqGsxRQxYyQijILa94T9)
   - [Материалы к видеокурсу](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/netskills.7z)
