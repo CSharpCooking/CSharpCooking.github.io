@@ -4,7 +4,7 @@ description: "Темы: Parallel LINQ, параллелизм задач, пар
 author: RuslanGibadullin
 date: 2024-10-21
 categories: [Трансляции]
-tags: [Parallel LINQ, параллелизм задач, параллельные коллекции]
+tags: [параллельное программирование, Parallel LINQ, Task, параллельные коллекции]
 ---
 
 - Гибадуллин Р.Ф. Параллельное программирование: Parallel LINQ (теория)  
