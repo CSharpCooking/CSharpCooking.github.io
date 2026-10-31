@@ -15,35 +15,35 @@ tags: [параллельное программирование, Parallel LINQ,
   - [Презентация](https://docs.google.com/presentation/d/17ck5HP8plNOskZErLhYqEUMb1I09cIulUXPO-GEVG5o/)
   - [Видеолекция](https://rutube.ru/video/d858ef47a817eb41adb84d18db675cc0/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=kg66384e87528fc7)
-  - [Задание](/practice/Parallel-Programming-Parallel-LINQ.pdf)
+  - [Задание](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Parallel-Programming-Parallel-LINQ.pdf)
 2. **Класс Parallel**
   - [Конспект](/data/Parallel-Programming/Class-Parallel.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1PrLVw8yPrQln7bGVA-1rggYV2GOsT0xspGu7U-rGvgQ/)
   - [Видеолекция](https://rutube.ru/video/e9ed4359322860730d3b66cbd6978afd/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=k67638746d849e77)
-  - [Задание](/practice/Parallel-Programming-Class-Parallel.pdf)
+  - [Задание](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Parallel-Programming-Class-Parallel.pdf)
 3. **Параллелизм задач**
   - [Конспект](/data/Parallel-Programming/Task-Parallelism.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1IjvaNTtpNb3GXGAYo6j_r7yQrHA152V4B8c30TAyzcE/)
   - [Видеолекция](https://rutube.ru/video/a758b4831fe36a0d4a496150c35fb5d3/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=eny6388f0205dd09)
-  - [Задание](/practice/Parallel-Programming-Task-Parallelism.pdf)
+  - [Задание](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Parallel-Programming-Task-Parallelism.pdf)
 4. **Работа с AggregateException**
   - [Конспект](/data/Parallel-Programming/Working-with-AggregateException.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1JLtQefzgP0uiarGSI58CHUKR_iGHb-08uem5Lv6rzfo/)
   - [Видеолекция](https://rutube.ru/video/dc1e14ad2f29d61fa6f0ab3afea69aa1/)
   - [Тест](https://www.classmarker.com/online-test/start/?quiz=hcy65ac2749d1445)
-  - [Задание](/practice/Parallel-Programming-Working-with-AggregateException.pdf)
+  - [Задание](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Parallel-Programming-Working-with-AggregateException.pdf)
 5. **Параллельные коллекции**
   - [Конспект](/data/Parallel-Programming/Concurrent-Collections.pdf)
   - [Презентация](https://docs.google.com/presentation/d/1f1ihTc_LCigsvPHbp0Ncg7nUgC7su3hKayvtKrv1Szc/)
   - [Видеолекция](https://rutube.ru/video/fa426a26566329d4d9707025b95f02e0/)
   - [Тест](https://www.classmarker.com/online-test/start/test-intro/?quiz=3cq638a131bf365c)
-  - [Задание](/practice/Parallel-Programming-Concurrent-Collections.pdf)
+  - [Задание](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/Parallel-Programming-Concurrent-Collections.pdf)
 
 ## Источники
 
-- Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](/theory/AlbahariCSharp7Ru.pdf).
+- Учебный курс подготовлен на основе главы «Параллельное программирование» книги [Албахари Д. C# 7.0. Справочник. Полное описание языка](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/AlbahariCSharp7Ru.pdf).
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
