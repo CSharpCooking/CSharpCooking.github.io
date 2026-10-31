@@ -49,7 +49,7 @@ pin: true
 
 ## Источники
 
-- Учебный курс подготовлен на основе главы «Параллелизм и асинхронность» книги [Албахари Д. C# 9.0. Справочник. Полное описание языка](/theory/AlbahariCSharp9Ru.pdf).
+- Учебный курс подготовлен на основе главы «Параллелизм и асинхронность» книги [Албахари Д. C# 9.0. Справочник. Полное описание языка](https://github.com/CSharpCooking/CSharpCooking.github.io/releases/download/materials/AlbahariCSharp9Ru.pdf).
 - Для написания и проверки программных кодов рекомендуется использовать один из следующих инструментов:
   - [Visual Studio: IDE и редактор кода для разработчиков и групп, работающих с программным обеспечением](https://visualstudio.microsoft.com/)
   - [LINQPad – The .NET Programmer's Playground](https://www.linqpad.net/)
