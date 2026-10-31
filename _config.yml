@@ -14,7 +14,7 @@ timezone: Europe/Moscow
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: CSharpCooking
+title: "C# Cooking"
 
 tagline: Рецепты вкусных программ на языке C#
 
