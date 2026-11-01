@@ -43,11 +43,11 @@ social:
     - https://t.me/CSharpCooking
 
 # Site Verification Settings
-#webmaster_verifications:
+webmaster_verifications:
 #  google: # fill in your Google verification code
 #  bing: # fill in your Bing verification code
 #  alexa: # fill in your Alexa verification code
-#  yandex: # fill in your Yandex verification code
+  yandex: 7fcbed38997f8a86 # Яндекс.Вебмастер; также файл yandex_7fcbed38997f8a86.html в корне
 #  baidu: # fill in your Baidu verification code
 #  facebook: # fill in your Facebook verification code
 
@@ -190,6 +190,10 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: yandex_7fcbed38997f8a86.html # Yandex verification file
+    values:
+      sitemap: false
 
 sass:
   style: compressed
