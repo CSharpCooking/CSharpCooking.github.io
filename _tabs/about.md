@@ -39,8 +39,7 @@ order: 4
 - ♟ **Шахматный уголок** — просветительский канал по шахматам.
   - [youtube.com/@ChessCornerRus](https://www.youtube.com/@ChessCornerRus)
   - [rutube.ru/u/chesscorner](https://rutube.ru/u/chesscorner/)
-  - [t.me/ChessCorner](https://t.me/ChessCorner)
-  
+
 - 🏋 **Лесенка** — любительский турнир по подтягиваниям на турнике.
   - [youtube.com/@PullingUps](https://www.youtube.com/@PullingUps)
   - [rutube.ru/u/pullingups](https://rutube.ru/u/pullingups/)
